@@ -25,12 +25,13 @@ class GameFonts {
     // MARK: - Init
     init() {
         self.setupScoreLabel()
-        self.setupScoreLabelAction()
     }
     
     // MARK: - Setup
     private func setupScoreLabel() {
         self.scoreLabel = SKLabelNode(fontNamed: "Edit Undo BRK")
+        self.scoreLabel.verticalAlignmentMode = SKLabelVerticalAlignmentMode.Center
+        self.scoreLabel.horizontalAlignmentMode = SKLabelHorizontalAlignmentMode.Left
         self.scoreLabel.fontColor = SKColor.whiteColor()
         
         if kDeviceTablet {
@@ -40,21 +41,8 @@ class GameFonts {
         }
     }
     
-    private func setupScoreLabelAction() {
-        self.scoreLabelAction = SKAction.runBlock({
-            (SKAction.scaleTo(1.5, duration: 0.25), completion: {
-                (SKAction.moveToY(75, duration: 0.5), completion: {
-                    (SKAction.fadeAlphaTo(0.0, duration: 0.5), completion: {
-                        SKAction.removeFromParent()
-                    })
-                })
-            })
-        })
-        
-        self.scoreLabelAction.timingMode = SKActionTimingMode.EaseInEaseOut
-    }
-    
     func createScoreLabel(score: Int) -> SKLabelNode {
+        self.scoreLabel.text = String(score)
         return self.scoreLabel.copy() as! SKLabelNode
     }
 

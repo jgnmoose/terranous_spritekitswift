@@ -79,15 +79,6 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         self.switchToTutorial()
     }
     
-    //    private func setupScenePhysics() {
-    //        self.physicsWorld.gravity = CGVectorMake(0, 0)
-    //        self.physicsWorld.contactDelegate = self
-    //
-    //        let screenBounds = CGRectMake(0, 0, kViewSize.width, kViewSize.height * 0.945)
-    //        self.physicsBody = SKPhysicsBody(edgeLoopFromRect:screenBounds)
-    //        self.physicsBody?.categoryBitMask = Contact.Scene
-    //    }
-    
     // MARK: - Touch Events
     override func touchesBegan(touches: Set<NSObject>, withEvent event: UIEvent) {
         let touch:UITouch = touches.first as! UITouch
