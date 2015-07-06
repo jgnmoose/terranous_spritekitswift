@@ -24,8 +24,8 @@ class RetryButton:SKSpriteNode {
     }
     
     convenience init() {
-        let retryTexture = GameTextures.sharedInstance.textureWithName(SpriteName.ButtonRetry)
-        self.init(texture: retryTexture, color: SKColor.whiteColor(), size: retryTexture.size())
+        let texture = SKTexture(imageNamed: SpriteName.ButtonRetry)
+        self.init(texture: texture, color: SKColor.whiteColor(), size: texture.size())
         
         self.setupRetryButton()
     }
@@ -33,7 +33,7 @@ class RetryButton:SKSpriteNode {
     // MARK: - Setup Functions
     private func setupRetryButton() {
         // Start off screen left
-        self.position = CGPoint(x: kScreenCenterHorizontal, y: -kViewSize.height * 1.25)
+        self.position = CGPoint(x: kScreenCenterHorizontal, y: -kViewSize.height + self.size.height)
         
         self.zPosition = GameLayer.Interface
     }

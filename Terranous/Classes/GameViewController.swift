@@ -11,6 +11,11 @@ import SpriteKit
 
 class GameViewController: UIViewController {
     
+    private let textures = GameTextures.sharedInstance
+    private let audio = GameAudio.sharedInstance
+    private let fonts = GameFonts.sharedInstance
+    private let settings = GameSettings.sharedInstance
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         

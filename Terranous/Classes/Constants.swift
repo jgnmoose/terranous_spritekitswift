@@ -10,7 +10,7 @@ import Foundation
 import SpriteKit
 
 // MARK: - Debug
-let kDebug = true
+let kDebug = false
 
 // MARK: - Font Names
 let kFontName = "Edit Undo BRK"

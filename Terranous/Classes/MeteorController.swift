@@ -44,8 +44,8 @@ class MeteorController: SKNode {
     // MARK: - Action Functions
     func sendMeteors() {
         if self.sendingMeteors {
-            let startX = RandomFloatRange(0, kViewSize.width)
-            let startY = RandomFloatRange(kViewSize.height, kViewSize.height * 1.25)
+            //let startX = RandomFloatRange(0, kViewSize.width)
+            //let startY = RandomFloatRange(kViewSize.height, kViewSize.height * 1.25)
             
             let randomMeteorCount = RandomIntegerBetween(4, 10)
             
@@ -53,11 +53,17 @@ class MeteorController: SKNode {
                 let randomMeteorIndex = RandomIntegerBetween(0, 4)
                 
                 var offsetX:CGFloat = randomMeteorIndex % 2 == 0 ? -72 : 72
+                let startX = RandomFloatRange(0, kViewSize.width) + offsetX
+                
+                var offsetY:CGFloat = randomMeteorIndex % 2 == 0 ? 72 : -72
+                let startY = kViewSize.height * 1.25 + offsetY
+                
                 
                 let meteor = self.meteorArray[randomMeteorIndex].copy() as! Meteor
                 meteor.drift = RandomFloatRange(-0.5, 0.5)
                 
-                meteor.position = CGPoint(x: startX + offsetX * CGFloat(randomMeteorIndex), y: startY)
+                //meteor.position = CGPoint(x: startX + offsetX * CGFloat(randomMeteorIndex), y: startY)
+                meteor.position = CGPoint(x: startX, y: startY)
                 
                 self.addChild(meteor)
             }

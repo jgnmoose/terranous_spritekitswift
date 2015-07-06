@@ -26,8 +26,8 @@ class SettingsButton:SKSpriteNode {
     }
     
     convenience init() {
-        let settingsButtonTexture = GameTextures.sharedInstance.textureWithName(SpriteName.ButtonSettings)
-        self.init(texture: settingsButtonTexture, color: SKColor.whiteColor(), size: settingsButtonTexture.size())
+        let texture = SKTexture(imageNamed: SpriteName.ButtonSettings)
+        self.init(texture: texture, color: SKColor.whiteColor(), size: texture.size())
         
         self.setupSettingsButton()
     }

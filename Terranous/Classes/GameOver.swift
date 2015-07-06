@@ -24,7 +24,7 @@ class GameOver:SKSpriteNode {
     }
     
     convenience init() {
-        let texture = GameTextures.sharedInstance.textureWithName(SpriteName.GameOver)
+        let texture = SKTexture(imageNamed: SpriteName.GameOver)
         self.init(texture: texture, color: SKColor.whiteColor(), size: texture.size())
         
         self.setupGameOver()
@@ -32,7 +32,7 @@ class GameOver:SKSpriteNode {
     
     // MARK: - Setup Functions
     private func setupGameOver() {
-        self.position = CGPoint(x: kScreenCenterHorizontal, y: kViewSize.height * 1.25)
+        self.position = CGPoint(x: kScreenCenterHorizontal, y: kViewSize.height + self.size.height)
         
         self.zPosition = GameLayer.Interface
     }

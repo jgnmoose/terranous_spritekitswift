@@ -25,8 +25,8 @@ class PauseButton:SKSpriteNode {
     }
     
     convenience init() {
-        let settingsButtonTexture = GameTextures.sharedInstance.textureWithName(SpriteName.ButtonPause)
-        self.init(texture: settingsButtonTexture, color: SKColor.whiteColor(), size: settingsButtonTexture.size())
+        let texture = SKTexture(imageNamed: SpriteName.ButtonPause)
+        self.init(texture: texture, color: SKColor.whiteColor(), size: texture.size())
         
         self.setupPauseButton()
     }

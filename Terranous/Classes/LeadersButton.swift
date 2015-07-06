@@ -24,8 +24,8 @@ class LeadersButton:SKSpriteNode {
     }
     
     convenience init() {
-        let leadersTexture = GameTextures.sharedInstance.textureWithName(SpriteName.ButtonLeaders)
-        self.init(texture: leadersTexture, color: SKColor.whiteColor(), size: leadersTexture.size())
+        let texture = SKTexture(imageNamed: SpriteName.ButtonLeaders)
+        self.init(texture: texture, color: SKColor.whiteColor(), size: texture.size())
         
         self.setupLeadersButton()
     }

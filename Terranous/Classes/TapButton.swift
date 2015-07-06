@@ -24,8 +24,8 @@ class TapButton:SKSpriteNode {
     }
     
     convenience init() {
-        let tapButtonTexture = GameTextures.sharedInstance.textureWithName(SpriteName.ButtonTap)
-        self.init(texture: tapButtonTexture, color: SKColor.whiteColor(), size: tapButtonTexture.size())
+        let texture = SKTexture(imageNamed: SpriteName.ButtonTap)
+        self.init(texture: texture, color: SKColor.whiteColor(), size: texture.size())
         
         self.setupTapButton()
     }

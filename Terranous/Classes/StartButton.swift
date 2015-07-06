@@ -24,7 +24,7 @@ class StartButton:SKSpriteNode {
     }
     
     convenience init() {
-        let texture = GameTextures.sharedInstance.textureWithName(SpriteName.ButtonStart)
+        let texture = SKTexture(imageNamed: SpriteName.ButtonStart)
         self.init(texture: texture, color: SKColor.whiteColor(), size: texture.size())
         
         self.setupStartButton()

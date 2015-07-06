@@ -24,7 +24,7 @@ class Title:SKSpriteNode {
     }
     
     convenience init() {
-        let texture = GameTextures.sharedInstance.textureWithName(SpriteName.Title)
+        let texture = SKTexture(imageNamed: SpriteName.Title)
         self.init(texture: texture, color: SKColor.whiteColor(), size: texture.size())
         
         self.setupTitle()
