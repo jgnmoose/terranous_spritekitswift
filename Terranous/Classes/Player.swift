@@ -15,6 +15,7 @@ class Player: SKSpriteNode {
     private var targetLocation = CGPoint()
     private var originLocation = CGPoint()
     private var filterFactor = CGFloat()
+    private var floatingScore = FloatingScore()
     
     // MARK: - Public class properties
     internal var lives = 3
@@ -42,6 +43,7 @@ class Player: SKSpriteNode {
         
         self.setupPlayer()
         self.setupPlayerPhysics()
+        self.setupFloatingScore()
     }
     
     // MARK: - Setup Functions
@@ -59,17 +61,17 @@ class Player: SKSpriteNode {
         self.physicsBody?.contactTestBitMask = Contact.Star | Contact.Meteor
     }
     
+    private func setupFloatingScore() {
+        self.floatingScore.position = CGPoint(x: 0, y: self.size.height)
+        self.floatingScore.zPosition = self.zPosition - 1
+        self.addChild(self.floatingScore)
+        
+    }
+    
     
     // MARK: - Enable/Disable Movement
     func enableMovement() {
         self.canMove = true
-        let engineSound = SKAction.runBlock({
-            self.runAction(GameAudio.sharedInstance.soundEngineStart, completion: {
-                self.runAction(SKAction.repeatActionForever(GameAudio.sharedInstance.soundEngine))
-            })
-        })
-        
-        //self.runAction(engineSound, withKey: "EngineSound")
     }
     
     func disableMovement() {
@@ -112,79 +114,61 @@ class Player: SKSpriteNode {
     
     // MARK: - Action Functions
     func pickedUpStar() {
-        //var scoreMessage = GameFonts.sharedInstance.floatScore(0, position: self.position)
-        //var scoreMessageAction = GameFonts.sharedInstance.scoreAction(scoreMessage)
-        //self.parent?.addChild(scoreMessage)
-        
         self.stars += 1
         switch self.stars {
         case 0..<5:
             self.score += 250
-            //scoreMessage.text = "250"
+            self.floatingScore.floatScore("250")
             
         case 5..<10:
             self.score += 500
-            //scoreMessage.text = "500"
+            self.floatingScore.floatScore("500")
             
         case 10..<15:
             self.score += 750
-            //scoreMessage.text = "750"
+            self.floatingScore.floatScore("750")
             
         case 15..<20:
             self.score += 1000
-            //scoreMessage.text = "1000"
+            self.floatingScore.floatScore("1000")
             
         case 20..<25:
             self.score += 1250
-            //scoreMessage.text = "1250"
+            self.floatingScore.floatScore("1250")
             
         case 25..<30:
             self.score += 1500
-            //scoreMessage.text = "1500"
+            self.floatingScore.floatScore("1500")
             
         case 30..<35:
             self.score += 1750
-            //scoreMessage.text = "1750"
+            self.floatingScore.floatScore("1750")
             
         case 35..<40:
             self.score += 2000
-            //scoreMessage.text = "2000"
+            self.floatingScore.floatScore("2000")
             
         case 40..<45:
             self.score += 2250
-            //scoreMessage.text = "2250"
+            self.floatingScore.floatScore("2250")
             
         case 45..<50:
             self.score += 2500
-            //scoreMessage.text = "2500"
-            
+            self.floatingScore.floatScore("2500")
             
         default:
             self.score += 5000
-            //scoreMessage.text = "5000"
+            self.floatingScore.floatScore("5000")
         }
         
-        //scoreMessage.runAction(scoreMessageAction)
         self.runAction(GameAudio.sharedInstance.soundScore)
         
         if self.stars < 50 {
             if self.stars % 5 == 0 {
-//                let bonus = GameFonts.sharedInstance.floatBonus("Bonus!", position: self.position)
-//                self.parent?.addChild(bonus)
-//                
-//                let bonusAction = GameFonts.sharedInstance.bonusAction(bonus)
-//                bonus.runAction(bonusAction)
-                
                 self.runAction(GameAudio.sharedInstance.soundBonus)
             }
         } else {
             if self.stars % 50 == 0 {
-//                let bonus = GameFonts.sharedInstance.floatBonus("Max Bonus!", position: self.position)
-//                self.parent?.addChild(bonus)
-//                
-//                let bonusAction = GameFonts.sharedInstance.bonusAction(bonus)
-//                bonus.runAction(bonusAction)
-                
                 self.runAction(GameAudio.sharedInstance.soundBonusMax)
             }
         }

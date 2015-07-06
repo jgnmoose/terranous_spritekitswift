@@ -33,23 +33,38 @@ class RetryButton:SKSpriteNode {
     // MARK: - Setup Functions
     private func setupRetryButton() {
         // Start off screen left
-        self.position = CGPoint(x: -kViewSize.width * 1.25, y: kViewSize.height * 0.25)
+        self.position = CGPoint(x: kScreenCenterHorizontal, y: -kViewSize.height * 1.25)
         
         self.zPosition = GameLayer.Interface
     }
     
+//    func animateRetryButton() {
+//        let moveInPop = SKAction.runBlock({
+//            self.runAction(SKAction.moveTo(CGPoint(x: kViewSize.width * 0.3, y: kViewSize.height * 0.25), duration: 0.25), completion: {
+//                self.runAction(SKAction.scaleTo(1.25, duration: 0.25), completion: {
+//                    self.runAction(SKAction.scaleTo(1.0, duration: 0.25))
+//                })
+//            })
+//        })
+//        
+//        moveInPop.timingMode = SKActionTimingMode.EaseInEaseOut
+//        
+//        self.runAction(moveInPop)
+//    }
+    
     func animateRetryButton() {
-        let moveInPop = SKAction.runBlock({
-            self.runAction(SKAction.moveTo(CGPoint(x: kViewSize.width * 0.3, y: kViewSize.height * 0.25), duration: 0.25), completion: {
-                self.runAction(SKAction.scaleTo(1.25, duration: 0.25), completion: {
-                    self.runAction(SKAction.scaleTo(1.0, duration: 0.25))
+        let animateMoveUpPop = SKAction.runBlock({
+            self.runAction(SKAction.moveTo(CGPoint(x: kScreenCenterHorizontal, y: kViewSize.height * 0.25), duration: 0.25), completion: {
+                self.runAction(SKAction.scaleTo(1.25, duration: 0.2), completion: {
+                    self.runAction(SKAction.scaleTo(1.0, duration: 0.2))
                 })
+
             })
         })
         
-        moveInPop.timingMode = SKActionTimingMode.EaseInEaseOut
+        animateMoveUpPop.timingMode = SKActionTimingMode.EaseInEaseOut
         
-        self.runAction(moveInPop)
+        self.runAction(animateMoveUpPop)
     }
     
     func tappedRetry() {

@@ -12,7 +12,7 @@ class GameOverScene: SKScene {
     
     // MARK: - Private class properties
     private var gameOverSceneNode = SKNode()
-    private var gameOver = GameOver()
+    private var scoreBoard = ScoreBoard()
     
     
     // MARK: - Init
@@ -45,8 +45,8 @@ class GameOverScene: SKScene {
         let background = Background()
         self.gameOverSceneNode.addChild(background)
         
-        self.gameOver = GameOver(stars: stars, score: score)
-        self.gameOverSceneNode.addChild(self.gameOver)
+        self.scoreBoard = ScoreBoard(stars: stars, score: score)
+        self.gameOverSceneNode.addChild(self.scoreBoard)
     }
     
     // MARK: - Touch Events
@@ -54,13 +54,13 @@ class GameOverScene: SKScene {
         let touch:UITouch = touches.first as! UITouch
         let touchLocation = touch.locationInNode(self)
         
-        if self.gameOver.retryButton.containsPoint(touchLocation) {
-            self.gameOver.retryButton.tappedRetry()
+        if self.scoreBoard.retryButton.containsPoint(touchLocation) {
+            self.scoreBoard.retryButton.tappedRetry()
             self.retryGame()
         }
         
-        if self.gameOver.settingsButton.containsPoint(touchLocation) {
-            self.gameOver.settingsButton.tappedSettingsButton()
+        if self.scoreBoard.settingsButton.containsPoint(touchLocation) {
+            self.scoreBoard.settingsButton.tappedSettingsButton()
             
             let settingsOverlay = SettingsOverlay()
             self.gameOverSceneNode.addChild(settingsOverlay)

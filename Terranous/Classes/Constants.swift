@@ -12,6 +12,9 @@ import SpriteKit
 // MARK: - Debug
 let kDebug = true
 
+// MARK: - Font Names
+let kFontName = "Edit Undo BRK"
+
 // MARK: - Device size support
 let kDeviceTablet = (UIDevice.currentDevice().userInterfaceIdiom == UIUserInterfaceIdiom.Pad)
 
@@ -48,6 +51,7 @@ class ObjectName {
 // MARK: - Colors
 class Colors {
     class var Background:Int    { return 0x180d1f }
+    class var ScoreFont:Int     { return 0xe6e7e8 }
     class var Flash:Int         { return 0x1c75bc }
 }
 

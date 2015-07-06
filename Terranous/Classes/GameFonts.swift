@@ -29,10 +29,10 @@ class GameFonts {
     
     // MARK: - Setup
     private func setupScoreLabel() {
-        self.scoreLabel = SKLabelNode(fontNamed: "Edit Undo BRK")
+        self.scoreLabel = SKLabelNode(fontNamed: kFontName)
         self.scoreLabel.verticalAlignmentMode = SKLabelVerticalAlignmentMode.Center
         self.scoreLabel.horizontalAlignmentMode = SKLabelHorizontalAlignmentMode.Left
-        self.scoreLabel.fontColor = SKColor.whiteColor()
+        self.scoreLabel.fontColor = SKColorFromRGB(Colors.ScoreFont)
         
         if kDeviceTablet {
             self.scoreLabel.fontSize = 36.0
