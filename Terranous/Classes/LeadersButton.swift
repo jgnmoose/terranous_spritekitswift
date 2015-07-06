@@ -33,7 +33,7 @@ class LeadersButton:SKSpriteNode {
     // MARK: - Setup Functions
     private func setupLeadersButton() {
         // Start off screen right
-        self.position = CGPoint(x: kScreenCenterHorizontal, y: kViewSize.height * 0.4)
+        self.position = CGPoint(x: kViewSize.width + self.size.width, y: kViewSize.height * 0.25)
         
         self.zPosition = GameLayer.Interface
     }

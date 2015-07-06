@@ -46,7 +46,7 @@ class ScoreBoard: SKNode {
         NSTimer.scheduledTimerWithTimeInterval(1.0, target: self, selector: Selector("animateRetryButtonIn"), userInfo: nil, repeats: false)
         
         // Leaders Button animation
-//        NSTimer.scheduledTimerWithTimeInterval(1.0, target: self, selector: Selector("animateLeadersButtonIn"), userInfo: nil, repeats: false)
+        NSTimer.scheduledTimerWithTimeInterval(1.0, target: self, selector: Selector("animateLeadersButtonIn"), userInfo: nil, repeats: false)
         
         // Settings Button animation timer
         NSTimer.scheduledTimerWithTimeInterval(2.0, target: self, selector: Selector("animateSettingsButtonIn"), userInfo: nil, repeats: false)
@@ -54,7 +54,7 @@ class ScoreBoard: SKNode {
     
     // MARK: - Setup
     private func setupGameOverBackground() {
-        let backgroundSize = CGRectMake(0, 0, kViewSize.width * 0.8, kViewSize.height * 0.3)
+        let backgroundSize = CGRectMake(0, 0, kViewSize.width * 0.8, kViewSize.height * 0.25)
         
         self.background = SKShapeNode(rect: backgroundSize, cornerRadius: 5)
         self.background.fillColor = SKColorFromRGB(Colors.Background)
@@ -65,7 +65,7 @@ class ScoreBoard: SKNode {
             self.background.lineWidth = 3.0
         }
         
-        self.background.position = CGPoint(x: kViewSize.width * 0.1, y: kViewSize.height * 0.35)
+        self.background.position = CGPoint(x: kViewSize.width * 0.1, y: kViewSize.height * 0.4)
         
         self.background.alpha = 0.75
         
@@ -97,8 +97,6 @@ class ScoreBoard: SKNode {
         let bestScoreLabel = SKSpriteNode(imageNamed: SpriteName.Best)
         bestScoreLabel.position = CGPoint(x: kViewSize.width * 0.6, y: kViewSize.height * 0.475)
         self.addChild(bestScoreLabel)
-        
-        self.addChild(self.leadersButton)
     }
     
     
@@ -106,25 +104,21 @@ class ScoreBoard: SKNode {
         // Stars collected
         let currentStars = GameFonts.sharedInstance.createScoreLabel(stars)
         currentStars.position = CGPoint(x: kViewSize.width * 0.3, y: kViewSize.height * 0.525)
-        //currentStars.horizontalAlignment = BMGlyphHorizontalAlignmentLeft
         self.addChild(currentStars)
         
         // Best Stars collected
         let bestStars = GameFonts.sharedInstance.createScoreLabel(GameSettings.sharedInstance.getBestStars())
         bestStars.position = CGPoint(x: kViewSize.width * 0.7, y: kViewSize.height * 0.525)
-        //bestStars.horizontalAlignment = BMGlyphHorizontalAlignmentLeft
         self.addChild(bestStars)
         
         // Current Score
         let currentScore = GameFonts.sharedInstance.createScoreLabel(score)
         currentScore.position = CGPoint(x: kViewSize.width * 0.3, y: kViewSize.height * 0.475)
-        //currentScore.horizontalAlignment = BMGlyphHorizontalAlignmentLeft
         self.addChild(currentScore)
         
         // Best Score
         let bestScore = GameFonts.sharedInstance.createScoreLabel(GameSettings.sharedInstance.getBestScore())
         bestScore.position = CGPoint(x: kViewSize.width * 0.7, y: kViewSize.height * 0.475)
-        //bestScore.horizontalAlignment = BMGlyphHorizontalAlignmentLeft
         self.addChild(bestScore)
     }
     
@@ -134,19 +128,19 @@ class ScoreBoard: SKNode {
         self.gameOver.animateGameOver()
     }
     
-    func animateSettingsButtonIn() {
-        self.addChild(self.settingsButton)
-        self.settingsButton.animateSettingsButton()
-    }
-    
     func animateRetryButtonIn() {
         self.addChild(self.retryButton)
         self.retryButton.animateRetryButton()
     }
     
-//    func animateLeadersButtonIn() {
-//        self.addChild(self.leadersButton)
-//        self.leadersButton.animateLeadersButton()
-//    }
+    func animateLeadersButtonIn() {
+        self.addChild(self.leadersButton)
+        self.leadersButton.animateLeadersButton()
+    }
+    
+    func animateSettingsButtonIn() {
+        self.addChild(self.settingsButton)
+        self.settingsButton.animateSettingsButton()
+    }
 }
 

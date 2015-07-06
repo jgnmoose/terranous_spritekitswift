@@ -29,7 +29,7 @@ class TitleOverlay: SKNode {
         self.setupTitleOverlay()
         
         // Title and Start Button animation timer
-        NSTimer.scheduledTimerWithTimeInterval(2.0, target: self, selector: Selector(
+        NSTimer.scheduledTimerWithTimeInterval(1.5, target: self, selector: Selector(
             "animateTitleIn"), userInfo: nil, repeats: false)
         
         // Settings Button animation timer
