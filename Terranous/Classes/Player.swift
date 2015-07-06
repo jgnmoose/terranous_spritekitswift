@@ -34,8 +34,9 @@ class Player: SKSpriteNode {
     
     
     convenience init() {
-        let playerTexture = GameTextures.sharedInstance.textureWithName(SpriteName.Player)
-        self.init(texture: playerTexture, color: SKColor.whiteColor(), size: playerTexture.size())
+        //let playerTexture = GameTextures.sharedInstance.textureWithName(SpriteName.Player)
+        let texture = SKTexture(imageNamed: SpriteName.Player)
+        self.init(texture: texture, color: SKColor.whiteColor(), size: texture.size())
         
         self.position = CGPoint(x: kScreenCenterHorizontal, y: kViewSize.height * 0.25)
         

@@ -74,27 +74,27 @@ class ScoreBoard: SKNode {
     
     private func setupScoreBoard() {
         // Scoreboard Label
-        let scoreBoardLabel = GameTextures.sharedInstance.spriteWithName(SpriteName.ScoreBoard)
+        let scoreBoardLabel = SKSpriteNode(imageNamed: SpriteName.ScoreBoard)
         scoreBoardLabel.position = CGPoint(x: kScreenCenterHorizontal, y: kViewSize.height * 0.6)
         self.addChild(scoreBoardLabel)
         
         // Stars collected Label
-        let starsLabel = GameTextures.sharedInstance.spriteWithName(SpriteName.StarsCount)
+        let starsLabel = SKSpriteNode(imageNamed: SpriteName.StarsCount)
         starsLabel.position = CGPoint(x: kViewSize.width * 0.2, y: kViewSize.height * 0.525)
         self.addChild(starsLabel)
         
         // Best Stars collected label
-        let bestStarsLabel = GameTextures.sharedInstance.spriteWithName(SpriteName.Best)
+        let bestStarsLabel = SKSpriteNode(imageNamed: SpriteName.Best)
         bestStarsLabel.position = CGPoint(x: kViewSize.width * 0.6, y: kViewSize.height * 0.525)
         self.addChild(bestStarsLabel)
         
         // Score Label
-        let scoreLabel = GameTextures.sharedInstance.spriteWithName(SpriteName.Score)
+        let scoreLabel = SKSpriteNode(imageNamed: SpriteName.Score)
         scoreLabel.position = CGPoint(x: kViewSize.width * 0.2, y: kViewSize.height * 0.475)
         self.addChild(scoreLabel)
         
         // Best Score Label
-        let bestScoreLabel = GameTextures.sharedInstance.spriteWithName(SpriteName.Best)
+        let bestScoreLabel = SKSpriteNode(imageNamed: SpriteName.Best)
         bestScoreLabel.position = CGPoint(x: kViewSize.width * 0.6, y: kViewSize.height * 0.475)
         self.addChild(bestScoreLabel)
         

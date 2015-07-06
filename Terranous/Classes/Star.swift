@@ -25,8 +25,8 @@ class Star: SKSpriteNode {
     }
     
     convenience init(position: CGPoint) {
-        let starTexture = GameTextures.sharedInstance.textureWithName(SpriteName.Star)
-        self.init(texture: starTexture, color: SKColor.whiteColor(), size: starTexture.size())
+        let texture = SKTexture(imageNamed: SpriteName.Star)
+        self.init(texture: texture, color: SKColor.whiteColor(), size: texture.size())
         
         self.position = position
         
