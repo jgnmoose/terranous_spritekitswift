@@ -12,6 +12,11 @@ import SpriteKit
 // MARK: - Debug
 let kDebug = false
 
+// MARK: - App details
+let kAppName = "Terranous - SpriteKit Swift"
+let kAppID = "861765885"
+let kAppStoreURL = "itms-apps://itunes.apple.com/app/id\(kAppID)"
+
 // MARK: - Font Names
 let kFontName = "Edit Undo BRK"
 

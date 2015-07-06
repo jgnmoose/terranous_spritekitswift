@@ -37,6 +37,8 @@
 		3F7DB0C11B4A154D00D95D8B /* Title.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7DB0C01B4A154D00D95D8B /* Title.swift */; };
 		3F7DB0C31B4A17C000D95D8B /* GameOver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7DB0C21B4A17C000D95D8B /* GameOver.swift */; };
 		3F7DB0C51B4AC0D500D95D8B /* Colorize.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 3F7DB0C41B4AC0D500D95D8B /* Colorize.fsh */; };
+		3F7DB0CC1B4B426100D95D8B /* GameKitHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7DB0CB1B4B426100D95D8B /* GameKitHelper.swift */; };
+		3F7DB0CE1B4B435300D95D8B /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F7DB0CD1B4B435300D95D8B /* GameKit.framework */; };
 		3F821A931B49BA0D0025A1B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F821A911B49BA0D0025A1B4 /* Main.storyboard */; };
 		3F821A951B49BA0D0025A1B4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F821A941B49BA0D0025A1B4 /* Images.xcassets */; };
 		3F821AA41B49BA0D0025A1B4 /* TerranousTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F821AA31B49BA0D0025A1B4 /* TerranousTests.swift */; };
@@ -120,6 +122,8 @@
 		3F7DB0C01B4A154D00D95D8B /* Title.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Title.swift; sourceTree = "<group>"; };
 		3F7DB0C21B4A17C000D95D8B /* GameOver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOver.swift; sourceTree = "<group>"; };
 		3F7DB0C41B4AC0D500D95D8B /* Colorize.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Colorize.fsh; sourceTree = "<group>"; };
+		3F7DB0CB1B4B426100D95D8B /* GameKitHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameKitHelper.swift; sourceTree = "<group>"; };
+		3F7DB0CD1B4B435300D95D8B /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
 		3F821A841B49BA0D0025A1B4 /* Terranous.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Terranous.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F821A881B49BA0D0025A1B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F821A921B49BA0D0025A1B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -171,6 +175,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F7DB0CE1B4B435300D95D8B /* GameKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,6 +217,7 @@
 			children = (
 				3F13A76A1B49BBE400DDB33B /* Constants.swift */,
 				3F13A76C1B49BBEC00DDB33B /* NetworkCheck.swift */,
+				3F7DB0CB1B4B426100D95D8B /* GameKitHelper.swift */,
 			);
 			name = Utilities;
 			sourceTree = "<group>";
@@ -299,6 +305,7 @@
 		3F821A7B1B49BA0D0025A1B4 = {
 			isa = PBXGroup;
 			children = (
+				3F7DB0CD1B4B435300D95D8B /* GameKit.framework */,
 				3F821A861B49BA0D0025A1B4 /* Terranous */,
 				3F821AA01B49BA0D0025A1B4 /* TerranousTests */,
 				3F821A851B49BA0D0025A1B4 /* Products */,
@@ -546,6 +553,11 @@
 					3F821A831B49BA0D0025A1B4 = {
 						CreatedOnToolsVersion = 6.4;
 						DevelopmentTeam = DHP96MS93Z;
+						SystemCapabilities = {
+							com.apple.GameCenter = {
+								enabled = 1;
+							};
+						};
 					};
 					3F821A9C1B49BA0D0025A1B4 = {
 						CreatedOnToolsVersion = 6.4;
@@ -645,6 +657,7 @@
 				3F821B0D1B49BA6D0025A1B4 /* Int+Extensions.swift in Sources */,
 				3F13A7841B49BCF600DDB33B /* GameAudio.swift in Sources */,
 				3F13A7931B49C2F400DDB33B /* GameFonts.swift in Sources */,
+				3F7DB0CC1B4B426100D95D8B /* GameKitHelper.swift in Sources */,
 				3F13A7911B49C2D200DDB33B /* ScoreBoardOverlay.swift in Sources */,
 				3F13A7651B49BB8E00DDB33B /* StartButton.swift in Sources */,
 				3F13A7631B49BB7D00DDB33B /* LeadersButton.swift in Sources */,
@@ -785,10 +798,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Terranous/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -797,10 +812,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Terranous/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};

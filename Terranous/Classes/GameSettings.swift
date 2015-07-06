@@ -71,6 +71,11 @@ class GameSettings {
         self.localDefaults.synchronize()
     }
     
+    func saveNeverRate() {
+        self.localDefaults.setBool(true, forKey: keyNeverRate)
+        self.localDefaults.synchronize()
+    }
+    
     // MARK: - Public retreiving functions
     func getBestStars() -> Int {
         return self.localDefaults.integerForKey(keyBestStars)
