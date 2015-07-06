@@ -57,6 +57,7 @@ class GameTextures {
     // MARK: - Public class properties
     // Shaders
     internal let shaderPixelate = SKShader(fileNamed: "Pixelate")
+    internal let shaderColorize = SKShader(fileNamed: "Colorize")
     // CGPathRefs
     internal var playerCGPath:CGMutablePathRef!
     internal var starCGPath:CGMutablePathRef!

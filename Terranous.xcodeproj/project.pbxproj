@@ -34,9 +34,9 @@
 		3F13A7911B49C2D200DDB33B /* ScoreBoardOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F13A7901B49C2D200DDB33B /* ScoreBoardOverlay.swift */; };
 		3F13A7931B49C2F400DDB33B /* GameFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F13A7921B49C2F400DDB33B /* GameFonts.swift */; };
 		3F13A7961B49C8E600DDB33B /* Pixelate.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 3F13A7951B49C8E600DDB33B /* Pixelate.fsh */; };
-		3F7DB0BE1B4A015600D95D8B /* FloatingScore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7DB0BD1B4A015600D95D8B /* FloatingScore.swift */; };
 		3F7DB0C11B4A154D00D95D8B /* Title.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7DB0C01B4A154D00D95D8B /* Title.swift */; };
 		3F7DB0C31B4A17C000D95D8B /* GameOver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7DB0C21B4A17C000D95D8B /* GameOver.swift */; };
+		3F7DB0C51B4AC0D500D95D8B /* Colorize.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 3F7DB0C41B4AC0D500D95D8B /* Colorize.fsh */; };
 		3F821A931B49BA0D0025A1B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F821A911B49BA0D0025A1B4 /* Main.storyboard */; };
 		3F821A951B49BA0D0025A1B4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F821A941B49BA0D0025A1B4 /* Images.xcassets */; };
 		3F821AA41B49BA0D0025A1B4 /* TerranousTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F821AA31B49BA0D0025A1B4 /* TerranousTests.swift */; };
@@ -117,9 +117,9 @@
 		3F13A7901B49C2D200DDB33B /* ScoreBoardOverlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoreBoardOverlay.swift; sourceTree = "<group>"; };
 		3F13A7921B49C2F400DDB33B /* GameFonts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameFonts.swift; sourceTree = "<group>"; };
 		3F13A7951B49C8E600DDB33B /* Pixelate.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Pixelate.fsh; sourceTree = "<group>"; };
-		3F7DB0BD1B4A015600D95D8B /* FloatingScore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatingScore.swift; sourceTree = "<group>"; };
 		3F7DB0C01B4A154D00D95D8B /* Title.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Title.swift; sourceTree = "<group>"; };
 		3F7DB0C21B4A17C000D95D8B /* GameOver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOver.swift; sourceTree = "<group>"; };
+		3F7DB0C41B4AC0D500D95D8B /* Colorize.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Colorize.fsh; sourceTree = "<group>"; };
 		3F821A841B49BA0D0025A1B4 /* Terranous.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Terranous.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F821A881B49BA0D0025A1B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F821A921B49BA0D0025A1B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -282,16 +282,9 @@
 			isa = PBXGroup;
 			children = (
 				3F13A7951B49C8E600DDB33B /* Pixelate.fsh */,
+				3F7DB0C41B4AC0D500D95D8B /* Colorize.fsh */,
 			);
 			name = Shaders;
-			sourceTree = "<group>";
-		};
-		3F7DB0BC1B4A013C00D95D8B /* Floating Score */ = {
-			isa = PBXGroup;
-			children = (
-				3F7DB0BD1B4A015600D95D8B /* FloatingScore.swift */,
-			);
-			name = "Floating Score";
 			sourceTree = "<group>";
 		};
 		3F7DB0BF1B4A153600D95D8B /* Overlay Elements */ = {
@@ -365,7 +358,6 @@
 				3F13A7731B49BC7200DDB33B /* Status Bar */,
 				3F13A7721B49BC6B00DDB33B /* Meteors */,
 				3F13A7711B49BC5D00DDB33B /* Stars */,
-				3F7DB0BC1B4A013C00D95D8B /* Floating Score */,
 				3F13A76E1B49BC4B00DDB33B /* Background */,
 				3F13A75D1B49BB5700DDB33B /* Buttons */,
 				3F7DB0BF1B4A153600D95D8B /* Overlay Elements */,
@@ -598,6 +590,7 @@
 				3F821AF81B49BA6D0025A1B4 /* Default~ipad.png in Resources */,
 				3F821B041B49BA6D0025A1B4 /* Explode.caf in Resources */,
 				3F821AFB1B49BA6D0025A1B4 /* MenuMusic.mp3 in Resources */,
+				3F7DB0C51B4AC0D500D95D8B /* Colorize.fsh in Resources */,
 				3F821AFA1B49BA6D0025A1B4 /* IntroMusic.mp3 in Resources */,
 				3F821AF51B49BA6D0025A1B4 /* Default.png in Resources */,
 				3F821A931B49BA0D0025A1B4 /* Main.storyboard in Resources */,
@@ -636,7 +629,6 @@
 				3F821B141B49BA6D0025A1B4 /* SKTTimingFunctions.swift in Sources */,
 				3F821B131B49BA6D0025A1B4 /* SKTEffects.swift in Sources */,
 				3F13A7591B49BB2D00DDB33B /* GameOverScene.swift in Sources */,
-				3F7DB0BE1B4A015600D95D8B /* FloatingScore.swift in Sources */,
 				3F13A77C1B49BCC000DDB33B /* MeteorController.swift in Sources */,
 				3F13A7781B49BC9A00DDB33B /* StatusBar.swift in Sources */,
 				3F821B0F1B49BA6D0025A1B4 /* SKAction+SpecialEffects.swift in Sources */,

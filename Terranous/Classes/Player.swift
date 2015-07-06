@@ -15,7 +15,6 @@ class Player: SKSpriteNode {
     private var targetLocation = CGPoint()
     private var originLocation = CGPoint()
     private var filterFactor = CGFloat()
-    private var floatingScore = FloatingScore()
     
     // MARK: - Public class properties
     internal var lives = 3
@@ -44,7 +43,6 @@ class Player: SKSpriteNode {
         
         self.setupPlayer()
         self.setupPlayerPhysics()
-        self.setupFloatingScore()
     }
     
     // MARK: - Setup Functions
@@ -60,13 +58,6 @@ class Player: SKSpriteNode {
         self.physicsBody?.categoryBitMask = Contact.Player
         self.physicsBody?.collisionBitMask = Contact.Scene
         self.physicsBody?.contactTestBitMask = Contact.Star | Contact.Meteor
-    }
-    
-    private func setupFloatingScore() {
-        self.floatingScore.position = CGPoint(x: 0, y: self.size.height)
-        self.floatingScore.zPosition = self.zPosition - 1
-        self.addChild(self.floatingScore)
-        
     }
     
     
@@ -115,51 +106,58 @@ class Player: SKSpriteNode {
     
     // MARK: - Action Functions
     func pickedUpStar() {
+        
+        //let floatScore = GameFonts.sharedInstance.floatScore(0, position: <#CGPoint#>)
+        
         self.stars += 1
         switch self.stars {
         case 0..<5:
             self.score += 250
-            self.floatingScore.floatScore("250")
+            let floatScore = GameFonts.sharedInstance.floatScore(250)
+            floatScore.position = self.position
+            self.parent?.addChild(floatScore)
+            
+            floatScore.runAction(GameFonts.sharedInstance.animateFloatingScore(floatScore))
             
         case 5..<10:
             self.score += 500
-            self.floatingScore.floatScore("500")
+            //self.floatingScore.floatScore("500")
             
         case 10..<15:
             self.score += 750
-            self.floatingScore.floatScore("750")
+            //self.floatingScore.floatScore("750")
             
         case 15..<20:
             self.score += 1000
-            self.floatingScore.floatScore("1000")
+            //self.floatingScore.floatScore("1000")
             
         case 20..<25:
             self.score += 1250
-            self.floatingScore.floatScore("1250")
+            //self.floatingScore.floatScore("1250")
             
         case 25..<30:
             self.score += 1500
-            self.floatingScore.floatScore("1500")
+            //self.floatingScore.floatScore("1500")
             
         case 30..<35:
             self.score += 1750
-            self.floatingScore.floatScore("1750")
+            //self.floatingScore.floatScore("1750")
             
         case 35..<40:
             self.score += 2000
-            self.floatingScore.floatScore("2000")
+            //self.floatingScore.floatScore("2000")
             
         case 40..<45:
             self.score += 2250
-            self.floatingScore.floatScore("2250")
+            //self.floatingScore.floatScore("2250")
             
         case 45..<50:
             self.score += 2500
-            self.floatingScore.floatScore("2500")
+            //self.floatingScore.floatScore("2500")
             
         default:
             self.score += 5000
-            self.floatingScore.floatScore("5000")
+            //self.floatingScore.floatScore("5000")
         }
         
         self.runAction(GameAudio.sharedInstance.soundScore)

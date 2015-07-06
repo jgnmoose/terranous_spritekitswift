@@ -19,6 +19,7 @@ class GameParticles {
     // MARK: Private class properties
     private var backgroundParticles = SKEmitterNode()
     private var starParticles = SKEmitterNode()
+    private var scoreParticles = SKEmitterNode()
     private var engineParticles = SKEmitterNode()
     
     // MARK: Init
@@ -29,6 +30,7 @@ class GameParticles {
         } else {
             self.backgroundParticles = SKEmitterNode(fileNamed: "BackgroundParticles-iPhone")
             self.starParticles = SKEmitterNode(fileNamed: "StarParticle-iPhone")
+            self.scoreParticles = SKEmitterNode(fileNamed: "ScoreParticle-iPhone")
         }
     }
     
@@ -38,5 +40,9 @@ class GameParticles {
     
     func createStarParticles() -> SKEmitterNode {
         return self.starParticles.copy() as! SKEmitterNode
+    }
+    
+    func createScoreParticles() -> SKEmitterNode {
+        return self.scoreParticles.copy() as! SKEmitterNode
     }
 }
