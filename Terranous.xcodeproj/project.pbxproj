@@ -36,7 +36,6 @@
 		3F13A7961B49C8E600DDB33B /* Pixelate.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 3F13A7951B49C8E600DDB33B /* Pixelate.fsh */; };
 		3F7DB0C11B4A154D00D95D8B /* Title.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7DB0C01B4A154D00D95D8B /* Title.swift */; };
 		3F7DB0C31B4A17C000D95D8B /* GameOver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7DB0C21B4A17C000D95D8B /* GameOver.swift */; };
-		3F7DB0C51B4AC0D500D95D8B /* Colorize.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 3F7DB0C41B4AC0D500D95D8B /* Colorize.fsh */; };
 		3F7DB0CC1B4B426100D95D8B /* GameKitHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7DB0CB1B4B426100D95D8B /* GameKitHelper.swift */; };
 		3F7DB0CE1B4B435300D95D8B /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F7DB0CD1B4B435300D95D8B /* GameKit.framework */; };
 		3F7DB0D11B4B4BF200D95D8B /* EngineParticle-iPhone.sks in Resources */ = {isa = PBXBuildFile; fileRef = 3F7DB0CF1B4B4BF200D95D8B /* EngineParticle-iPhone.sks */; };
@@ -123,7 +122,6 @@
 		3F13A7951B49C8E600DDB33B /* Pixelate.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Pixelate.fsh; sourceTree = "<group>"; };
 		3F7DB0C01B4A154D00D95D8B /* Title.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Title.swift; sourceTree = "<group>"; };
 		3F7DB0C21B4A17C000D95D8B /* GameOver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOver.swift; sourceTree = "<group>"; };
-		3F7DB0C41B4AC0D500D95D8B /* Colorize.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Colorize.fsh; sourceTree = "<group>"; };
 		3F7DB0CB1B4B426100D95D8B /* GameKitHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameKitHelper.swift; sourceTree = "<group>"; };
 		3F7DB0CD1B4B435300D95D8B /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
 		3F7DB0CF1B4B4BF200D95D8B /* EngineParticle-iPhone.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = "EngineParticle-iPhone.sks"; sourceTree = "<group>"; };
@@ -292,7 +290,6 @@
 			isa = PBXGroup;
 			children = (
 				3F13A7951B49C8E600DDB33B /* Pixelate.fsh */,
-				3F7DB0C41B4AC0D500D95D8B /* Colorize.fsh */,
 			);
 			name = Shaders;
 			sourceTree = "<group>";
@@ -609,7 +606,6 @@
 				3F821AF81B49BA6D0025A1B4 /* Default~ipad.png in Resources */,
 				3F821B041B49BA6D0025A1B4 /* Explode.caf in Resources */,
 				3F821AFB1B49BA6D0025A1B4 /* MenuMusic.mp3 in Resources */,
-				3F7DB0C51B4AC0D500D95D8B /* Colorize.fsh in Resources */,
 				3F821AFA1B49BA6D0025A1B4 /* IntroMusic.mp3 in Resources */,
 				3F821AF51B49BA6D0025A1B4 /* Default.png in Resources */,
 				3F821A931B49BA0D0025A1B4 /* Main.storyboard in Resources */,
