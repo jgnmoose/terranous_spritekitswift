@@ -173,22 +173,22 @@ class Player: SKSpriteNode {
         if self.stars < 50 {
             if self.stars % 5 == 0 {
                 var bonus = GameFonts.sharedInstance.createBonusLabel()
-                bonus.position = CGPoint(x: kScreenCenterHorizontal, y: kViewSize.height * 0.75)
+                bonus.position = kScreenCenter
                 bonus.text = "Bonus!"
                 
                 self.parent?.addChild(bonus)
-                bonus.runAction(GameFonts.sharedInstance.animateFloatingScore(bonus))
+                bonus.runAction(GameFonts.sharedInstance.animateBonus(bonus))
                 
                 self.runAction(GameAudio.sharedInstance.soundBonus)
             }
         } else {
             if self.stars % 50 == 0 {
                 var bonus = GameFonts.sharedInstance.createBonusLabel()
-                bonus.position = CGPoint(x: kScreenCenterHorizontal, y: kViewSize.height * 0.75)
+                bonus.position = kScreenCenter
                 bonus.text = "Max Bonus!"
                 
                 self.parent?.addChild(bonus)
-                bonus.runAction(GameFonts.sharedInstance.animateFloatingScore(bonus))
+                bonus.runAction(GameFonts.sharedInstance.animateBonus(bonus))
                 
                 self.runAction(GameAudio.sharedInstance.soundBonusMax)
             }

@@ -62,9 +62,9 @@ class GameFonts {
         self.bonusLabel.fontColor = SKColor.yellowColor()
         
         if kDeviceTablet {
-            self.bonusLabel.fontSize = 64
+            self.bonusLabel.fontSize = 72
         } else {
-            self.bonusLabel.fontSize = 32
+            self.bonusLabel.fontSize = 36
         }
     }
     
@@ -90,6 +90,26 @@ class GameFonts {
                     node.runAction(SKAction.moveToY(node.position.y + node.frame.size.height, duration: 0.1), completion: {
                         node.runAction(SKAction.fadeOutWithDuration(0.1), completion: {
                             node.removeFromParent()
+                        })
+                    })
+                })
+            })
+        })
+        
+        action.timingMode = SKActionTimingMode.EaseInEaseOut
+        
+        return action
+    }
+    
+    func animateBonus(node: SKLabelNode) -> SKAction {
+        let action = SKAction.runBlock({
+            node.runAction(SKAction.fadeInWithDuration(0.1), completion: {
+                node.runAction(SKAction.scaleTo(1.25, duration: 0.1), completion: {
+                    node.runAction(SKAction.scaleTo(1.5, duration: 0.1), completion: {
+                        node.runAction(SKAction.screenShakeWithNode(node, amount: CGPoint(x: 12, y: 12), oscillations: 5, duration: 0.25), completion: {
+                            node.runAction(SKAction.fadeOutWithDuration(0.25), completion: {
+                                node.removeFromParent()
+                            })
                         })
                     })
                 })
