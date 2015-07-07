@@ -59,12 +59,12 @@ class GameFonts {
     
     private func setupBonusLabel() {
         self.bonusLabel = SKLabelNode(fontNamed: kFontName)
-        self.floatScoreLabel.fontColor = SKColor.greenColor()
+        self.bonusLabel.fontColor = SKColor.yellowColor()
         
         if kDeviceTablet {
-            self.bonusLabel.fontSize = 48
+            self.bonusLabel.fontSize = 64
         } else {
-            self.bonusLabel.fontSize = 24
+            self.bonusLabel.fontSize = 32
         }
     }
     
