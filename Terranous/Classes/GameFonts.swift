@@ -75,12 +75,12 @@ class GameFonts {
     }
 
     
-    func floatScore(score: Int) -> SKLabelNode {
-        self.floatScoreLabel.text = String(score)
-        
-        let label = self.floatScoreLabel.copy() as! SKLabelNode
-        
-        return label
+    func createFloatScoreLabel() -> SKLabelNode {
+        return self.floatScoreLabel.copy() as! SKLabelNode
+    }
+    
+    func createBonusLabel() -> SKLabelNode {
+        return self.bonusLabel.copy() as! SKLabelNode
     }
     
     func animateFloatingScore(node: SKLabelNode) -> SKAction {

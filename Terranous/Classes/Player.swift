@@ -114,67 +114,80 @@ class Player: SKSpriteNode {
     // MARK: - Action Functions
     func pickedUpStar() {
         
-        //let floatScore = GameFonts.sharedInstance.floatScore(0, position: <#CGPoint#>)
+        var floatScore = GameFonts.sharedInstance.createFloatScoreLabel()
         
         self.stars += 1
         switch self.stars {
         case 0..<5:
             self.score += 250
-            let floatScore = GameFonts.sharedInstance.floatScore(250)
-            floatScore.position = self.position
-            self.parent?.addChild(floatScore)
-            
-            floatScore.runAction(GameFonts.sharedInstance.animateFloatingScore(floatScore))
+            floatScore.text = String(250)
             
         case 5..<10:
             self.score += 500
-            //self.floatingScore.floatScore("500")
+            floatScore.text = String(500)
             
         case 10..<15:
             self.score += 750
-            //self.floatingScore.floatScore("750")
+            floatScore.text = String(750)
             
         case 15..<20:
             self.score += 1000
-            //self.floatingScore.floatScore("1000")
+            floatScore.text = String(1000)
             
         case 20..<25:
             self.score += 1250
-            //self.floatingScore.floatScore("1250")
+            floatScore.text = String(1250)
             
         case 25..<30:
             self.score += 1500
-            //self.floatingScore.floatScore("1500")
+            floatScore.text = String(1500)
             
         case 30..<35:
             self.score += 1750
-            //self.floatingScore.floatScore("1750")
+            floatScore.text = String(1750)
             
         case 35..<40:
             self.score += 2000
-            //self.floatingScore.floatScore("2000")
+            floatScore.text = String(2000)
             
         case 40..<45:
             self.score += 2250
-            //self.floatingScore.floatScore("2250")
+            floatScore.text = String(2250)
             
         case 45..<50:
             self.score += 2500
-            //self.floatingScore.floatScore("2500")
+            floatScore.text = String(2500)
             
         default:
             self.score += 5000
-            //self.floatingScore.floatScore("5000")
+            floatScore.text = String(5000)
         }
+
+        floatScore.position = self.position
+        self.parent?.addChild(floatScore)
+        
+        floatScore.runAction(GameFonts.sharedInstance.animateFloatingScore(floatScore))
         
         self.runAction(GameAudio.sharedInstance.soundScore)
         
         if self.stars < 50 {
             if self.stars % 5 == 0 {
+                var bonus = GameFonts.sharedInstance.createBonusLabel()
+                bonus.text = "Bonus!"
+                
+                self.parent?.addChild(bonus)
+                bonus.runAction(GameFonts.sharedInstance.animateFloatingScore(bonus))
+                
                 self.runAction(GameAudio.sharedInstance.soundBonus)
             }
         } else {
             if self.stars % 50 == 0 {
+                var bonus = GameFonts.sharedInstance.createBonusLabel()
+                bonus.text = "Max Bonus!"
+                
+                self.parent?.addChild(bonus)
+                bonus.runAction(GameFonts.sharedInstance.animateFloatingScore(bonus))
+                
                 self.runAction(GameAudio.sharedInstance.soundBonusMax)
             }
         }
