@@ -14,11 +14,11 @@ let kDebug = true
 
 // MARK: - App Details
 #if FREE
-    let kAppName = "Terranous - Free SpriteKit Swift"
-    let kAppID = "861765885"
+    let kAppName = "Terranous - SpriteKit Swift Free"
+    let kAppID = "1017112584"
     #else
 let kAppName = "Terranous - SpriteKit SWift"
-let kAppID = "835631825"
+let kAppID = "1017101933"
 #endif
 let kAppStoreURL = "itms-apps://itunes.apple.com/app/id\(kAppID)"
 
