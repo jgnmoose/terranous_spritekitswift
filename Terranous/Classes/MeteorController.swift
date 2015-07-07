@@ -36,8 +36,6 @@ class MeteorController: SKNode {
     
     // MARK: - Setup Functions
     private func setupMeteorController() {
-        self.name = ObjectName.MeteorController
-        
         self.meteorArray = [self.meteor0, self.meteor1, self.meteor2, self.meteor3, self.meteor4]
     }
     

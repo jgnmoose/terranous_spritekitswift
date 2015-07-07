@@ -38,7 +38,6 @@ class Star: SKSpriteNode {
     
     // MARK: - Setup Functions
     private func setupStar() {
-        self.name = ObjectName.Star
     }
     
     private func setupStarPhysics() {

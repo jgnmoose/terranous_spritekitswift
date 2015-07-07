@@ -49,15 +49,6 @@ class GameLayer {
     class var Settings:CGFloat  { return 2 }
 }
 
-// MARK: - Object Names
-class ObjectName {
-    class var Player:String             { return "Player" }
-    class var Star:String               { return "Star" }
-    class var StarController:String     { return "StarController" }
-    class var Meteor:String             { return "Meteor" }
-    class var MeteorController:String   { return "MeteorController" }
-}
-
 // MARK: - Colors
 class Colors {
     class var Background:Int    { return 0x180d1f }

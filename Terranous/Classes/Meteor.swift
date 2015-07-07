@@ -72,7 +72,6 @@ class Meteor: SKSpriteNode {
     
     // MARK: - Setup Functions
     private func setupMeteor() {
-        self.name = ObjectName.Meteor
     }
     
     private func setupMeteorPhysics(type: MeteorType) {

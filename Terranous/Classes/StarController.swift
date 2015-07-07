@@ -28,7 +28,6 @@ class StarController: SKNode {
     
     // MARK: - Setup Functions
     private func setupStarController() {
-        self.name = ObjectName.StarController
     }
     
     // MARK: - Action Functions
