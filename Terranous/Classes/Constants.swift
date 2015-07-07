@@ -12,9 +12,14 @@ import SpriteKit
 // MARK: - Debug
 let kDebug = true
 
-// MARK: - App details
-let kAppName = "Terranous - SpriteKit Swift"
-let kAppID = "861765885"
+// MARK: - App Details
+#if FREE
+    let kAppName = "Terranous - Free SpriteKit Swift"
+    let kAppID = "861765885"
+    #else
+let kAppName = "Terranous - SpriteKit SWift"
+let kAppID = "835631825"
+#endif
 let kAppStoreURL = "itms-apps://itunes.apple.com/app/id\(kAppID)"
 
 // MARK: - Font Names

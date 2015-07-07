@@ -8,13 +8,21 @@
 
 import UIKit
 import SpriteKit
+import iAd
 
-class GameViewController: UIViewController {
+class GameViewController: UIViewController, ADBannerViewDelegate {
     
+    // MARK: - Private class properties
     private let textures = GameTextures.sharedInstance
     private let audio = GameAudio.sharedInstance
     private let fonts = GameFonts.sharedInstance
     private let settings = GameSettings.sharedInstance
+    
+    // MARK: - iAd
+    #if FREE
+    let bannerView = ADBannerView(adType: ADAdType.Banner)
+    var bannerLoaded = false
+    #endif
     
     override func viewWillLayoutSubviews() {
         super.viewWillLayoutSubviews()
@@ -38,10 +46,34 @@ class GameViewController: UIViewController {
         }
         
         if NetworkCheck.checkConnection() {
-            //NSNotificationCenter.defaultCenter().addObserver(self, selector: "showAuthenticationViewController", name: "GameCenterViewController", object: nil)
-            
-            //GameKitHelper.sharedInstance.authenticatePlayer()
+            if !kDebug {
+                NSNotificationCenter.defaultCenter().addObserver(self, selector: "showAuthenticationViewController", name: "GameCenterViewController", object: nil)
+                
+                GameKitHelper.sharedInstance.authenticatePlayer()
+            }
         }
+    }
+    
+    override func viewDidAppear(animated: Bool) {
+        if GameSettings.sharedInstance.shouldRateApp() {
+            self.showRateAppView()
+        }
+    }
+    
+    override func viewWillAppear(animated: Bool) {
+        #if FREE
+            if NetworkCheck.checkConnection() {
+            
+                bannerView.frame = CGRectMake(0, self.view.frame.size.height - bannerView.frame.size.height, self.view.frame.size.width, bannerView.frame.size.height)
+                bannerView.autoresizingMask = UIViewAutoresizing.FlexibleTopMargin | UIViewAutoresizing.FlexibleWidth
+                bannerView.hidden = true
+                bannerView.delegate = self
+                self.view.addSubview(bannerView)
+            
+                NSNotificationCenter.defaultCenter().addObserver(self, selector: "showAds", name: "AdBannerShow", object: nil)
+                NSNotificationCenter.defaultCenter().addObserver(self, selector: "hideAds", name: "AdBannerHide", object: nil)
+            }
+        #endif
     }
     
     override func shouldAutorotate() -> Bool {
@@ -87,8 +119,51 @@ class GameViewController: UIViewController {
         self.presentViewController(alertView, animated: true, completion: nil)
     }
     
+    // MARK: - iAd functions
+    #if FREE
+    func showAds() {
+        self.bannerView.hidden = false
+    }
+    
+    func hideAds() {
+        self.bannerView.hidden = true
+    }
+    
+    func bannerViewWillLoadAd(banner: ADBannerView!) {
+        self.bannerView.hidden = true
+    }
+    
+    func bannerViewDidLoadAd(banner: ADBannerView!) {
+        self.bannerView.hidden = false
+    }
+    
+    func bannerViewActionDidFinish(banner: ADBannerView!) {
+        let skView = self.view as SKView
+        skView.scene?.paused = false
+    
+        GameAudio.sharedInstance.resumeBackgroundMusic()
+    
+        self.bannerView.hidden = false
+    }
+    
+    func bannerViewActionShouldBegin(banner: ADBannerView!, willLeaveApplication willLeave: Bool) -> Bool {
+        let skView = self.view as SKView
+        skView.scene?.paused = true
+    
+        GameAudio.sharedInstance.pauseBackgroundMusic()
+    
+        return true
+    }
+    
+    func bannerView(banner: ADBannerView!, didFailToReceiveAdWithError error: NSError!) {
+        self.bannerView.hidden = true
+    }
+    #endif
+    
     // MARK: - deinit
     deinit {
-       // NSNotificationCenter.defaultCenter().removeObserver(self)
+        if !kDebug {
+            NSNotificationCenter.defaultCenter().removeObserver(self)
+        }
     }
 }

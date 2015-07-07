@@ -7,8 +7,9 @@
 //
 
 import SpriteKit
+import GameKit
 
-class GameOverScene: SKScene {
+class GameOverScene: SKScene, GKGameCenterControllerDelegate {
     
     // MARK: - Private class properties
     private var gameOverSceneNode = SKNode()
@@ -34,6 +35,10 @@ class GameOverScene: SKScene {
         if GameSettings.sharedInstance.getMusicEnabled() {
             GameAudio.sharedInstance.playBackgroundMusic(Music.Menu)
         }
+        
+        #if FREE
+            NSNotificationCenter.defaultCenter().postNotificationName("AdBannerShow", object: nil)
+        #endif
     }
     
     // MARK: - Setup Functions
@@ -70,5 +75,26 @@ class GameOverScene: SKScene {
         let transition = SKTransition.fadeWithColor(SKColor.blackColor(), duration: 0.25)
         
         self.view?.presentScene(scene, transition: transition)
+    }
+    
+    // MARK: - Leader Board
+    func showLeaderBoard() {
+        if !NetworkCheck.checkConnection() {
+            let alert = UIAlertView()
+            alert.title = "No Network Access"
+            alert.message = "Game Center is not available."
+            alert.addButtonWithTitle("Ok")
+            alert.show()
+        } else {
+            let gameCenterController = GKGameCenterViewController()
+            gameCenterController.gameCenterDelegate = self
+            gameCenterController.viewState = GKGameCenterViewControllerState.Leaderboards
+            let viewController = self.view?.window?.rootViewController
+            viewController?.presentViewController(gameCenterController, animated: true, completion: nil)
+        }
+    }
+    
+    func gameCenterViewControllerDidFinish(gameCenterViewController: GKGameCenterViewController!) {
+        gameCenterViewController.dismissViewControllerAnimated(true, completion: nil)
     }
 }

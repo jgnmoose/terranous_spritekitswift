@@ -44,6 +44,81 @@
 		3F7DB1151B4C36A500D95D8B /* GameArt.1@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F7DB1101B4C36A500D95D8B /* GameArt.1@2x~ipad.png */; };
 		3F7DB1161B4C36A500D95D8B /* GameArt.1@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F7DB1111B4C36A500D95D8B /* GameArt.1@3x.png */; };
 		3F7DB1171B4C36A500D95D8B /* GameArt.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F7DB1121B4C36A500D95D8B /* GameArt.plist */; };
+		3F7DB11A1B4C66D900D95D8B /* Star.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F13A77D1B49BCCD00DDB33B /* Star.swift */; };
+		3F7DB11B1B4C66D900D95D8B /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F821AAF1B49BA650025A1B4 /* GameScene.swift */; };
+		3F7DB11C1B4C66D900D95D8B /* CGPoint+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F821ADF1B49BA6D0025A1B4 /* CGPoint+Extensions.swift */; };
+		3F7DB11D1B4C66D900D95D8B /* RetryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F13A7601B49BB6D00DDB33B /* RetryButton.swift */; };
+		3F7DB11E1B4C66D900D95D8B /* TapButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F13A7661B49BB9900DDB33B /* TapButton.swift */; };
+		3F7DB11F1B4C66D900D95D8B /* SKTTimingFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F821AE81B49BA6D0025A1B4 /* SKTTimingFunctions.swift */; };
+		3F7DB1201B4C66D900D95D8B /* SKTEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F821AE71B49BA6D0025A1B4 /* SKTEffects.swift */; };
+		3F7DB1211B4C66D900D95D8B /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F13A7581B49BB2D00DDB33B /* GameOverScene.swift */; };
+		3F7DB1221B4C66D900D95D8B /* MeteorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F13A77B1B49BCC000DDB33B /* MeteorController.swift */; };
+		3F7DB1231B4C66D900D95D8B /* StatusBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F13A7771B49BC9A00DDB33B /* StatusBar.swift */; };
+		3F7DB1241B4C66D900D95D8B /* SKAction+SpecialEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F821AE31B49BA6D0025A1B4 /* SKAction+SpecialEffects.swift */; };
+		3F7DB1251B4C66D900D95D8B /* CGVector+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F821AE01B49BA6D0025A1B4 /* CGVector+Extensions.swift */; };
+		3F7DB1261B4C66D900D95D8B /* PauseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F13A78E1B49C18500DDB33B /* PauseButton.swift */; };
+		3F7DB1271B4C66D900D95D8B /* StarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F13A77F1B49BCD600DDB33B /* StarController.swift */; };
+		3F7DB1281B4C66D900D95D8B /* Title.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7DB0C01B4A154D00D95D8B /* Title.swift */; };
+		3F7DB1291B4C66D900D95D8B /* SKAction+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F821AE21B49BA6D0025A1B4 /* SKAction+Extensions.swift */; };
+		3F7DB12A1B4C66D900D95D8B /* Background.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F13A76F1B49BC5800DDB33B /* Background.swift */; };
+		3F7DB12B1B4C66D900D95D8B /* SKColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F821AE41B49BA6D0025A1B4 /* SKColor+Extensions.swift */; };
+		3F7DB12C1B4C66D900D95D8B /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F821AB01B49BA650025A1B4 /* GameViewController.swift */; };
+		3F7DB12D1B4C66D900D95D8B /* MusicButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F13A75E1B49BB6300DDB33B /* MusicButton.swift */; };
+		3F7DB12E1B4C66D900D95D8B /* Int+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F821AE11B49BA6D0025A1B4 /* Int+Extensions.swift */; };
+		3F7DB12F1B4C66D900D95D8B /* GameAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F13A7831B49BCF600DDB33B /* GameAudio.swift */; };
+		3F7DB1301B4C66D900D95D8B /* GameFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F13A7921B49C2F400DDB33B /* GameFonts.swift */; };
+		3F7DB1311B4C66D900D95D8B /* GameKitHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7DB0CB1B4B426100D95D8B /* GameKitHelper.swift */; };
+		3F7DB1321B4C66D900D95D8B /* ScoreBoardOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F13A7901B49C2D200DDB33B /* ScoreBoardOverlay.swift */; };
+		3F7DB1331B4C66D900D95D8B /* StartButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F13A7641B49BB8E00DDB33B /* StartButton.swift */; };
+		3F7DB1341B4C66D900D95D8B /* LeadersButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F13A7621B49BB7D00DDB33B /* LeadersButton.swift */; };
+		3F7DB1351B4C66D900D95D8B /* GameParticles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F13A78A1B49BFD200DDB33B /* GameParticles.swift */; };
+		3F7DB1361B4C66D900D95D8B /* GameOver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7DB0C21B4A17C000D95D8B /* GameOver.swift */; };
+		3F7DB1371B4C66D900D95D8B /* Meteor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F13A7791B49BCB500DDB33B /* Meteor.swift */; };
+		3F7DB1381B4C66D900D95D8B /* SKNode+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F821AE51B49BA6D0025A1B4 /* SKNode+Extensions.swift */; };
+		3F7DB1391B4C66D900D95D8B /* SKTAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F821AE61B49BA6D0025A1B4 /* SKTAudio.swift */; };
+		3F7DB13A1B4C66D900D95D8B /* CGFloat+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F821ADE1B49BA6D0025A1B4 /* CGFloat+Extensions.swift */; };
+		3F7DB13B1B4C66D900D95D8B /* TitleOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F13A78C1B49C05D00DDB33B /* TitleOverlay.swift */; };
+		3F7DB13C1B4C66D900D95D8B /* GameSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F13A7851B49BD0100DDB33B /* GameSettings.swift */; };
+		3F7DB13D1B4C66D900D95D8B /* MenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F13A7561B49BB1E00DDB33B /* MenuScene.swift */; };
+		3F7DB13E1B4C66D900D95D8B /* NetworkCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F13A76C1B49BBEC00DDB33B /* NetworkCheck.swift */; };
+		3F7DB13F1B4C66D900D95D8B /* Vector3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F821AE91B49BA6D0025A1B4 /* Vector3.swift */; };
+		3F7DB1401B4C66D900D95D8B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F821AAE1B49BA650025A1B4 /* AppDelegate.swift */; };
+		3F7DB1411B4C66D900D95D8B /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F13A7751B49BC8E00DDB33B /* Player.swift */; };
+		3F7DB1421B4C66D900D95D8B /* GameTextures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F13A7811B49BCED00DDB33B /* GameTextures.swift */; };
+		3F7DB1431B4C66D900D95D8B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F13A76A1B49BBE400DDB33B /* Constants.swift */; };
+		3F7DB1451B4C66D900D95D8B /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F7DB0CD1B4B435300D95D8B /* GameKit.framework */; };
+		3F7DB1471B4C66D900D95D8B /* GameArt.1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F7DB10E1B4C36A500D95D8B /* GameArt.1.png */; };
+		3F7DB1481B4C66D900D95D8B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F821AC41B49BA6D0025A1B4 /* Default@2x.png */; };
+		3F7DB1491B4C66D900D95D8B /* Destroyed.caf in Resources */ = {isa = PBXBuildFile; fileRef = 3F821AD21B49BA6D0025A1B4 /* Destroyed.caf */; };
+		3F7DB14A1B4C66D900D95D8B /* Score.caf in Resources */ = {isa = PBXBuildFile; fileRef = 3F821AD91B49BA6D0025A1B4 /* Score.caf */; };
+		3F7DB14B1B4C66D900D95D8B /* GameArt.1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F7DB10F1B4C36A500D95D8B /* GameArt.1@2x.png */; };
+		3F7DB14C1B4C66D900D95D8B /* StarParticles-iPhone.sks in Resources */ = {isa = PBXBuildFile; fileRef = 3F821ACF1B49BA6D0025A1B4 /* StarParticles-iPhone.sks */; };
+		3F7DB14D1B4C66D900D95D8B /* BackgroundParticles-iPhone.sks in Resources */ = {isa = PBXBuildFile; fileRef = 3F821ACD1B49BA6D0025A1B4 /* BackgroundParticles-iPhone.sks */; };
+		3F7DB14E1B4C66D900D95D8B /* EngineLoop.caf in Resources */ = {isa = PBXBuildFile; fileRef = 3F821AD31B49BA6D0025A1B4 /* EngineLoop.caf */; };
+		3F7DB14F1B4C66D900D95D8B /* GameArt.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F7DB1121B4C36A500D95D8B /* GameArt.plist */; };
+		3F7DB1501B4C66D900D95D8B /* editundo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3F13A7881B49BF0900DDB33B /* editundo.ttf */; };
+		3F7DB1511B4C66D900D95D8B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F821A941B49BA0D0025A1B4 /* Images.xcassets */; };
+		3F7DB1521B4C66D900D95D8B /* StarParticles-iPad.sks in Resources */ = {isa = PBXBuildFile; fileRef = 3F821ACE1B49BA6D0025A1B4 /* StarParticles-iPad.sks */; };
+		3F7DB1531B4C66D900D95D8B /* Pixelate.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 3F13A7951B49C8E600DDB33B /* Pixelate.fsh */; };
+		3F7DB1541B4C66D900D95D8B /* EngineParticles-iPad.sks in Resources */ = {isa = PBXBuildFile; fileRef = 3F7DB0D31B4B4FA000D95D8B /* EngineParticles-iPad.sks */; };
+		3F7DB1551B4C66D900D95D8B /* Default~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F821AC61B49BA6D0025A1B4 /* Default~ipad.png */; };
+		3F7DB1561B4C66D900D95D8B /* Explode.caf in Resources */ = {isa = PBXBuildFile; fileRef = 3F821AD51B49BA6D0025A1B4 /* Explode.caf */; };
+		3F7DB1571B4C66D900D95D8B /* MenuMusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3F821ACA1B49BA6D0025A1B4 /* MenuMusic.mp3 */; };
+		3F7DB1581B4C66D900D95D8B /* IntroMusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3F821AC91B49BA6D0025A1B4 /* IntroMusic.mp3 */; };
+		3F7DB1591B4C66D900D95D8B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F821AC31B49BA6D0025A1B4 /* Default.png */; };
+		3F7DB15A1B4C66D900D95D8B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F821A911B49BA0D0025A1B4 /* Main.storyboard */; };
+		3F7DB15B1B4C66D900D95D8B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F821AC21B49BA6D0025A1B4 /* Default-568h@2x.png */; };
+		3F7DB15C1B4C66D900D95D8B /* MaxBonus.caf in Resources */ = {isa = PBXBuildFile; fileRef = 3F821AD71B49BA6D0025A1B4 /* MaxBonus.caf */; };
+		3F7DB15D1B4C66D900D95D8B /* Default@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F821AC51B49BA6D0025A1B4 /* Default@2x~ipad.png */; };
+		3F7DB15E1B4C66D900D95D8B /* BackgroundParticles-iPad.sks in Resources */ = {isa = PBXBuildFile; fileRef = 3F821ACC1B49BA6D0025A1B4 /* BackgroundParticles-iPad.sks */; };
+		3F7DB15F1B4C66D900D95D8B /* EngineStart.caf in Resources */ = {isa = PBXBuildFile; fileRef = 3F821AD41B49BA6D0025A1B4 /* EngineStart.caf */; };
+		3F7DB1601B4C66D900D95D8B /* BonusPoints.caf in Resources */ = {isa = PBXBuildFile; fileRef = 3F821AD11B49BA6D0025A1B4 /* BonusPoints.caf */; };
+		3F7DB1611B4C66D900D95D8B /* GameArt.1@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F7DB1111B4C36A500D95D8B /* GameArt.1@3x.png */; };
+		3F7DB1621B4C66D900D95D8B /* Pop.caf in Resources */ = {isa = PBXBuildFile; fileRef = 3F821AD81B49BA6D0025A1B4 /* Pop.caf */; };
+		3F7DB1631B4C66D900D95D8B /* GameMusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3F821AC81B49BA6D0025A1B4 /* GameMusic.mp3 */; };
+		3F7DB1641B4C66D900D95D8B /* EngineParticles-iPhone.sks in Resources */ = {isa = PBXBuildFile; fileRef = 3F7DB0CF1B4B4BF200D95D8B /* EngineParticles-iPhone.sks */; };
+		3F7DB1651B4C66D900D95D8B /* GameArt.1@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F7DB1101B4C36A500D95D8B /* GameArt.1@2x~ipad.png */; };
+		3F7DB1661B4C66D900D95D8B /* Lose.caf in Resources */ = {isa = PBXBuildFile; fileRef = 3F821AD61B49BA6D0025A1B4 /* Lose.caf */; };
 		3F821A931B49BA0D0025A1B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F821A911B49BA0D0025A1B4 /* Main.storyboard */; };
 		3F821A951B49BA0D0025A1B4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F821A941B49BA0D0025A1B4 /* Images.xcassets */; };
 		3F821AA41B49BA0D0025A1B4 /* TerranousTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F821AA31B49BA0D0025A1B4 /* TerranousTests.swift */; };
@@ -133,6 +208,8 @@
 		3F7DB1101B4C36A500D95D8B /* GameArt.1@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GameArt.1@2x~ipad.png"; sourceTree = "<group>"; };
 		3F7DB1111B4C36A500D95D8B /* GameArt.1@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GameArt.1@3x.png"; sourceTree = "<group>"; };
 		3F7DB1121B4C36A500D95D8B /* GameArt.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = GameArt.plist; sourceTree = "<group>"; };
+		3F7DB16A1B4C66D900D95D8B /* Terranous copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Terranous copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F7DB16B1B4C66D900D95D8B /* Terranous copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Terranous copy-Info.plist"; path = "/Users/jeremy/Documents/Projects/Books/Epic SpriteKit Tutorial in Swift - Endless Runner/Prototype/Terranous/Terranous copy-Info.plist"; sourceTree = "<absolute>"; };
 		3F821A841B49BA0D0025A1B4 /* Terranous.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Terranous.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F821A881B49BA0D0025A1B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F821A921B49BA0D0025A1B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -179,6 +256,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		3F7DB1441B4C66D900D95D8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F7DB1451B4C66D900D95D8B /* GameKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3F821A811B49BA0D0025A1B4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -335,6 +420,7 @@
 				3F821A861B49BA0D0025A1B4 /* Terranous */,
 				3F821AA01B49BA0D0025A1B4 /* TerranousTests */,
 				3F821A851B49BA0D0025A1B4 /* Products */,
+				3F7DB16B1B4C66D900D95D8B /* Terranous copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -343,6 +429,7 @@
 			children = (
 				3F821A841B49BA0D0025A1B4 /* Terranous.app */,
 				3F821A9D1B49BA0D0025A1B4 /* TerranousTests.xctest */,
+				3F7DB16A1B4C66D900D95D8B /* Terranous copy.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -526,6 +613,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		3F7DB1181B4C66D900D95D8B /* Terranous Free */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F7DB1671B4C66D900D95D8B /* Build configuration list for PBXNativeTarget "Terranous Free" */;
+			buildPhases = (
+				3F7DB1191B4C66D900D95D8B /* Sources */,
+				3F7DB1441B4C66D900D95D8B /* Frameworks */,
+				3F7DB1461B4C66D900D95D8B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Terranous Free";
+			productName = Terranous;
+			productReference = 3F7DB16A1B4C66D900D95D8B /* Terranous copy.app */;
+			productType = "com.apple.product-type.application";
+		};
 		3F821A831B49BA0D0025A1B4 /* Terranous */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3F821AA71B49BA0D0025A1B4 /* Build configuration list for PBXNativeTarget "Terranous" */;
@@ -570,6 +674,9 @@
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = "Jeremy Novak";
 				TargetAttributes = {
+					3F7DB1181B4C66D900D95D8B = {
+						DevelopmentTeam = DHP96MS93Z;
+					};
 					3F821A831B49BA0D0025A1B4 = {
 						CreatedOnToolsVersion = 6.4;
 						DevelopmentTeam = DHP96MS93Z;
@@ -599,12 +706,52 @@
 			projectRoot = "";
 			targets = (
 				3F821A831B49BA0D0025A1B4 /* Terranous */,
+				3F7DB1181B4C66D900D95D8B /* Terranous Free */,
 				3F821A9C1B49BA0D0025A1B4 /* TerranousTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		3F7DB1461B4C66D900D95D8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F7DB1471B4C66D900D95D8B /* GameArt.1.png in Resources */,
+				3F7DB1481B4C66D900D95D8B /* Default@2x.png in Resources */,
+				3F7DB1491B4C66D900D95D8B /* Destroyed.caf in Resources */,
+				3F7DB14A1B4C66D900D95D8B /* Score.caf in Resources */,
+				3F7DB14B1B4C66D900D95D8B /* GameArt.1@2x.png in Resources */,
+				3F7DB14C1B4C66D900D95D8B /* StarParticles-iPhone.sks in Resources */,
+				3F7DB14D1B4C66D900D95D8B /* BackgroundParticles-iPhone.sks in Resources */,
+				3F7DB14E1B4C66D900D95D8B /* EngineLoop.caf in Resources */,
+				3F7DB14F1B4C66D900D95D8B /* GameArt.plist in Resources */,
+				3F7DB1501B4C66D900D95D8B /* editundo.ttf in Resources */,
+				3F7DB1511B4C66D900D95D8B /* Images.xcassets in Resources */,
+				3F7DB1521B4C66D900D95D8B /* StarParticles-iPad.sks in Resources */,
+				3F7DB1531B4C66D900D95D8B /* Pixelate.fsh in Resources */,
+				3F7DB1541B4C66D900D95D8B /* EngineParticles-iPad.sks in Resources */,
+				3F7DB1551B4C66D900D95D8B /* Default~ipad.png in Resources */,
+				3F7DB1561B4C66D900D95D8B /* Explode.caf in Resources */,
+				3F7DB1571B4C66D900D95D8B /* MenuMusic.mp3 in Resources */,
+				3F7DB1581B4C66D900D95D8B /* IntroMusic.mp3 in Resources */,
+				3F7DB1591B4C66D900D95D8B /* Default.png in Resources */,
+				3F7DB15A1B4C66D900D95D8B /* Main.storyboard in Resources */,
+				3F7DB15B1B4C66D900D95D8B /* Default-568h@2x.png in Resources */,
+				3F7DB15C1B4C66D900D95D8B /* MaxBonus.caf in Resources */,
+				3F7DB15D1B4C66D900D95D8B /* Default@2x~ipad.png in Resources */,
+				3F7DB15E1B4C66D900D95D8B /* BackgroundParticles-iPad.sks in Resources */,
+				3F7DB15F1B4C66D900D95D8B /* EngineStart.caf in Resources */,
+				3F7DB1601B4C66D900D95D8B /* BonusPoints.caf in Resources */,
+				3F7DB1611B4C66D900D95D8B /* GameArt.1@3x.png in Resources */,
+				3F7DB1621B4C66D900D95D8B /* Pop.caf in Resources */,
+				3F7DB1631B4C66D900D95D8B /* GameMusic.mp3 in Resources */,
+				3F7DB1641B4C66D900D95D8B /* EngineParticles-iPhone.sks in Resources */,
+				3F7DB1651B4C66D900D95D8B /* GameArt.1@2x~ipad.png in Resources */,
+				3F7DB1661B4C66D900D95D8B /* Lose.caf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3F821A821B49BA0D0025A1B4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -654,6 +801,55 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		3F7DB1191B4C66D900D95D8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F7DB11A1B4C66D900D95D8B /* Star.swift in Sources */,
+				3F7DB11B1B4C66D900D95D8B /* GameScene.swift in Sources */,
+				3F7DB11C1B4C66D900D95D8B /* CGPoint+Extensions.swift in Sources */,
+				3F7DB11D1B4C66D900D95D8B /* RetryButton.swift in Sources */,
+				3F7DB11E1B4C66D900D95D8B /* TapButton.swift in Sources */,
+				3F7DB11F1B4C66D900D95D8B /* SKTTimingFunctions.swift in Sources */,
+				3F7DB1201B4C66D900D95D8B /* SKTEffects.swift in Sources */,
+				3F7DB1211B4C66D900D95D8B /* GameOverScene.swift in Sources */,
+				3F7DB1221B4C66D900D95D8B /* MeteorController.swift in Sources */,
+				3F7DB1231B4C66D900D95D8B /* StatusBar.swift in Sources */,
+				3F7DB1241B4C66D900D95D8B /* SKAction+SpecialEffects.swift in Sources */,
+				3F7DB1251B4C66D900D95D8B /* CGVector+Extensions.swift in Sources */,
+				3F7DB1261B4C66D900D95D8B /* PauseButton.swift in Sources */,
+				3F7DB1271B4C66D900D95D8B /* StarController.swift in Sources */,
+				3F7DB1281B4C66D900D95D8B /* Title.swift in Sources */,
+				3F7DB1291B4C66D900D95D8B /* SKAction+Extensions.swift in Sources */,
+				3F7DB12A1B4C66D900D95D8B /* Background.swift in Sources */,
+				3F7DB12B1B4C66D900D95D8B /* SKColor+Extensions.swift in Sources */,
+				3F7DB12C1B4C66D900D95D8B /* GameViewController.swift in Sources */,
+				3F7DB12D1B4C66D900D95D8B /* MusicButton.swift in Sources */,
+				3F7DB12E1B4C66D900D95D8B /* Int+Extensions.swift in Sources */,
+				3F7DB12F1B4C66D900D95D8B /* GameAudio.swift in Sources */,
+				3F7DB1301B4C66D900D95D8B /* GameFonts.swift in Sources */,
+				3F7DB1311B4C66D900D95D8B /* GameKitHelper.swift in Sources */,
+				3F7DB1321B4C66D900D95D8B /* ScoreBoardOverlay.swift in Sources */,
+				3F7DB1331B4C66D900D95D8B /* StartButton.swift in Sources */,
+				3F7DB1341B4C66D900D95D8B /* LeadersButton.swift in Sources */,
+				3F7DB1351B4C66D900D95D8B /* GameParticles.swift in Sources */,
+				3F7DB1361B4C66D900D95D8B /* GameOver.swift in Sources */,
+				3F7DB1371B4C66D900D95D8B /* Meteor.swift in Sources */,
+				3F7DB1381B4C66D900D95D8B /* SKNode+Extensions.swift in Sources */,
+				3F7DB1391B4C66D900D95D8B /* SKTAudio.swift in Sources */,
+				3F7DB13A1B4C66D900D95D8B /* CGFloat+Extensions.swift in Sources */,
+				3F7DB13B1B4C66D900D95D8B /* TitleOverlay.swift in Sources */,
+				3F7DB13C1B4C66D900D95D8B /* GameSettings.swift in Sources */,
+				3F7DB13D1B4C66D900D95D8B /* MenuScene.swift in Sources */,
+				3F7DB13E1B4C66D900D95D8B /* NetworkCheck.swift in Sources */,
+				3F7DB13F1B4C66D900D95D8B /* Vector3.swift in Sources */,
+				3F7DB1401B4C66D900D95D8B /* AppDelegate.swift in Sources */,
+				3F7DB1411B4C66D900D95D8B /* Player.swift in Sources */,
+				3F7DB1421B4C66D900D95D8B /* GameTextures.swift in Sources */,
+				3F7DB1431B4C66D900D95D8B /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3F821A801B49BA0D0025A1B4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -734,6 +930,39 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		3F7DB1681B4C66D900D95D8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"FREE=1",
+				);
+				INFOPLIST_FILE = "Terranous copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "Terranous copy";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		3F7DB1691B4C66D900D95D8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = "FREE=1";
+				INFOPLIST_FILE = "Terranous copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "Terranous copy";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
 		3F821AA51B49BA0D0025A1B4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -882,6 +1111,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		3F7DB1671B4C66D900D95D8B /* Build configuration list for PBXNativeTarget "Terranous Free" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F7DB1681B4C66D900D95D8B /* Debug */,
+				3F7DB1691B4C66D900D95D8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		3F821A7F1B49BA0D0025A1B4 /* Build configuration list for PBXProject "Terranous" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
