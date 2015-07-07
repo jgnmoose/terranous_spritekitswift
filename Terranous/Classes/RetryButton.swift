@@ -41,8 +41,10 @@ class RetryButton:SKSpriteNode {
     func animateRetryButton() {
         let moveInPop = SKAction.runBlock({
             self.runAction(SKAction.moveTo(CGPoint(x: kViewSize.width * 0.3, y: kViewSize.height * 0.25), duration: 0.25), completion: {
-                self.runAction(SKAction.scaleTo(1.25, duration: 0.25), completion: {
-                    self.runAction(SKAction.scaleTo(1.0, duration: 0.25))
+                self.runAction(SKAction.screenShakeWithNode(self, amount: CGPoint(x: 12, y: 12), oscillations: 5, duration: 0.25), completion: {
+                    self.runAction(SKAction.scaleTo(1.25, duration: 0.25), completion: {
+                        self.runAction(SKAction.scaleTo(1.0, duration: 0.25))
+                    })
                 })
             })
         })
