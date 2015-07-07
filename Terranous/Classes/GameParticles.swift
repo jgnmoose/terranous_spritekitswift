@@ -25,13 +25,17 @@ class GameParticles {
     init() {
         if kDeviceTablet {
             self.backgroundParticles = SKEmitterNode(fileNamed: "BackgroundParticles-iPad")
-            self.starParticles = SKEmitterNode(fileNamed: "StarParticle-iPad")
+            self.starParticles = SKEmitterNode(fileNamed: "StarParticles-iPad")
             self.engineParticles = SKEmitterNode(fileNamed: "EngineParticles-iPad")
         } else {
             self.backgroundParticles = SKEmitterNode(fileNamed: "BackgroundParticles-iPhone")
-            self.starParticles = SKEmitterNode(fileNamed: "StarParticle-iPhone")
-            self.engineParticles = SKEmitterNode(fileNamed: "EngineParticle-iPhone")
+            self.starParticles = SKEmitterNode(fileNamed: "StarParticles-iPhone")
+            self.engineParticles = SKEmitterNode(fileNamed: "EngineParticles-iPhone")
         }
+        
+        self.backgroundParticles.particleTexture = SKTexture(imageNamed: "Particle")
+        self.starParticles.particleTexture = SKTexture(imageNamed: "StarParticle")
+        self.engineParticles.particleTexture = SKTexture(imageNamed: "Spark")
     }
     
     func createBackgroundParticles() -> SKEmitterNode {

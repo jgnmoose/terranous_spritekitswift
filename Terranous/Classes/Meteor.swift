@@ -73,8 +73,6 @@ class Meteor: SKSpriteNode {
     // MARK: - Setup Functions
     private func setupMeteor() {
         self.name = ObjectName.Meteor
-        
-        //self.drift = RandomFloatRange(-0.25, 0.25)
     }
     
     private func setupMeteorPhysics(type: MeteorType) {

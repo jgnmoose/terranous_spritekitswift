@@ -10,7 +10,7 @@ import Foundation
 import SpriteKit
 
 // MARK: - Debug
-let kDebug = false
+let kDebug = true
 
 // MARK: - App details
 let kAppName = "Terranous - SpriteKit Swift"

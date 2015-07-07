@@ -32,7 +32,7 @@ class SpriteName {
     // Buttons
     class var ButtonStart:String    { return "StartButton" }
     class var ButtonTap:String      { return "TapButton" }
-    class var ButtonRetry:String    { return "Retry" }
+    class var ButtonRetry:String    { return "RetryButton" }
     class var ButtonLeaders:String  { return "Leaders" }
     class var ButtonPause:String    { return "PauseButton" }
     class var ButtonResume:String   { return "ResumeButton" }
@@ -54,7 +54,6 @@ class GameTextures {
     // MARK: - Public class properties
     // Shaders
     internal let shaderPixelate = SKShader(fileNamed: "Pixelate")
-    internal let shaderColorize = SKShader(fileNamed: "Colorize")
     // CGPathRefs
     internal var playerCGPath:CGMutablePathRef!
     internal var starCGPath:CGMutablePathRef!
@@ -69,7 +68,7 @@ class GameTextures {
     
     // MARK: - Init
     init() {
-        self.textureAtlas = SKTextureAtlas(named: "Sprites")
+        self.textureAtlas = SKTextureAtlas(named: "GameArt")
         
         self.shaderPixelate.uniforms = [SKUniform(name: "u_amount", float: 100.0)]
         
