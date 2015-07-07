@@ -24,6 +24,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
     func applicationWillResignActive(application: UIApplication) {
+        
         let view = self.window?.rootViewController?.view as! SKView
         view.paused = true
     }

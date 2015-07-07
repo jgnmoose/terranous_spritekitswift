@@ -26,9 +26,11 @@ class GameParticles {
         if kDeviceTablet {
             self.backgroundParticles = SKEmitterNode(fileNamed: "BackgroundParticles-iPad")
             self.starParticles = SKEmitterNode(fileNamed: "StarParticle-iPad")
+            self.engineParticles = SKEmitterNode(fileNamed: "EngineParticles-iPad")
         } else {
             self.backgroundParticles = SKEmitterNode(fileNamed: "BackgroundParticles-iPhone")
             self.starParticles = SKEmitterNode(fileNamed: "StarParticle-iPhone")
+            self.engineParticles = SKEmitterNode(fileNamed: "EngineParticle-iPhone")
         }
     }
     
@@ -38,5 +40,9 @@ class GameParticles {
     
     func createStarParticles() -> SKEmitterNode {
         return self.starParticles.copy() as! SKEmitterNode
+    }
+    
+    func createEngineParticles() -> SKEmitterNode {
+        return self.engineParticles.copy() as! SKEmitterNode
     }
 }

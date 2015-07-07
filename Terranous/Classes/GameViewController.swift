@@ -86,4 +86,9 @@ class GameViewController: UIViewController {
         
         self.presentViewController(alertView, animated: true, completion: nil)
     }
+    
+    // MARK: - deinit
+    deinit {
+        NSNotificationCenter.defaultCenter().removeObserver(self)
+    }
 }

@@ -43,6 +43,7 @@ class Player: SKSpriteNode {
         
         self.setupPlayer()
         self.setupPlayerPhysics()
+        self.setupEngineParticles()
     }
     
     // MARK: - Setup Functions
@@ -58,6 +59,12 @@ class Player: SKSpriteNode {
         self.physicsBody?.categoryBitMask = Contact.Player
         self.physicsBody?.collisionBitMask = Contact.Scene
         self.physicsBody?.contactTestBitMask = Contact.Star | Contact.Meteor
+    }
+    
+    private func setupEngineParticles() {
+        let particles = GameParticles.sharedInstance.createEngineParticles()
+        particles.zPosition = self.zPosition - 1
+        self.addChild(particles)
     }
     
     
