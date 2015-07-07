@@ -14,7 +14,7 @@ class TitleOverlay: SKNode {
     
     // MARK: - Public class properties
     internal let startButton = StartButton()
-    internal let settingsButton = SettingsButton()
+    internal let musicButton = MusicButton()
     
     // MARK: - Init
     required init?(coder aDecoder: NSCoder) {
@@ -33,7 +33,7 @@ class TitleOverlay: SKNode {
             "animateTitleIn"), userInfo: nil, repeats: false)
         
         // Settings Button animation timer
-        NSTimer.scheduledTimerWithTimeInterval(3.0, target: self, selector: Selector("animateSettingsButtonIn"), userInfo: nil, repeats: false)
+        NSTimer.scheduledTimerWithTimeInterval(3.0, target: self, selector: Selector("animateMusicButtonIn"), userInfo: nil, repeats: false)
     }
     
     // MARK: - Setup
@@ -49,9 +49,9 @@ class TitleOverlay: SKNode {
         self.startButton.animateStartButton()
     }
     
-    func animateSettingsButtonIn() {
-        self.addChild(self.settingsButton)
+    func animateMusicButtonIn() {
+        self.addChild(self.musicButton)
         
-        self.settingsButton.animateSettingsButton()
+        self.musicButton.animateMusicButton()
     }
 }

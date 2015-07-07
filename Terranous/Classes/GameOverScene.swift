@@ -59,11 +59,8 @@ class GameOverScene: SKScene {
             self.retryGame()
         }
         
-        if self.scoreBoard.settingsButton.containsPoint(touchLocation) {
-            self.scoreBoard.settingsButton.tappedSettingsButton()
-            
-            let settingsOverlay = SettingsOverlay()
-            self.gameOverSceneNode.addChild(settingsOverlay)
+        if self.scoreBoard.musicButton.containsPoint(touchLocation) {
+            self.scoreBoard.musicButton.tappedMusicButton()
         }
     }
     

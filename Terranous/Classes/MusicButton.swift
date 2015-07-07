@@ -9,7 +9,7 @@
 
 import SpriteKit
 
-class SettingsButton:SKSpriteNode {
+class MusicButton:SKSpriteNode {
     
     // MARK: - Private class properties
     
@@ -26,7 +26,7 @@ class SettingsButton:SKSpriteNode {
     }
     
     convenience init() {
-        let texture = SKTexture(imageNamed: SpriteName.ButtonSettings)
+        let texture = GameSettings.sharedInstance.getMusicEnabled() ? SKTexture(imageNamed: SpriteName.ButtonMusicOn) : SKTexture(imageNamed: SpriteName.ButtonMusicOff)
         self.init(texture: texture, color: SKColor.whiteColor(), size: texture.size())
         
         self.setupSettingsButton()
@@ -40,11 +40,7 @@ class SettingsButton:SKSpriteNode {
     }
     
     // MARK: - Animation Functions
-    func animateSettingsButton() {
-        let angle = RadiansToDegrees(-1.0)
-        
-        self.alpha = 0
-        
+    func animateMusicButton() {
         let settingsButtonAnimation = SKAction.fadeInWithDuration(1.0)
         
         settingsButtonAnimation.timingMode = SKActionTimingMode.EaseInEaseOut
@@ -53,8 +49,19 @@ class SettingsButton:SKSpriteNode {
     }
     
     // MARK: - Action Functions
-    func tappedSettingsButton() {
+    func tappedMusicButton() {
         self.runAction(GameAudio.sharedInstance.soundPop)
+        
+        var enabled = !GameSettings.sharedInstance.getMusicEnabled()
+        GameSettings.sharedInstance.saveMusicEnabled(enabled)
+        
+        let texture = enabled ? SKTexture(imageNamed: SpriteName.ButtonMusicOn) : SKTexture(imageNamed: SpriteName.ButtonMusicOff)
+        
+        if !enabled {
+            GameAudio.sharedInstance.stopBackgroundMusic()
+        }
+        
+        self.texture = texture
     }
     
 }

@@ -19,7 +19,7 @@ class ScoreBoard: SKNode {
     // MARK: - Public class properties
     internal let retryButton = RetryButton()
     internal let leadersButton = LeadersButton()
-    internal let settingsButton = SettingsButton()
+    internal let musicButton = MusicButton()
     
     // MARK: - Init
     required init?(coder aDecoder: NSCoder) {
@@ -49,7 +49,7 @@ class ScoreBoard: SKNode {
         NSTimer.scheduledTimerWithTimeInterval(1.0, target: self, selector: Selector("animateLeadersButtonIn"), userInfo: nil, repeats: false)
         
         // Settings Button animation timer
-        NSTimer.scheduledTimerWithTimeInterval(2.0, target: self, selector: Selector("animateSettingsButtonIn"), userInfo: nil, repeats: false)
+        NSTimer.scheduledTimerWithTimeInterval(2.0, target: self, selector: Selector("animateMusicButtonIn"), userInfo: nil, repeats: false)
     }
     
     // MARK: - Setup
@@ -138,9 +138,9 @@ class ScoreBoard: SKNode {
         self.leadersButton.animateLeadersButton()
     }
     
-    func animateSettingsButtonIn() {
-        self.addChild(self.settingsButton)
-        self.settingsButton.animateSettingsButton()
+    func animateMusicButtonIn() {
+        self.addChild(self.musicButton)
+        self.musicButton.animateMusicButton()
     }
 }
 

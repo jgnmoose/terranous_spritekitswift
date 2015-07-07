@@ -29,8 +29,6 @@ class SpriteName {
     class var Score:String          { return "Score" }
     class var Best:String           { return "Best" }
     class var StarsCount:String     { return "StarsCount" }
-    class var VolumeHigh:String     { return "VolumeHigh" }
-    class var VolumeLow:String      { return "VolumeLow" }
     // Buttons
     class var ButtonStart:String    { return "StartButton" }
     class var ButtonTap:String      { return "TapButton" }
@@ -38,7 +36,6 @@ class SpriteName {
     class var ButtonLeaders:String  { return "Leaders" }
     class var ButtonPause:String    { return "PauseButton" }
     class var ButtonResume:String   { return "ResumeButton" }
-    class var ButtonSettings:String { return "SettingsButton" }
     class var ButtonMusicOn:String  { return "MusicOn" }
     class var ButtonMusicOff:String { return "MusicOff" }
 }

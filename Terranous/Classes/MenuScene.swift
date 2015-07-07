@@ -57,11 +57,8 @@ class MenuScene: SKScene {
             self.loadGameScene()
         }
         
-        if self.title.settingsButton.containsPoint(touchLocation) {
-            self.title.settingsButton.tappedSettingsButton()
-            
-            let settingsOverlay = SettingsOverlay()
-            self.settingsNode.addChild(settingsOverlay)
+        if self.title.musicButton.containsPoint(touchLocation) {
+            self.title.musicButton.tappedMusicButton()
         }
     }
     
