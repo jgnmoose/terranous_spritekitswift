@@ -13,6 +13,7 @@ class StarController: SKNode {
     private var sendingStars = false
     private var movingStars = false
     private var frameCount = 0.0
+    private let star = Star()
     
     // MARK: - Init
     required init?(coder aDecoder: NSCoder) {
@@ -38,8 +39,11 @@ class StarController: SKNode {
             
             let randomVecX = RandomFloatRange(-0.25, 0.25)
             
-            let star = Star(position: CGPoint(x: startX, y: startY))
-            self.addChild(star)
+            //let star = Star(position: CGPoint(x: startX, y: startY))
+            let starCopy = self.star.copy() as! Star
+            starCopy.position = CGPoint(x: startX, y: startY)
+            starCopy.drift = RandomFloatRange(-0.25, 0.25)
+            self.addChild(starCopy)
         }
     }
     

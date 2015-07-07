@@ -10,9 +10,9 @@ import SpriteKit
 
 class Star: SKSpriteNode {
     // MARK: - Private class properties
-    private var drift = CGFloat()
     
-    // MARK: - Public class properties\
+    // MARK: - Public class properties
+    internal var drift = CGFloat()
     internal var didContact = false
     
     // MARK: - Init
@@ -24,11 +24,9 @@ class Star: SKSpriteNode {
         super.init(texture: texture, color: color, size: size)
     }
     
-    convenience init(position: CGPoint) {
+    convenience init() {
         let texture = SKTexture(imageNamed: SpriteName.Star)
         self.init(texture: texture, color: SKColor.whiteColor(), size: texture.size())
-        
-        self.position = position
         
         self.zPosition = GameLayer.Game
         
@@ -41,8 +39,6 @@ class Star: SKSpriteNode {
     // MARK: - Setup Functions
     private func setupStar() {
         self.name = ObjectName.Star
-        
-        self.drift = RandomFloatRange(-0.25, 0.25)
     }
     
     private func setupStarPhysics() {
@@ -71,7 +67,13 @@ class Star: SKSpriteNode {
     
     // MARK: - Update
     func update(delta: NSTimeInterval) {
-        self.position.y = self.position.y - CGFloat(delta * 60)
+        
+        if kDeviceTablet {
+            self.position.y = self.position.y - CGFloat(delta * 60 * 3)
+        } else {
+            self.position.y = self.position.y - CGFloat(delta * 60 * 2)
+        }
+        
         self.position.x = self.position.x + self.drift
         
         if self.position.y < (0 - self.size.height) {

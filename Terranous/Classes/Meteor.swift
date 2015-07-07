@@ -100,7 +100,13 @@ class Meteor: SKSpriteNode {
     
     // MARK: - Update
     func update(delta: NSTimeInterval) {
-        self.position.y = self.position.y - CGFloat(delta * 60)
+        
+        if kDeviceTablet {
+            self.position.y = self.position.y - CGFloat(delta * 60 * 3)
+        } else {
+            self.position.y = self.position.y - CGFloat(delta * 60 * 2)
+        }
+        
         self.position.x = self.position.x + self.drift
         
         if self.position.y < (0 - self.size.height) {

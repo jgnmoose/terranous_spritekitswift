@@ -70,7 +70,7 @@ class GameTextures {
     init() {
         self.textureAtlas = SKTextureAtlas(named: "GameArt")
         
-        self.shaderPixelate.uniforms = [SKUniform(name: "u_amount", float: 100.0)]
+        self.shaderPixelate.uniforms = [SKUniform(name: "u_amount", float: 500.0)]
         
         self.setupTextureArrays()
         

@@ -163,6 +163,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
                             self.player.destroyPlayer()
                         }
                         
+                        self.flashBackground()
                         self.shakeBackground()
                         
                         self.player.updatePlayerLives()
@@ -276,6 +277,16 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
     }
     
     // MARK: - Animation Functions
+    func flashBackground() {
+        let colorFlash = SKAction.runBlock({
+            self.backgroundColor = SKColorFromRGB(Colors.Flash)
+            self.runAction(SKAction.waitForDuration(0.5), completion: {
+                self.backgroundColor = SKColorFromRGB(Colors.Background)
+            })
+        })
+        self.runAction(colorFlash)
+    }
+    
     func shakeBackground() {
         let shake = SKAction.screenShakeWithNode(self.gameNode, amount: CGPoint(x: 20, y: 15), oscillations: 10, duration: 0.75)
         self.runAction(shake)

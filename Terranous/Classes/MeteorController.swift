@@ -44,8 +44,6 @@ class MeteorController: SKNode {
     // MARK: - Action Functions
     func sendMeteors() {
         if self.sendingMeteors {
-            //let startX = RandomFloatRange(0, kViewSize.width)
-            //let startY = RandomFloatRange(kViewSize.height, kViewSize.height * 1.25)
             
             let randomMeteorCount = RandomIntegerBetween(4, 10)
             

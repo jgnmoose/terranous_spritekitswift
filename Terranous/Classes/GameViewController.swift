@@ -38,9 +38,9 @@ class GameViewController: UIViewController {
         }
         
         if NetworkCheck.checkConnection() {
-            NSNotificationCenter.defaultCenter().addObserver(self, selector: "showAuthenticationViewController", name: "GameCenterViewController", object: nil)
+            //NSNotificationCenter.defaultCenter().addObserver(self, selector: "showAuthenticationViewController", name: "GameCenterViewController", object: nil)
             
-            GameKitHelper.sharedInstance.authenticatePlayer()
+            //GameKitHelper.sharedInstance.authenticatePlayer()
         }
     }
     
@@ -89,6 +89,6 @@ class GameViewController: UIViewController {
     
     // MARK: - deinit
     deinit {
-        NSNotificationCenter.defaultCenter().removeObserver(self)
+       // NSNotificationCenter.defaultCenter().removeObserver(self)
     }
 }

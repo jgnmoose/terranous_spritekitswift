@@ -66,9 +66,9 @@ class MenuScene: SKScene {
     private func loadGameScene() {
         self.runAction(GameAudio.sharedInstance.soundPop, completion: {
             let gameScene = GameScene(size: kViewSize)
-            gameScene.scaleMode = SKSceneScaleMode.AspectFill
+            let gameTransition = SKTransition.fadeWithColor(SKColor.blackColor(), duration: 0.25)
             
-            self.view?.presentScene(gameScene)
+            self.view?.presentScene(gameScene, transition: gameTransition)
         })
     }
 }
