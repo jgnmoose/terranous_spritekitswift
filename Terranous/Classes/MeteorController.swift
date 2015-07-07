@@ -105,20 +105,19 @@ class MeteorController: SKNode {
     func rewindMeteors() {
         self.sendingMeteors = false
         
-        self.enumerateChildNodesWithName(ObjectName.Meteor) { node, _ in
+        for node in self.children {
             if let meteor = node as? Meteor {
-                let rewind = SKAction.moveToY(meteor.position.y + kViewSize.height / 4, duration: 1.5)
-                rewind.timingMode = SKActionTimingMode.EaseInEaseOut
-                meteor.runAction(rewind)
+                self.sendingMeteors = false
+                meteor.runAction(SKAction.moveToY(meteor.position.y + meteor.size.height * 2, duration: 1.5), completion: {
+                    self.sendingMeteors = true
+                })
             }
-            
-            self.sendingMeteors = true
         }
     }
     
     // MARK: - Action Functions
     func gameOver() {
-        self.enumerateChildNodesWithName(ObjectName.Meteor) { node, _ in
+        for node in self.children {
             if let meteor = node as? Meteor {
                 meteor.gameOver()
             }

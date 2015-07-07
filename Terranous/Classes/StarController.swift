@@ -39,7 +39,6 @@ class StarController: SKNode {
             
             let randomVecX = RandomFloatRange(-0.25, 0.25)
             
-            //let star = Star(position: CGPoint(x: startX, y: startY))
             let starCopy = self.star.copy() as! Star
             starCopy.position = CGPoint(x: startX, y: startY)
             starCopy.drift = RandomFloatRange(-0.25, 0.25)
@@ -83,7 +82,7 @@ class StarController: SKNode {
     
     // MARK: - Action Functions
     func gameOver() {
-        self.enumerateChildNodesWithName(ObjectName.Star) { node, _ in
+        for node in self.children {
             if let star = node as? Star {
                 star.gameOver()
             }
