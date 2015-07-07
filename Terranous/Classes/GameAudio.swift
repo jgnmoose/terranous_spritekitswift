@@ -68,31 +68,20 @@ class GameAudio {
     
     // TODO: - Fix issues with music enabled/disabled on pause and settings change
     func stopBackgroundMusic () {
-        //        if self.musicPlayer.playing {
-        //            self.musicPlayer.stop()
-        //        }
-        if GameSettings.sharedInstance.getMusicEnabled() {
+        if self.musicPlayer.playing {
             self.musicPlayer.stop()
         }
     }
     
     func pauseBackgroundMusic () {
-        //        if self.musicPlayer.playing {
-        //            self.musicPlayer.pause()
-        //        }
-        if GameSettings.sharedInstance.getMusicEnabled() {
+        if self.musicPlayer.playing {
             self.musicPlayer.pause()
         }
     }
     
     func resumeBackgroundMusic () {
-        //self.musicPlayer.play()
-        if GameSettings.sharedInstance.getMusicEnabled() {
+        if !self.musicPlayer.playing {
             self.musicPlayer.play()
         }
-    }
-    
-    func changePlayerVolume(volume: Float) {
-        self.musicPlayer.volume = volume
     }
 }
