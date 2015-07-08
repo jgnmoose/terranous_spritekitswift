@@ -96,8 +96,6 @@ class GameFonts {
             })
         })
         
-        action.timingMode = SKActionTimingMode.EaseInEaseOut
-        
         return action
     }
     
@@ -115,8 +113,6 @@ class GameFonts {
                 })
             })
         })
-        
-        action.timingMode = SKActionTimingMode.EaseInEaseOut
         
         return action
     }

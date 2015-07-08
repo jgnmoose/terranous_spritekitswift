@@ -53,8 +53,6 @@ class StartButton:SKSpriteNode {
             })
         })
         
-        startButtonAnimation.timingMode = SKActionTimingMode.EaseInEaseOut
-        
         self.runAction(startButtonAnimation)
     }
     

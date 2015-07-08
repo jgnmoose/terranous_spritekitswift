@@ -10,16 +10,19 @@ import Foundation
 import SpriteKit
 
 // MARK: - Debug
-let kDebug = true
+let kDebug = false
 
 // MARK: - App Details
-#if FREE
-    let kAppName = "Terranous - SpriteKit Swift Free"
-    let kAppID = "1017112584"
-    #else
-let kAppName = "Terranous - SpriteKit SWift"
+//#if FREE
+//    let kAppName = "Terranous - SpriteKit Swift Free"
+//    let kAppID = "1017112584"
+//#else
+//let kAppName = "Terranous - SpriteKit Swift"
+//let kAppID = "1017101933"
+//#endif
+let kAppName = "Terranous - SpriteKit Swift"
 let kAppID = "1017101933"
-#endif
+let kLeaderBoardID = "55416474"
 let kAppStoreURL = "itms-apps://itunes.apple.com/app/id\(kAppID)"
 
 // MARK: - Font Names

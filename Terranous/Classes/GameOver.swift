@@ -41,13 +41,12 @@ class GameOver:SKSpriteNode {
     func animateGameOver() {
         let animateMovePop = SKAction.runBlock({
             self.runAction(SKAction.moveTo(CGPoint(x: kScreenCenterHorizontal, y: kViewSize.height * 0.75), duration: 0.25), completion: {
-                self.runAction(SKAction.scaleTo(1.15, duration: 0.2), completion: {
-                    self.runAction(SKAction.scaleTo(1.0, duration: 0.2))
-                })
+                self.runAction(SKAction.screenShakeWithNode(self, amount: CGPoint(x: 12, y: 12), oscillations: 8, duration: 0.5))
+//                self.runAction(SKAction.scaleTo(1.15, duration: 0.2), completion: {
+//                    self.runAction(SKAction.scaleTo(1.0, duration: 0.2))
+//                })
             })
         })
-        
-        animateMovePop.timingMode = SKActionTimingMode.EaseInEaseOut
         
         self.runAction(animateMovePop)
     }

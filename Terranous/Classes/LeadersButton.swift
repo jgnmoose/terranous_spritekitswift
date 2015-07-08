@@ -33,25 +33,21 @@ class LeadersButton:SKSpriteNode {
     // MARK: - Setup Functions
     private func setupLeadersButton() {
         // Start off screen right
-        self.position = CGPoint(x: kViewSize.width + self.size.width, y: kViewSize.height * 0.25)
+        self.position = CGPoint(x: kScreenCenterHorizontal, y: kViewSize.height * 0.4)
         
         self.zPosition = GameLayer.Interface
     }
     
     func animateLeadersButton() {
-        let moveInPop = SKAction.runBlock({
-            self.runAction(SKAction.moveTo(CGPoint(x: kViewSize.width * 0.7, y: kViewSize.height * 0.25), duration: 0.25), completion: {
-                self.runAction(SKAction.screenShakeWithNode(self, amount: CGPoint(x: 12, y: 12), oscillations: 5, duration: 0.25), completion: {
-                    self.runAction(SKAction.scaleTo(1.25, duration: 0.25), completion: {
-                        self.runAction(SKAction.scaleTo(1.0, duration: 0.25))
-                    })
+        let fadeInPop = SKAction.runBlock({
+            self.runAction(SKAction.fadeInWithDuration(0.25), completion: {
+                self.runAction(SKAction.scaleTo(1.25, duration: 0.25), completion: {
+                    self.runAction(SKAction.scaleTo(1.0, duration: 0.25))
                 })
             })
         })
         
-        moveInPop.timingMode = SKActionTimingMode.EaseInEaseOut
-        
-        self.runAction(moveInPop)
+        self.runAction(fadeInPop)
     }
     
     func tappedLeaders() {

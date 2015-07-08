@@ -7,6 +7,7 @@
 //
 
 import SpriteKit
+import GameKit
 
 class Player: SKSpriteNode {
     
@@ -15,6 +16,7 @@ class Player: SKSpriteNode {
     private var targetLocation = CGPoint()
     private var originLocation = CGPoint()
     private var filterFactor = CGFloat()
+    private var streakCount = 0
     
     // MARK: - Public class properties
     internal var lives = 3
@@ -71,13 +73,13 @@ class Player: SKSpriteNode {
     // MARK: - Enable/Disable Movement
     func enableMovement() {
         self.canMove = true
+        
+        self.runAction(GameAudio.sharedInstance.soundEngineStart)
     }
     
     func disableMovement() {
         self.canMove = false
         self.targetLocation = CGPointZero
-        
-        self.removeActionForKey("EngineSound")
     }
     
     // MARK: - Movement
@@ -117,7 +119,10 @@ class Player: SKSpriteNode {
         var floatScore = GameFonts.sharedInstance.createFloatScoreLabel()
         
         self.stars += 1
-        switch self.stars {
+        
+        self.streakCount += 1
+        
+        switch self.streakCount {
         case 0..<5:
             self.score += 250
             floatScore.text = String(250)
@@ -208,11 +213,14 @@ class Player: SKSpriteNode {
         
         self.runAction(SKAction.runBlock({
             self.hidden = true
+            self.streakCount = 0
             self.disableMovement()
             self.targetLocation = CGPoint(x: kScreenCenterHorizontal, y: kViewSize.height * 0.25)
             self.runAction(SKAction.moveTo(self.targetLocation, duration: 0), completion: {
                 self.hidden = false
-                self.enableMovement()
+                self.runAction(SKAction.waitForDuration(0.25), completion: {
+                    self.enableMovement()
+                })
             })
         }))
         
@@ -274,6 +282,25 @@ class Player: SKSpriteNode {
         
         if self.stars > GameSettings.sharedInstance.getBestStars() || GameSettings.sharedInstance.getBestStars() == 0 {
             GameSettings.sharedInstance.saveStarsCollected(self.stars)
+        }
+        
+        if GameKitHelper.sharedInstance.enableGameCenter {
+            if GKLocalPlayer.localPlayer().authenticated {
+                let gkScore = GKScore(leaderboardIdentifier: kLeaderBoardID)
+                gkScore.value = Int64(GameSettings.sharedInstance.getBestScore())
+                
+                GKScore.reportScores([gkScore], withCompletionHandler: ({ (error: NSError!) -> Void in
+                    if (error != nil) {
+                        if kDebug {
+                            println("Error: " + error.localizedDescription)
+                        }
+                    } else {
+                        if kDebug {
+                            println("Score reported: \(gkScore.value)")
+                        }
+                    }
+                }))
+            }
         }
     }
 }

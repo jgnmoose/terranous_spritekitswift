@@ -43,7 +43,7 @@ class MeteorController: SKNode {
     func sendMeteors() {
         if self.sendingMeteors {
             
-            let randomMeteorCount = RandomIntegerBetween(4, 10)
+            let randomMeteorCount = RandomIntegerBetween(6, 10)
             
             for var i = 0; i <= randomMeteorCount; i++ {
                 let randomMeteorIndex = RandomIntegerBetween(0, 4)
@@ -58,11 +58,12 @@ class MeteorController: SKNode {
                 let meteor = self.meteorArray[randomMeteorIndex].copy() as! Meteor
                 meteor.drift = RandomFloatRange(-0.5, 0.5)
                 
-                //meteor.position = CGPoint(x: startX + offsetX * CGFloat(randomMeteorIndex), y: startY)
                 meteor.position = CGPoint(x: startX, y: startY)
                 
                 self.addChild(meteor)
             }
+            
+            NSNotificationCenter.defaultCenter().postNotificationName("rumbleScreen", object: nil)
         }
     }
     

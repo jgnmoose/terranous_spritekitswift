@@ -46,9 +46,9 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
             GameAudio.sharedInstance.playBackgroundMusic(Music.Intro)
         }
         
-        #if FREE
-            NSNotificationCenter.defaultCenter().postNotificationName("AdBannerHide", object: nil)
-        #endif
+#if FREE
+        NSNotificationCenter.defaultCenter().postNotificationName("AdBannerHide", object: nil)
+#endif
         
         self.setupGameScene()
     }
@@ -228,8 +228,6 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
             })
         })
         
-        action.timingMode = SKActionTimingMode.EaseInEaseOut
-        
         
         getReady.runAction(action)
     }
@@ -274,8 +272,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
     
     // MARK: - Action Functions
     func updateDistanceTickScore() {
-        // Increase the player's score by 1 * player.lives per second
-        self.player.updatePlayerScore(1 * player.lives)
+        self.player.updatePlayerScore(1)
         self.statusBar.updateScore(self.player.score)
     }
     
@@ -293,5 +290,9 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
     func shakeBackground() {
         let shake = SKAction.screenShakeWithNode(self.gameNode, amount: CGPoint(x: 20, y: 15), oscillations: 10, duration: 0.75)
         self.runAction(shake)
+    }
+    
+    // MARK: - Deinit
+    deinit {
     }
 }

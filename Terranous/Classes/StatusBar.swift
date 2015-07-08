@@ -118,7 +118,6 @@ class StatusBar: SKNode {
         let scaleUp = SKAction.scaleTo(1.5, duration: 0.12)
         let scaleNormal = SKAction.scaleTo(1.0, duration: 0.12)
         let scaleSequence = SKAction.sequence([scaleUp, scaleNormal])
-        scaleSequence.timingMode = SKActionTimingMode.EaseInEaseOut
         
         self.starsCollected.runAction(scaleSequence)
         

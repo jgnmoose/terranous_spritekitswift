@@ -36,7 +36,6 @@
 		3F7DB0C11B4A154D00D95D8B /* Title.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7DB0C01B4A154D00D95D8B /* Title.swift */; };
 		3F7DB0C31B4A17C000D95D8B /* GameOver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7DB0C21B4A17C000D95D8B /* GameOver.swift */; };
 		3F7DB0CC1B4B426100D95D8B /* GameKitHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7DB0CB1B4B426100D95D8B /* GameKitHelper.swift */; };
-		3F7DB0CE1B4B435300D95D8B /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F7DB0CD1B4B435300D95D8B /* GameKit.framework */; };
 		3F7DB0D11B4B4BF200D95D8B /* EngineParticles-iPhone.sks in Resources */ = {isa = PBXBuildFile; fileRef = 3F7DB0CF1B4B4BF200D95D8B /* EngineParticles-iPhone.sks */; };
 		3F7DB0D41B4B4FA000D95D8B /* EngineParticles-iPad.sks in Resources */ = {isa = PBXBuildFile; fileRef = 3F7DB0D31B4B4FA000D95D8B /* EngineParticles-iPad.sks */; };
 		3F7DB1131B4C36A500D95D8B /* GameArt.1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F7DB10E1B4C36A500D95D8B /* GameArt.1.png */; };
@@ -86,7 +85,6 @@
 		3F7DB1411B4C66D900D95D8B /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F13A7751B49BC8E00DDB33B /* Player.swift */; };
 		3F7DB1421B4C66D900D95D8B /* GameTextures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F13A7811B49BCED00DDB33B /* GameTextures.swift */; };
 		3F7DB1431B4C66D900D95D8B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F13A76A1B49BBE400DDB33B /* Constants.swift */; };
-		3F7DB1451B4C66D900D95D8B /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F7DB0CD1B4B435300D95D8B /* GameKit.framework */; };
 		3F7DB1471B4C66D900D95D8B /* GameArt.1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F7DB10E1B4C36A500D95D8B /* GameArt.1.png */; };
 		3F7DB1481B4C66D900D95D8B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F821AC41B49BA6D0025A1B4 /* Default@2x.png */; };
 		3F7DB1491B4C66D900D95D8B /* Destroyed.caf in Resources */ = {isa = PBXBuildFile; fileRef = 3F821AD21B49BA6D0025A1B4 /* Destroyed.caf */; };
@@ -94,7 +92,6 @@
 		3F7DB14B1B4C66D900D95D8B /* GameArt.1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F7DB10F1B4C36A500D95D8B /* GameArt.1@2x.png */; };
 		3F7DB14C1B4C66D900D95D8B /* StarParticles-iPhone.sks in Resources */ = {isa = PBXBuildFile; fileRef = 3F821ACF1B49BA6D0025A1B4 /* StarParticles-iPhone.sks */; };
 		3F7DB14D1B4C66D900D95D8B /* BackgroundParticles-iPhone.sks in Resources */ = {isa = PBXBuildFile; fileRef = 3F821ACD1B49BA6D0025A1B4 /* BackgroundParticles-iPhone.sks */; };
-		3F7DB14E1B4C66D900D95D8B /* EngineLoop.caf in Resources */ = {isa = PBXBuildFile; fileRef = 3F821AD31B49BA6D0025A1B4 /* EngineLoop.caf */; };
 		3F7DB14F1B4C66D900D95D8B /* GameArt.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F7DB1121B4C36A500D95D8B /* GameArt.plist */; };
 		3F7DB1501B4C66D900D95D8B /* editundo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3F13A7881B49BF0900DDB33B /* editundo.ttf */; };
 		3F7DB1511B4C66D900D95D8B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F821A941B49BA0D0025A1B4 /* Images.xcassets */; };
@@ -139,7 +136,6 @@
 		3F821AFF1B49BA6D0025A1B4 /* StarParticles-iPhone.sks in Resources */ = {isa = PBXBuildFile; fileRef = 3F821ACF1B49BA6D0025A1B4 /* StarParticles-iPhone.sks */; };
 		3F821B001B49BA6D0025A1B4 /* BonusPoints.caf in Resources */ = {isa = PBXBuildFile; fileRef = 3F821AD11B49BA6D0025A1B4 /* BonusPoints.caf */; };
 		3F821B011B49BA6D0025A1B4 /* Destroyed.caf in Resources */ = {isa = PBXBuildFile; fileRef = 3F821AD21B49BA6D0025A1B4 /* Destroyed.caf */; };
-		3F821B021B49BA6D0025A1B4 /* EngineLoop.caf in Resources */ = {isa = PBXBuildFile; fileRef = 3F821AD31B49BA6D0025A1B4 /* EngineLoop.caf */; };
 		3F821B031B49BA6D0025A1B4 /* EngineStart.caf in Resources */ = {isa = PBXBuildFile; fileRef = 3F821AD41B49BA6D0025A1B4 /* EngineStart.caf */; };
 		3F821B041B49BA6D0025A1B4 /* Explode.caf in Resources */ = {isa = PBXBuildFile; fileRef = 3F821AD51B49BA6D0025A1B4 /* Explode.caf */; };
 		3F821B051B49BA6D0025A1B4 /* Lose.caf in Resources */ = {isa = PBXBuildFile; fileRef = 3F821AD61B49BA6D0025A1B4 /* Lose.caf */; };
@@ -158,6 +154,8 @@
 		3F821B131B49BA6D0025A1B4 /* SKTEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F821AE71B49BA6D0025A1B4 /* SKTEffects.swift */; };
 		3F821B141B49BA6D0025A1B4 /* SKTTimingFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F821AE81B49BA6D0025A1B4 /* SKTTimingFunctions.swift */; };
 		3F821B151B49BA6D0025A1B4 /* Vector3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F821AE91B49BA6D0025A1B4 /* Vector3.swift */; };
+		3FD4A5C81B4C8006005644FE /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FD4A5C71B4C8006005644FE /* iAd.framework */; };
+		3FD4A5CA1B4CA86A005644FE /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FD4A5C91B4CA86A005644FE /* GameKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -200,7 +198,6 @@
 		3F7DB0C01B4A154D00D95D8B /* Title.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Title.swift; sourceTree = "<group>"; };
 		3F7DB0C21B4A17C000D95D8B /* GameOver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOver.swift; sourceTree = "<group>"; };
 		3F7DB0CB1B4B426100D95D8B /* GameKitHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameKitHelper.swift; sourceTree = "<group>"; };
-		3F7DB0CD1B4B435300D95D8B /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
 		3F7DB0CF1B4B4BF200D95D8B /* EngineParticles-iPhone.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = "EngineParticles-iPhone.sks"; sourceTree = "<group>"; };
 		3F7DB0D31B4B4FA000D95D8B /* EngineParticles-iPad.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = "EngineParticles-iPad.sks"; sourceTree = "<group>"; };
 		3F7DB10E1B4C36A500D95D8B /* GameArt.1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GameArt.1.png; sourceTree = "<group>"; };
@@ -234,7 +231,6 @@
 		3F821ACF1B49BA6D0025A1B4 /* StarParticles-iPhone.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = "StarParticles-iPhone.sks"; sourceTree = "<group>"; };
 		3F821AD11B49BA6D0025A1B4 /* BonusPoints.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = BonusPoints.caf; sourceTree = "<group>"; };
 		3F821AD21B49BA6D0025A1B4 /* Destroyed.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Destroyed.caf; sourceTree = "<group>"; };
-		3F821AD31B49BA6D0025A1B4 /* EngineLoop.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = EngineLoop.caf; sourceTree = "<group>"; };
 		3F821AD41B49BA6D0025A1B4 /* EngineStart.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = EngineStart.caf; sourceTree = "<group>"; };
 		3F821AD51B49BA6D0025A1B4 /* Explode.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Explode.caf; sourceTree = "<group>"; };
 		3F821AD61B49BA6D0025A1B4 /* Lose.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Lose.caf; sourceTree = "<group>"; };
@@ -253,6 +249,8 @@
 		3F821AE71B49BA6D0025A1B4 /* SKTEffects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKTEffects.swift; sourceTree = "<group>"; };
 		3F821AE81B49BA6D0025A1B4 /* SKTTimingFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKTTimingFunctions.swift; sourceTree = "<group>"; };
 		3F821AE91B49BA6D0025A1B4 /* Vector3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vector3.swift; sourceTree = "<group>"; };
+		3FD4A5C71B4C8006005644FE /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		3FD4A5C91B4CA86A005644FE /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -260,7 +258,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F7DB1451B4C66D900D95D8B /* GameKit.framework in Frameworks */,
+				3FD4A5C81B4C8006005644FE /* iAd.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +266,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F7DB0CE1B4B435300D95D8B /* GameKit.framework in Frameworks */,
+				3FD4A5CA1B4CA86A005644FE /* GameKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,7 +414,8 @@
 		3F821A7B1B49BA0D0025A1B4 = {
 			isa = PBXGroup;
 			children = (
-				3F7DB0CD1B4B435300D95D8B /* GameKit.framework */,
+				3FD4A5C91B4CA86A005644FE /* GameKit.framework */,
+				3FD4A5C71B4C8006005644FE /* iAd.framework */,
 				3F821A861B49BA0D0025A1B4 /* Terranous */,
 				3F821AA01B49BA0D0025A1B4 /* TerranousTests */,
 				3F821A851B49BA0D0025A1B4 /* Products */,
@@ -552,7 +551,6 @@
 			children = (
 				3F821AD11B49BA6D0025A1B4 /* BonusPoints.caf */,
 				3F821AD21B49BA6D0025A1B4 /* Destroyed.caf */,
-				3F821AD31B49BA6D0025A1B4 /* EngineLoop.caf */,
 				3F821AD41B49BA6D0025A1B4 /* EngineStart.caf */,
 				3F821AD51B49BA6D0025A1B4 /* Explode.caf */,
 				3F821AD61B49BA6D0025A1B4 /* Lose.caf */,
@@ -676,6 +674,11 @@
 				TargetAttributes = {
 					3F7DB1181B4C66D900D95D8B = {
 						DevelopmentTeam = DHP96MS93Z;
+						SystemCapabilities = {
+							com.apple.GameCenter = {
+								enabled = 0;
+							};
+						};
 					};
 					3F821A831B49BA0D0025A1B4 = {
 						CreatedOnToolsVersion = 6.4;
@@ -724,7 +727,6 @@
 				3F7DB14B1B4C66D900D95D8B /* GameArt.1@2x.png in Resources */,
 				3F7DB14C1B4C66D900D95D8B /* StarParticles-iPhone.sks in Resources */,
 				3F7DB14D1B4C66D900D95D8B /* BackgroundParticles-iPhone.sks in Resources */,
-				3F7DB14E1B4C66D900D95D8B /* EngineLoop.caf in Resources */,
 				3F7DB14F1B4C66D900D95D8B /* GameArt.plist in Resources */,
 				3F7DB1501B4C66D900D95D8B /* editundo.ttf in Resources */,
 				3F7DB1511B4C66D900D95D8B /* Images.xcassets in Resources */,
@@ -763,7 +765,6 @@
 				3F7DB1141B4C36A500D95D8B /* GameArt.1@2x.png in Resources */,
 				3F821AFF1B49BA6D0025A1B4 /* StarParticles-iPhone.sks in Resources */,
 				3F821AFD1B49BA6D0025A1B4 /* BackgroundParticles-iPhone.sks in Resources */,
-				3F821B021B49BA6D0025A1B4 /* EngineLoop.caf in Resources */,
 				3F7DB1171B4C36A500D95D8B /* GameArt.plist in Resources */,
 				3F13A7891B49BF0900DDB33B /* editundo.ttf in Resources */,
 				3F821A951B49BA0D0025A1B4 /* Images.xcassets in Resources */,
@@ -936,13 +937,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"FREE=1",
-				);
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
 				INFOPLIST_FILE = "Terranous copy-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "-D FREE";
 				PRODUCT_NAME = "Terranous copy";
 				PROVISIONING_PROFILE = "";
 			};
@@ -954,10 +953,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				GCC_PREPROCESSOR_DEFINITIONS = "FREE=1";
+				GCC_PREPROCESSOR_DEFINITIONS = "";
 				INFOPLIST_FILE = "Terranous copy-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "-D FREE";
 				PRODUCT_NAME = "Terranous copy";
 				PROVISIONING_PROFILE = "";
 			};
@@ -1052,9 +1052,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
 				INFOPLIST_FILE = Terranous/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "-D FREE";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 			};
@@ -1066,9 +1068,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = "";
 				INFOPLIST_FILE = Terranous/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "-D FREE";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 			};

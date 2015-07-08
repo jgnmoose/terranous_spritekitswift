@@ -23,7 +23,6 @@ private class SoundEffects {
     class var Lose:String           { return "Lose.caf" }
     class var Explode:String        { return "Explode.caf" }
     class var Destroyed:String      { return "Destroyed.caf" }
-    class var Engine:String         { return "EngineLoop.caf" }
     class var EngineStart:String    { return "EngineStart.caf" }
 }
 
@@ -37,9 +36,9 @@ class GameAudio {
     
     // MARK: - Private class properties
     private var musicPlayer = AVAudioPlayer()
+    private var playing = false
     
     // MARK: - Public class properties
-    internal let soundEngine = SKAction.playSoundFileNamed(SoundEffects.Engine, waitForCompletion: false)
     internal let soundEngineStart = SKAction.playSoundFileNamed(SoundEffects.EngineStart, waitForCompletion: false)
     internal let soundScore = SKAction.playSoundFileNamed(SoundEffects.Score, waitForCompletion: false)
     internal let soundBonus = SKAction.playSoundFileNamed(SoundEffects.Bonus, waitForCompletion: false)
@@ -63,25 +62,28 @@ class GameAudio {
         self.musicPlayer.volume = 0.25
         self.musicPlayer.prepareToPlay()
         self.musicPlayer.play()
+        self.playing = true
     }
     
     
-    // TODO: - Fix issues with music enabled/disabled on pause and settings change
     func stopBackgroundMusic () {
-        if self.musicPlayer.playing {
+        if self.playing {
             self.musicPlayer.stop()
+            self.playing = false
         }
     }
     
     func pauseBackgroundMusic () {
-        if self.musicPlayer.playing {
+        if self.playing {
             self.musicPlayer.pause()
+            self.playing = false
         }
     }
     
     func resumeBackgroundMusic () {
-        if !self.musicPlayer.playing {
+        if !self.playing {
             self.musicPlayer.play()
+            self.playing = true
         }
     }
 }

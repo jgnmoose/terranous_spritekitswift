@@ -19,10 +19,10 @@ class GameViewController: UIViewController, ADBannerViewDelegate {
     private let settings = GameSettings.sharedInstance
     
     // MARK: - iAd
-    #if FREE
+#if FREE
     let bannerView = ADBannerView(adType: ADAdType.Banner)
     var bannerLoaded = false
-    #endif
+#endif
     
     override func viewWillLayoutSubviews() {
         super.viewWillLayoutSubviews()
@@ -45,13 +45,9 @@ class GameViewController: UIViewController, ADBannerViewDelegate {
             }
         }
         
-        if NetworkCheck.checkConnection() {
-            if !kDebug {
-                NSNotificationCenter.defaultCenter().addObserver(self, selector: "showAuthenticationViewController", name: "GameCenterViewController", object: nil)
-                
-                GameKitHelper.sharedInstance.authenticatePlayer()
-            }
-        }
+        NSNotificationCenter.defaultCenter().addObserver(self, selector: "showAuthenticationViewController", name: "GameCenterViewController", object: nil)
+        
+        GameKitHelper.sharedInstance.authenticatePlayer()
     }
     
     override func viewDidAppear(animated: Bool) {
@@ -61,19 +57,16 @@ class GameViewController: UIViewController, ADBannerViewDelegate {
     }
     
     override func viewWillAppear(animated: Bool) {
-        #if FREE
-            if NetworkCheck.checkConnection() {
-            
-                bannerView.frame = CGRectMake(0, self.view.frame.size.height - bannerView.frame.size.height, self.view.frame.size.width, bannerView.frame.size.height)
-                bannerView.autoresizingMask = UIViewAutoresizing.FlexibleTopMargin | UIViewAutoresizing.FlexibleWidth
-                bannerView.hidden = true
-                bannerView.delegate = self
-                self.view.addSubview(bannerView)
-            
-                NSNotificationCenter.defaultCenter().addObserver(self, selector: "showAds", name: "AdBannerShow", object: nil)
-                NSNotificationCenter.defaultCenter().addObserver(self, selector: "hideAds", name: "AdBannerHide", object: nil)
-            }
-        #endif
+#if FREE
+        bannerView.frame = CGRectMake(0, self.view.frame.size.height - bannerView.frame.size.height, self.view.frame.size.width, bannerView.frame.size.height)
+        bannerView.autoresizingMask = UIViewAutoresizing.FlexibleTopMargin | UIViewAutoresizing.FlexibleWidth
+        bannerView.hidden = true
+        bannerView.delegate = self
+        self.view.addSubview(bannerView)
+        
+        NSNotificationCenter.defaultCenter().addObserver(self, selector: "showAds", name: "AdBannerShow", object: nil)
+        NSNotificationCenter.defaultCenter().addObserver(self, selector: "hideAds", name: "AdBannerHide", object: nil)
+#endif
     }
     
     override func shouldAutorotate() -> Bool {
@@ -120,7 +113,7 @@ class GameViewController: UIViewController, ADBannerViewDelegate {
     }
     
     // MARK: - iAd functions
-    #if FREE
+#if FREE
     func showAds() {
         self.bannerView.hidden = false
     }
@@ -138,7 +131,7 @@ class GameViewController: UIViewController, ADBannerViewDelegate {
     }
     
     func bannerViewActionDidFinish(banner: ADBannerView!) {
-        let skView = self.view as SKView
+        let skView = self.view as! SKView
         skView.scene?.paused = false
     
         GameAudio.sharedInstance.resumeBackgroundMusic()
@@ -147,7 +140,7 @@ class GameViewController: UIViewController, ADBannerViewDelegate {
     }
     
     func bannerViewActionShouldBegin(banner: ADBannerView!, willLeaveApplication willLeave: Bool) -> Bool {
-        let skView = self.view as SKView
+        let skView = self.view as! SKView
         skView.scene?.paused = true
     
         GameAudio.sharedInstance.pauseBackgroundMusic()
@@ -158,12 +151,10 @@ class GameViewController: UIViewController, ADBannerViewDelegate {
     func bannerView(banner: ADBannerView!, didFailToReceiveAdWithError error: NSError!) {
         self.bannerView.hidden = true
     }
-    #endif
+#endif
     
     // MARK: - deinit
     deinit {
-        if !kDebug {
-            NSNotificationCenter.defaultCenter().removeObserver(self)
-        }
+        NSNotificationCenter.defaultCenter().removeObserver(self)
     }
 }

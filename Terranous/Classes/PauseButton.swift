@@ -33,7 +33,8 @@ class PauseButton:SKSpriteNode {
     
     // MARK: - Setup Functions
     private func setupPauseButton() {
-        self.position = CGPoint(x: kViewSize.width - self.size.width / 2, y: kViewSize.height - self.size.height / 2)
+        self.anchorPoint = CGPoint(x: 1.0, y: 1.0)
+        self.position = CGPoint(x: kViewSize.width, y: kViewSize.height)
         
         self.zPosition = GameLayer.Interface
     }

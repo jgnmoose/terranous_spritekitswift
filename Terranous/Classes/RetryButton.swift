@@ -32,24 +32,21 @@ class RetryButton:SKSpriteNode {
     
     // MARK: - Setup Functions
     private func setupRetryButton() {
-        // Start off screen left
-        self.position = CGPoint(x: -kScreenCenterHorizontal + self.size.width, y: kViewSize.height * 0.25)
+        self.position = CGPoint(x: kScreenCenterHorizontal, y: -self.size.height)
         
         self.zPosition = GameLayer.Interface
     }
     
     func animateRetryButton() {
         let moveInPop = SKAction.runBlock({
-            self.runAction(SKAction.moveTo(CGPoint(x: kViewSize.width * 0.3, y: kViewSize.height * 0.25), duration: 0.25), completion: {
-                self.runAction(SKAction.screenShakeWithNode(self, amount: CGPoint(x: 12, y: 12), oscillations: 5, duration: 0.25), completion: {
-                    self.runAction(SKAction.scaleTo(1.25, duration: 0.25), completion: {
-                        self.runAction(SKAction.scaleTo(1.0, duration: 0.25))
-                    })
+            self.runAction(SKAction.moveTo(CGPoint(x: kScreenCenterHorizontal, y: kViewSize.height * 0.25), duration: 0.25), completion: {
+                self.runAction(SKAction.screenShakeWithNode(self, amount: CGPoint(x: 8, y: 8), oscillations: 8, duration: 0.5), completion: {
+//                    self.runAction(SKAction.scaleTo(1.25, duration: 0.25), completion: {
+//                        self.runAction(SKAction.scaleTo(1.0, duration: 0.25))
+//                    })
                 })
             })
         })
-        
-        moveInPop.timingMode = SKActionTimingMode.EaseInEaseOut
         
         self.runAction(moveInPop)
     }

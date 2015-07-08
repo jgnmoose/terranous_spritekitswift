@@ -48,8 +48,6 @@ class Title:SKSpriteNode {
             })
         })
         
-        titleAnimation.timingMode = SKActionTimingMode.EaseInEaseOut
-        
         self.runAction(titleAnimation)
     }    
 }

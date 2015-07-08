@@ -43,8 +43,6 @@ class MusicButton:SKSpriteNode {
     func animateMusicButton() {
         let settingsButtonAnimation = SKAction.fadeInWithDuration(1.0)
         
-        settingsButtonAnimation.timingMode = SKActionTimingMode.EaseInEaseOut
-        
         self.runAction(settingsButtonAnimation)
     }
     

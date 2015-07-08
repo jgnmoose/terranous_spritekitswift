@@ -54,7 +54,7 @@ class ScoreBoard: SKNode {
     
     // MARK: - Setup
     private func setupGameOverBackground() {
-        let backgroundSize = CGRectMake(0, 0, kViewSize.width * 0.8, kViewSize.height * 0.25)
+        let backgroundSize = CGRectMake(0, 0, kViewSize.width * 0.8, kViewSize.height * 0.3)
         
         self.background = SKShapeNode(rect: backgroundSize, cornerRadius: 5)
         self.background.fillColor = SKColorFromRGB(Colors.Background)
@@ -65,7 +65,7 @@ class ScoreBoard: SKNode {
             self.background.lineWidth = 3.0
         }
         
-        self.background.position = CGPoint(x: kViewSize.width * 0.1, y: kViewSize.height * 0.4)
+        self.background.position = CGPoint(x: kViewSize.width * 0.1, y: kViewSize.height * 0.35)
         
         self.background.alpha = 0.75
         

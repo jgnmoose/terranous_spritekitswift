@@ -36,9 +36,9 @@ class GameOverScene: SKScene, GKGameCenterControllerDelegate {
             GameAudio.sharedInstance.playBackgroundMusic(Music.Menu)
         }
         
-        #if FREE
-            NSNotificationCenter.defaultCenter().postNotificationName("AdBannerShow", object: nil)
-        #endif
+#if FREE
+        NSNotificationCenter.defaultCenter().postNotificationName("AdBannerShow", object: nil)
+#endif
     }
     
     // MARK: - Setup Functions
@@ -66,6 +66,11 @@ class GameOverScene: SKScene, GKGameCenterControllerDelegate {
         
         if self.scoreBoard.musicButton.containsPoint(touchLocation) {
             self.scoreBoard.musicButton.tappedMusicButton()
+        }
+        
+        if self.scoreBoard.leadersButton.containsPoint(touchLocation) {
+            self.scoreBoard.leadersButton.tappedLeaders()
+            self.showLeaderBoard()
         }
     }
     

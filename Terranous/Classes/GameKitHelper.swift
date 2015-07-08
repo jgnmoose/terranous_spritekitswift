@@ -16,10 +16,10 @@ class GameKitHelper:NSObject {
     }
     
     // MARK: - Private class properties
-    private var enableGameCenter = false
     
     // MARK: - Public class properties
     var authenticationViewController = UIViewController()
+    internal var enableGameCenter = false
     
     // MARK: - Init
     override init() {
