@@ -7,7 +7,7 @@
             <key>generator</key>
             <string>TexturePacker 3.5.3 - http://www.codeandweb.com/texturepacker</string>
             <key>smartupdate</key>
-            <string>$TexturePacker:SmartUpdate:9018a0281ddad1ec0fc8d9e47a3b88e7:57ad06f4691a3caa784fb0dbe3fb4cf2:9af56d4e8262ad9c81f944bb5d1df21f$</string>
+            <string>$TexturePacker:SmartUpdate:50020adfe95eef17a2c6ca62b45d6153:1d52e5f50a342e0f6545814b653fc5f9:9af56d4e8262ad9c81f944bb5d1df21f$</string>
         </dict>
         <key>format</key>
         <string>APPL</string>
@@ -17,7 +17,7 @@
                 <key>path</key>
                 <string>GameArt.1@2x~ipad.png</string>
                 <key>size</key>
-                <string>{2030,501}</string>
+                <string>{2022,511}</string>
                 <key>subimages</key>
                 <array>
                     <dict>
@@ -26,349 +26,13 @@
                         <key>isFullyOpaque</key>
                         <false/>
                         <key>name</key>
-                        <string>GetReady@2x~ipad.png</string>
-                        <key>spriteOffset</key>
-                        <string>{1,2}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{388,60}</string>
-                        <key>textureRect</key>
-                        <string>{{2,2},{57,386}}</string>
-                        <key>textureRotated</key>
-                        <true/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>Explosion2@2x~ipad.png</string>
-                        <key>spriteOffset</key>
-                        <string>{0,0}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{128,109}</string>
-                        <key>textureRect</key>
-                        <string>{{2,390},{128,109}}</string>
-                        <key>textureRotated</key>
-                        <false/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>Leaders@2x~ipad.png</string>
-                        <key>spriteOffset</key>
-                        <string>{1,2}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{384,72}</string>
-                        <key>textureRect</key>
-                        <string>{{61,2},{69,382}}</string>
-                        <key>textureRotated</key>
-                        <true/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>Bonus@2x~ipad.png</string>
-                        <key>spriteOffset</key>
-                        <string>{1,0}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{269,60}</string>
-                        <key>textureRect</key>
-                        <string>{{132,2},{60,267}}</string>
-                        <key>textureRotated</key>
-                        <true/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>Meteor0@2x~ipad.png</string>
-                        <key>spriteOffset</key>
-                        <string>{1,1}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{192,157}</string>
-                        <key>textureRect</key>
-                        <string>{{132,271},{154,190}}</string>
-                        <key>textureRotated</key>
-                        <true/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>Score@2x~ipad.png</string>
-                        <key>spriteOffset</key>
-                        <string>{0,1}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{155,36}</string>
-                        <key>textureRect</key>
-                        <string>{{132,463},{154,35}}</string>
-                        <key>textureRotated</key>
-                        <false/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>RetryButton@2x~ipad.png</string>
-                        <key>spriteOffset</key>
-                        <string>{3,2}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{256,257}</string>
-                        <key>textureRect</key>
-                        <string>{{194,2},{251,252}}</string>
-                        <key>textureRotated</key>
-                        <false/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
                         <string>Terranous@2x~ipad.png</string>
                         <key>spriteOffset</key>
-                        <string>{5,5}</string>
+                        <string>{7,0}</string>
                         <key>spriteSourceSize</key>
-                        <string>{1152,171}</string>
+                        <string>{1244,172}</string>
                         <key>textureRect</key>
-                        <string>{{288,256},{1144,161}}</string>
-                        <key>textureRotated</key>
-                        <false/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>YourScore@2x~ipad.png</string>
-                        <key>spriteOffset</key>
-                        <string>{1,2}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{633,84}</string>
-                        <key>textureRect</key>
-                        <string>{{288,419},{630,80}}</string>
-                        <key>textureRotated</key>
-                        <false/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>StartButton@2x~ipad.png</string>
-                        <key>spriteOffset</key>
-                        <string>{3,2}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{256,257}</string>
-                        <key>textureRect</key>
-                        <string>{{447,2},{251,252}}</string>
-                        <key>textureRotated</key>
-                        <false/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>TapButton@2x~ipad.png</string>
-                        <key>spriteOffset</key>
-                        <string>{3,2}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{256,257}</string>
-                        <key>textureRect</key>
-                        <string>{{700,2},{251,252}}</string>
-                        <key>textureRotated</key>
-                        <false/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>Spark@2x~ipad.png</string>
-                        <key>spriteOffset</key>
-                        <string>{0,0}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{64,64}</string>
-                        <key>textureRect</key>
-                        <string>{{920,419},{63,64}}</string>
-                        <key>textureRotated</key>
-                        <false/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>Meteor4@2x~ipad.png</string>
-                        <key>spriteOffset</key>
-                        <string>{0,0}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{64,63}</string>
-                        <key>textureRect</key>
-                        <string>{{985,419},{63,64}}</string>
-                        <key>textureRotated</key>
-                        <true/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>StarsCollected@2x~ipad.png</string>
-                        <key>spriteOffset</key>
-                        <string>{0,0}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{48,46}</string>
-                        <key>textureRect</key>
-                        <string>{{1050,419},{46,48}}</string>
-                        <key>textureRotated</key>
-                        <true/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>PlayerLives@2x~ipad.png</string>
-                        <key>spriteOffset</key>
-                        <string>{0,0}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{48,34}</string>
-                        <key>textureRect</key>
-                        <string>{{1098,419},{34,48}}</string>
-                        <key>textureRotated</key>
-                        <true/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>Best@2x~ipad.png</string>
-                        <key>spriteOffset</key>
-                        <string>{1,1}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{156,44}</string>
-                        <key>textureRect</key>
-                        <string>{{1134,419},{155,43}}</string>
-                        <key>textureRotated</key>
-                        <false/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>StarsCount@2x~ipad.png</string>
-                        <key>spriteOffset</key>
-                        <string>{1,1}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{155,36}</string>
-                        <key>textureRect</key>
-                        <string>{{1134,464},{151,35}}</string>
-                        <key>textureRotated</key>
-                        <false/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>Particle@2x~ipad.png</string>
-                        <key>spriteOffset</key>
-                        <string>{0,0}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{32,31}</string>
-                        <key>textureRect</key>
-                        <string>{{1287,464},{31,32}}</string>
-                        <key>textureRotated</key>
-                        <true/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>StarParticle@2x~ipad.png</string>
-                        <key>spriteOffset</key>
-                        <string>{0,0}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{32,31}</string>
-                        <key>textureRect</key>
-                        <string>{{1291,419},{31,32}}</string>
-                        <key>textureRotated</key>
-                        <true/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>Meteor1@2x~ipad.png</string>
-                        <key>spriteOffset</key>
-                        <string>{1,1}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{160,132}</string>
-                        <key>textureRect</key>
-                        <string>{{953,2},{130,158}}</string>
-                        <key>textureRotated</key>
-                        <true/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>Star@2x~ipad.png</string>
-                        <key>spriteOffset</key>
-                        <string>{0,0}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{96,92}</string>
-                        <key>textureRect</key>
-                        <string>{{953,162},{96,92}}</string>
-                        <key>textureRotated</key>
-                        <false/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>Player@2x~ipad.png</string>
-                        <key>spriteOffset</key>
-                        <string>{0,0}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{128,87}</string>
-                        <key>textureRect</key>
-                        <string>{{1051,162},{128,87}}</string>
+                        <string>{{2,2},{1237,168}}</string>
                         <key>textureRotated</key>
                         <false/>
                     </dict>
@@ -380,11 +44,11 @@
                         <key>name</key>
                         <string>GameOver@2x~ipad.png</string>
                         <key>spriteOffset</key>
-                        <string>{4,0}</string>
+                        <string>{6,0}</string>
                         <key>spriteSourceSize</key>
-                        <string>{942,132}</string>
+                        <string>{1002,132}</string>
                         <key>textureRect</key>
-                        <string>{{1085,2},{936,129}}</string>
+                        <string>{{2,172},{996,127}}</string>
                         <key>textureRotated</key>
                         <false/>
                     </dict>
@@ -394,13 +58,13 @@
                         <key>isFullyOpaque</key>
                         <false/>
                         <key>name</key>
-                        <string>Explosion0@2x~ipad.png</string>
+                        <string>YourScore@2x~ipad.png</string>
                         <key>spriteOffset</key>
-                        <string>{0,0}</string>
+                        <string>{3,3}</string>
                         <key>spriteSourceSize</key>
-                        <string>{128,118}</string>
+                        <string>{535,76}</string>
                         <key>textureRect</key>
-                        <string>{{1181,133},{128,118}}</string>
+                        <string>{{1241,2},{530,71}}</string>
                         <key>textureRotated</key>
                         <false/>
                     </dict>
@@ -410,13 +74,13 @@
                         <key>isFullyOpaque</key>
                         <false/>
                         <key>name</key>
-                        <string>Explosion1@2x~ipad.png</string>
+                        <string>Leaders@2x~ipad.png</string>
                         <key>spriteOffset</key>
-                        <string>{0,0}</string>
+                        <string>{2,2}</string>
                         <key>spriteSourceSize</key>
-                        <string>{128,118}</string>
+                        <string>{408,72}</string>
                         <key>textureRect</key>
-                        <string>{{1311,133},{128,118}}</string>
+                        <string>{{2,301},{404,68}}</string>
                         <key>textureRotated</key>
                         <false/>
                     </dict>
@@ -426,13 +90,61 @@
                         <key>isFullyOpaque</key>
                         <false/>
                         <key>name</key>
-                        <string>Explosion3@2x~ipad.png</string>
+                        <string>GetReady@2x~ipad.png</string>
                         <key>spriteOffset</key>
-                        <string>{0,0}</string>
+                        <string>{1,0}</string>
                         <key>spriteSourceSize</key>
-                        <string>{128,142}</string>
+                        <string>{393,60}</string>
                         <key>textureRect</key>
-                        <string>{{1434,253},{128,142}}</string>
+                        <string>{{1241,75},{391,59}}</string>
+                        <key>textureRotated</key>
+                        <false/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>RetryButton@2x~ipad.png</string>
+                        <key>spriteOffset</key>
+                        <string>{1,1}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{256,256}</string>
+                        <key>textureRect</key>
+                        <string>{{1000,172},{254,254}}</string>
+                        <key>textureRotated</key>
+                        <false/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>StartButton@2x~ipad.png</string>
+                        <key>spriteOffset</key>
+                        <string>{1,1}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{256,256}</string>
+                        <key>textureRect</key>
+                        <string>{{1256,136},{254,254}}</string>
+                        <key>textureRotated</key>
+                        <false/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>TapButton@2x~ipad.png</string>
+                        <key>spriteOffset</key>
+                        <string>{1,1}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{256,256}</string>
+                        <key>textureRect</key>
+                        <string>{{1512,136},{254,254}}</string>
                         <key>textureRotated</key>
                         <false/>
                     </dict>
@@ -448,7 +160,7 @@
                         <key>spriteSourceSize</key>
                         <string>{128,118}</string>
                         <key>textureRect</key>
-                        <string>{{1441,133},{128,117}}</string>
+                        <string>{{1256,392},{128,117}}</string>
                         <key>textureRotated</key>
                         <false/>
                     </dict>
@@ -458,15 +170,47 @@
                         <key>isFullyOpaque</key>
                         <false/>
                         <key>name</key>
-                        <string>Meteor3@2x~ipad.png</string>
+                        <string>Meteor1@2x~ipad.png</string>
+                        <key>spriteOffset</key>
+                        <string>{1,1}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{160,132}</string>
+                        <key>textureRect</key>
+                        <string>{{2,371},{158,130}}</string>
+                        <key>textureRotated</key>
+                        <false/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>Explosion3@2x~ipad.png</string>
                         <key>spriteOffset</key>
                         <string>{0,0}</string>
                         <key>spriteSourceSize</key>
-                        <string>{96,94}</string>
+                        <string>{128,142}</string>
                         <key>textureRect</key>
-                        <string>{{1434,397},{94,96}}</string>
+                        <string>{{162,371},{142,128}}</string>
                         <key>textureRotated</key>
                         <true/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>Meteor0@2x~ipad.png</string>
+                        <key>spriteOffset</key>
+                        <string>{1,1}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{192,157}</string>
+                        <key>textureRect</key>
+                        <string>{{1773,2},{190,154}}</string>
+                        <key>textureRotated</key>
+                        <false/>
                     </dict>
                     <dict>
                         <key>aliases</key>
@@ -480,119 +224,7 @@
                         <key>spriteSourceSize</key>
                         <string>{128,132}</string>
                         <key>textureRect</key>
-                        <string>{{1564,252},{128,132}}</string>
-                        <key>textureRotated</key>
-                        <false/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>MusicOff@2x~ipad.png</string>
-                        <key>spriteOffset</key>
-                        <string>{8,8}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{128,128}</string>
-                        <key>textureRect</key>
-                        <string>{{1564,386},{112,112}}</string>
-                        <key>textureRotated</key>
-                        <false/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>MusicOn@2x~ipad.png</string>
-                        <key>spriteOffset</key>
-                        <string>{8,8}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{128,128}</string>
-                        <key>textureRect</key>
-                        <string>{{1678,386},{112,112}}</string>
-                        <key>textureRotated</key>
-                        <false/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>PauseButton@2x~ipad.png</string>
-                        <key>spriteOffset</key>
-                        <string>{8,8}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{128,128}</string>
-                        <key>textureRect</key>
-                        <string>{{1571,133},{112,112}}</string>
-                        <key>textureRotated</key>
-                        <false/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>ResumeButton@2x~ipad.png</string>
-                        <key>spriteOffset</key>
-                        <string>{8,8}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{128,128}</string>
-                        <key>textureRect</key>
-                        <string>{{1685,133},{112,112}}</string>
-                        <key>textureRotated</key>
-                        <false/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>Explosion6@2x~ipad.png</string>
-                        <key>spriteOffset</key>
-                        <string>{0,0}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{128,130}</string>
-                        <key>textureRect</key>
-                        <string>{{1694,247},{128,130}}</string>
-                        <key>textureRotated</key>
-                        <false/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>Explosion7@2x~ipad.png</string>
-                        <key>spriteOffset</key>
-                        <string>{0,0}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{128,105}</string>
-                        <key>textureRect</key>
-                        <string>{{1799,133},{128,105}}</string>
-                        <key>textureRotated</key>
-                        <false/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>Explosion8@2x~ipad.png</string>
-                        <key>spriteOffset</key>
-                        <string>{0,0}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{128,125}</string>
-                        <key>textureRect</key>
-                        <string>{{1824,240},{128,125}}</string>
+                        <string>{{1768,158},{128,132}}</string>
                         <key>textureRotated</key>
                         <false/>
                     </dict>
@@ -608,9 +240,361 @@
                         <key>spriteSourceSize</key>
                         <string>{128,122}</string>
                         <key>textureRect</key>
-                        <string>{{1824,367},{122,128}}</string>
+                        <string>{{1898,158},{122,128}}</string>
                         <key>textureRotated</key>
                         <true/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>Explosion2@2x~ipad.png</string>
+                        <key>spriteOffset</key>
+                        <string>{0,0}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{128,109}</string>
+                        <key>textureRect</key>
+                        <string>{{1386,392},{128,109}}</string>
+                        <key>textureRotated</key>
+                        <false/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>Explosion7@2x~ipad.png</string>
+                        <key>spriteOffset</key>
+                        <string>{0,0}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{128,105}</string>
+                        <key>textureRect</key>
+                        <string>{{1516,392},{128,105}}</string>
+                        <key>textureRotated</key>
+                        <false/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>Explosion0@2x~ipad.png</string>
+                        <key>spriteOffset</key>
+                        <string>{0,0}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{128,118}</string>
+                        <key>textureRect</key>
+                        <string>{{306,371},{118,128}}</string>
+                        <key>textureRotated</key>
+                        <true/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>Explosion1@2x~ipad.png</string>
+                        <key>spriteOffset</key>
+                        <string>{0,0}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{128,118}</string>
+                        <key>textureRect</key>
+                        <string>{{1768,292},{128,118}}</string>
+                        <key>textureRotated</key>
+                        <false/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>MusicOff@2x~ipad.png</string>
+                        <key>spriteOffset</key>
+                        <string>{8,8}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{128,128}</string>
+                        <key>textureRect</key>
+                        <string>{{1898,288},{112,112}}</string>
+                        <key>textureRotated</key>
+                        <false/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>MusicOn@2x~ipad.png</string>
+                        <key>spriteOffset</key>
+                        <string>{8,8}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{128,128}</string>
+                        <key>textureRect</key>
+                        <string>{{1646,392},{112,112}}</string>
+                        <key>textureRotated</key>
+                        <false/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>Player@2x~ipad.png</string>
+                        <key>spriteOffset</key>
+                        <string>{0,0}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{128,87}</string>
+                        <key>textureRect</key>
+                        <string>{{1760,412},{128,87}}</string>
+                        <key>textureRotated</key>
+                        <false/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>Explosion6@2x~ipad.png</string>
+                        <key>spriteOffset</key>
+                        <string>{0,0}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{128,130}</string>
+                        <key>textureRect</key>
+                        <string>{{426,301},{128,130}}</string>
+                        <key>textureRotated</key>
+                        <false/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>Explosion8@2x~ipad.png</string>
+                        <key>spriteOffset</key>
+                        <string>{0,0}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{128,125}</string>
+                        <key>textureRect</key>
+                        <string>{{556,301},{128,125}}</string>
+                        <key>textureRotated</key>
+                        <false/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>PauseButton@2x~ipad.png</string>
+                        <key>spriteOffset</key>
+                        <string>{8,8}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{128,128}</string>
+                        <key>textureRect</key>
+                        <string>{{686,301},{112,112}}</string>
+                        <key>textureRotated</key>
+                        <false/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>ResumeButton@2x~ipad.png</string>
+                        <key>spriteOffset</key>
+                        <string>{8,8}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{128,128}</string>
+                        <key>textureRect</key>
+                        <string>{{800,301},{112,112}}</string>
+                        <key>textureRotated</key>
+                        <false/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>Meteor3@2x~ipad.png</string>
+                        <key>spriteOffset</key>
+                        <string>{0,0}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{96,94}</string>
+                        <key>textureRect</key>
+                        <string>{{686,415},{96,94}}</string>
+                        <key>textureRotated</key>
+                        <false/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>Star@2x~ipad.png</string>
+                        <key>spriteOffset</key>
+                        <string>{0,0}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{96,92}</string>
+                        <key>textureRect</key>
+                        <string>{{784,415},{96,92}}</string>
+                        <key>textureRotated</key>
+                        <false/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>StarsCount@2x~ipad.png</string>
+                        <key>spriteOffset</key>
+                        <string>{1,0}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{149,36}</string>
+                        <key>textureRect</key>
+                        <string>{{1965,2},{36,147}}</string>
+                        <key>textureRotated</key>
+                        <true/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>Score@2x~ipad.png</string>
+                        <key>spriteOffset</key>
+                        <string>{1,0}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{148,36}</string>
+                        <key>textureRect</key>
+                        <string>{{426,433},{146,36}}</string>
+                        <key>textureRotated</key>
+                        <false/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>Best@2x~ipad.png</string>
+                        <key>spriteOffset</key>
+                        <string>{1,1}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{116,36}</string>
+                        <key>textureRect</key>
+                        <string>{{1634,75},{114,34}}</string>
+                        <key>textureRotated</key>
+                        <false/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>Meteor4@2x~ipad.png</string>
+                        <key>spriteOffset</key>
+                        <string>{0,0}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{64,63}</string>
+                        <key>textureRect</key>
+                        <string>{{914,301},{64,63}}</string>
+                        <key>textureRotated</key>
+                        <false/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>Spark@2x~ipad.png</string>
+                        <key>spriteOffset</key>
+                        <string>{0,0}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{64,64}</string>
+                        <key>textureRect</key>
+                        <string>{{914,366},{64,63}}</string>
+                        <key>textureRotated</key>
+                        <true/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>StarsCollected@2x~ipad.png</string>
+                        <key>spriteOffset</key>
+                        <string>{0,0}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{48,46}</string>
+                        <key>textureRect</key>
+                        <string>{{574,428},{48,46}}</string>
+                        <key>textureRotated</key>
+                        <false/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>PlayerLives@2x~ipad.png</string>
+                        <key>spriteOffset</key>
+                        <string>{0,0}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{48,34}</string>
+                        <key>textureRect</key>
+                        <string>{{624,428},{48,34}}</string>
+                        <key>textureRotated</key>
+                        <false/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>Particle@2x~ipad.png</string>
+                        <key>spriteOffset</key>
+                        <string>{0,0}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{32,31}</string>
+                        <key>textureRect</key>
+                        <string>{{426,471},{32,31}}</string>
+                        <key>textureRotated</key>
+                        <false/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>StarParticle@2x~ipad.png</string>
+                        <key>spriteOffset</key>
+                        <string>{0,0}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{32,31}</string>
+                        <key>textureRect</key>
+                        <string>{{460,471},{32,31}}</string>
+                        <key>textureRotated</key>
+                        <false/>
                     </dict>
                 </array>
             </dict>
@@ -618,7 +602,7 @@
                 <key>path</key>
                 <string>GameArt.1@3x.png</string>
                 <key>size</key>
-                <string>{1988,288}</string>
+                <string>{2043,289}</string>
                 <key>subimages</key>
                 <array>
                     <dict>
@@ -627,445 +611,13 @@
                         <key>isFullyOpaque</key>
                         <false/>
                         <key>name</key>
-                        <string>Terranous@3x.png</string>
-                        <key>spriteOffset</key>
-                        <string>{3,3}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{864,128}</string>
-                        <key>textureRect</key>
-                        <string>{{2,2},{859,122}}</string>
-                        <key>textureRotated</key>
-                        <false/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>GameOver@3x.png</string>
-                        <key>spriteOffset</key>
-                        <string>{3,0}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{707,99}</string>
-                        <key>textureRect</key>
-                        <string>{{2,126},{703,97}}</string>
-                        <key>textureRotated</key>
-                        <false/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>YourScore@3x.png</string>
-                        <key>spriteOffset</key>
-                        <string>{0,1}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{475,63}</string>
-                        <key>textureRect</key>
-                        <string>{{2,225},{474,61}}</string>
-                        <key>textureRotated</key>
-                        <false/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>Leaders@3x.png</string>
-                        <key>spriteOffset</key>
-                        <string>{0,1}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{288,54}</string>
-                        <key>textureRect</key>
-                        <string>{{478,225},{288,53}}</string>
-                        <key>textureRotated</key>
-                        <false/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>GetReady@3x.png</string>
-                        <key>spriteOffset</key>
-                        <string>{0,1}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{291,45}</string>
-                        <key>textureRect</key>
-                        <string>{{707,126},{291,44}}</string>
-                        <key>textureRotated</key>
-                        <false/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>Bonus@3x.png</string>
-                        <key>spriteOffset</key>
-                        <string>{0,0}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{202,45}</string>
-                        <key>textureRect</key>
-                        <string>{{707,172},{202,45}}</string>
-                        <key>textureRotated</key>
-                        <false/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>Player@3x.png</string>
-                        <key>spriteOffset</key>
-                        <string>{0,0}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{96,65}</string>
-                        <key>textureRect</key>
-                        <string>{{768,219},{96,65}}</string>
-                        <key>textureRotated</key>
-                        <false/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>Best@3x.png</string>
-                        <key>spriteOffset</key>
-                        <string>{0,0}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{117,33}</string>
-                        <key>textureRect</key>
-                        <string>{{866,219},{117,33}}</string>
-                        <key>textureRotated</key>
-                        <false/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>Score@3x.png</string>
-                        <key>spriteOffset</key>
-                        <string>{0,0}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{116,27}</string>
-                        <key>textureRect</key>
-                        <string>{{866,254},{116,27}}</string>
-                        <key>textureRotated</key>
-                        <false/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>StarsCount@3x.png</string>
-                        <key>spriteOffset</key>
-                        <string>{0,0}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{116,27}</string>
-                        <key>textureRect</key>
-                        <string>{{984,254},{114,27}}</string>
-                        <key>textureRotated</key>
-                        <false/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>StarsCollected@3x.png</string>
-                        <key>spriteOffset</key>
-                        <string>{0,0}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{36,35}</string>
-                        <key>textureRect</key>
-                        <string>{{911,172},{35,36}}</string>
-                        <key>textureRotated</key>
-                        <true/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>PlayerLives@3x.png</string>
-                        <key>spriteOffset</key>
-                        <string>{0,0}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{36,26}</string>
-                        <key>textureRect</key>
-                        <string>{{948,172},{26,36}}</string>
-                        <key>textureRotated</key>
-                        <true/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>Particle@3x.png</string>
-                        <key>spriteOffset</key>
-                        <string>{0,0}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{24,23}</string>
-                        <key>textureRect</key>
-                        <string>{{976,172},{23,24}}</string>
-                        <key>textureRotated</key>
-                        <true/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>Spark@3x.png</string>
-                        <key>spriteOffset</key>
-                        <string>{0,0}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{48,48}</string>
-                        <key>textureRect</key>
-                        <string>{{985,198},{47,48}}</string>
-                        <key>textureRotated</key>
-                        <false/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>Meteor0@3x.png</string>
-                        <key>spriteOffset</key>
-                        <string>{0,0}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{144,118}</string>
-                        <key>textureRect</key>
-                        <string>{{863,2},{144,117}}</string>
-                        <key>textureRotated</key>
-                        <false/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>Meteor4@3x.png</string>
-                        <key>spriteOffset</key>
-                        <string>{0,0}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{48,47}</string>
-                        <key>textureRect</key>
-                        <string>{{1000,121},{47,48}}</string>
-                        <key>textureRotated</key>
-                        <true/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>StarParticle@3x.png</string>
-                        <key>spriteOffset</key>
-                        <string>{0,0}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{24,23}</string>
-                        <key>textureRect</key>
-                        <string>{{1001,171},{23,24}}</string>
-                        <key>textureRotated</key>
-                        <true/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>Explosion7@3x.png</string>
-                        <key>spriteOffset</key>
-                        <string>{0,0}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{96,79}</string>
-                        <key>textureRect</key>
-                        <string>{{1034,171},{96,79}}</string>
-                        <key>textureRotated</key>
-                        <false/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>Meteor1@3x.png</string>
-                        <key>spriteOffset</key>
-                        <string>{0,0}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{120,99}</string>
-                        <key>textureRect</key>
-                        <string>{{1009,2},{120,99}}</string>
-                        <key>textureRotated</key>
-                        <false/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>Explosion3@3x.png</string>
-                        <key>spriteOffset</key>
-                        <string>{0,0}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{96,107}</string>
-                        <key>textureRect</key>
-                        <string>{{1131,2},{96,107}}</string>
-                        <key>textureRotated</key>
-                        <false/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>Explosion4@3x.png</string>
-                        <key>spriteOffset</key>
-                        <string>{0,0}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{96,99}</string>
-                        <key>textureRect</key>
-                        <string>{{1132,111},{96,99}}</string>
-                        <key>textureRotated</key>
-                        <false/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>Meteor3@3x.png</string>
-                        <key>spriteOffset</key>
-                        <string>{0,0}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{72,71}</string>
-                        <key>textureRect</key>
-                        <string>{{1132,212},{71,72}}</string>
-                        <key>textureRotated</key>
-                        <true/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>Star@3x.png</string>
-                        <key>spriteOffset</key>
-                        <string>{0,0}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{72,69}</string>
-                        <key>textureRect</key>
-                        <string>{{1205,212},{69,72}}</string>
-                        <key>textureRotated</key>
-                        <true/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>Explosion6@3x.png</string>
-                        <key>spriteOffset</key>
-                        <string>{1,0}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{96,98}</string>
-                        <key>textureRect</key>
-                        <string>{{1229,2},{95,98}}</string>
-                        <key>textureRotated</key>
-                        <false/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>Explosion8@3x.png</string>
-                        <key>spriteOffset</key>
-                        <string>{0,0}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{96,94}</string>
-                        <key>textureRect</key>
-                        <string>{{1230,102},{94,96}}</string>
-                        <key>textureRotated</key>
-                        <true/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>Explosion2@3x.png</string>
-                        <key>spriteOffset</key>
-                        <string>{0,0}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{96,82}</string>
-                        <key>textureRect</key>
-                        <string>{{1276,200},{96,82}}</string>
-                        <key>textureRotated</key>
-                        <false/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
                         <string>RetryButton@3x.png</string>
                         <key>spriteOffset</key>
-                        <string>{2,1}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{192,193}</string>
-                        <key>textureRect</key>
-                        <string>{{1326,2},{189,190}}</string>
-                        <key>textureRotated</key>
-                        <false/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>Explosion5@3x.png</string>
-                        <key>spriteOffset</key>
                         <string>{0,0}</string>
                         <key>spriteSourceSize</key>
-                        <string>{96,92}</string>
+                        <string>{192,192}</string>
                         <key>textureRect</key>
-                        <string>{{1374,194},{96,92}}</string>
+                        <string>{{2,2},{192,192}}</string>
                         <key>textureRotated</key>
                         <false/>
                     </dict>
@@ -1081,23 +633,7 @@
                         <key>spriteSourceSize</key>
                         <string>{96,89}</string>
                         <key>textureRect</key>
-                        <string>{{1472,194},{96,89}}</string>
-                        <key>textureRotated</key>
-                        <false/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>StartButton@3x.png</string>
-                        <key>spriteOffset</key>
-                        <string>{2,1}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{192,193}</string>
-                        <key>textureRect</key>
-                        <string>{{1517,2},{189,190}}</string>
+                        <string>{{2,196},{96,89}}</string>
                         <key>textureRotated</key>
                         <false/>
                     </dict>
@@ -1113,7 +649,23 @@
                         <key>spriteSourceSize</key>
                         <string>{96,89}</string>
                         <key>textureRect</key>
-                        <string>{{1570,194},{96,89}}</string>
+                        <string>{{100,196},{96,89}}</string>
+                        <key>textureRotated</key>
+                        <false/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>StartButton@3x.png</string>
+                        <key>spriteOffset</key>
+                        <string>{0,0}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{192,192}</string>
+                        <key>textureRect</key>
+                        <string>{{196,2},{192,192}}</string>
                         <key>textureRotated</key>
                         <false/>
                     </dict>
@@ -1129,7 +681,7 @@
                         <key>spriteSourceSize</key>
                         <string>{96,89}</string>
                         <key>textureRect</key>
-                        <string>{{1668,194},{96,89}}</string>
+                        <string>{{198,196},{96,89}}</string>
                         <key>textureRotated</key>
                         <false/>
                     </dict>
@@ -1139,15 +691,15 @@
                         <key>isFullyOpaque</key>
                         <false/>
                         <key>name</key>
-                        <string>TapButton@3x.png</string>
+                        <string>Best@3x.png</string>
                         <key>spriteOffset</key>
-                        <string>{2,1}</string>
+                        <string>{0,0}</string>
                         <key>spriteSourceSize</key>
-                        <string>{192,193}</string>
+                        <string>{87,27}</string>
                         <key>textureRect</key>
-                        <string>{{1708,2},{189,190}}</string>
+                        <string>{{296,196},{27,87}}</string>
                         <key>textureRotated</key>
-                        <false/>
+                        <true/>
                     </dict>
                     <dict>
                         <key>aliases</key>
@@ -1161,7 +713,23 @@
                         <key>spriteSourceSize</key>
                         <string>{96,96}</string>
                         <key>textureRect</key>
-                        <string>{{1766,194},{84,84}}</string>
+                        <string>{{325,196},{84,84}}</string>
+                        <key>textureRotated</key>
+                        <false/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>TapButton@3x.png</string>
+                        <key>spriteOffset</key>
+                        <string>{0,0}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{192,192}</string>
+                        <key>textureRect</key>
+                        <string>{{390,2},{192,192}}</string>
                         <key>textureRotated</key>
                         <false/>
                     </dict>
@@ -1177,7 +745,7 @@
                         <key>spriteSourceSize</key>
                         <string>{96,96}</string>
                         <key>textureRect</key>
-                        <string>{{1852,194},{84,84}}</string>
+                        <string>{{411,196},{84,84}}</string>
                         <key>textureRotated</key>
                         <false/>
                     </dict>
@@ -1193,7 +761,7 @@
                         <key>spriteSourceSize</key>
                         <string>{96,96}</string>
                         <key>textureRect</key>
-                        <string>{{1899,2},{84,84}}</string>
+                        <string>{{497,196},{84,84}}</string>
                         <key>textureRotated</key>
                         <false/>
                     </dict>
@@ -1209,9 +777,409 @@
                         <key>spriteSourceSize</key>
                         <string>{96,96}</string>
                         <key>textureRect</key>
-                        <string>{{1899,88},{84,84}}</string>
+                        <string>{{583,196},{84,84}}</string>
                         <key>textureRotated</key>
                         <false/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>Meteor0@3x.png</string>
+                        <key>spriteOffset</key>
+                        <string>{0,0}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{144,118}</string>
+                        <key>textureRect</key>
+                        <string>{{584,2},{117,144}}</string>
+                        <key>textureRotated</key>
+                        <true/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>GetReady@3x.png</string>
+                        <key>spriteOffset</key>
+                        <string>{0,0}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{295,45}</string>
+                        <key>textureRect</key>
+                        <string>{{584,148},{295,45}}</string>
+                        <key>textureRotated</key>
+                        <false/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>Explosion5@3x.png</string>
+                        <key>spriteOffset</key>
+                        <string>{0,0}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{96,92}</string>
+                        <key>textureRect</key>
+                        <string>{{669,195},{96,92}}</string>
+                        <key>textureRotated</key>
+                        <false/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>Explosion2@3x.png</string>
+                        <key>spriteOffset</key>
+                        <string>{0,0}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{96,82}</string>
+                        <key>textureRect</key>
+                        <string>{{767,195},{96,82}}</string>
+                        <key>textureRotated</key>
+                        <false/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>Explosion7@3x.png</string>
+                        <key>spriteOffset</key>
+                        <string>{0,0}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{96,79}</string>
+                        <key>textureRect</key>
+                        <string>{{865,195},{96,79}}</string>
+                        <key>textureRotated</key>
+                        <false/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>Terranous@3x.png</string>
+                        <key>spriteOffset</key>
+                        <string>{5,0}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{933,129}</string>
+                        <key>textureRect</key>
+                        <string>{{703,2},{928,126}}</string>
+                        <key>textureRotated</key>
+                        <false/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>YourScore@3x.png</string>
+                        <key>spriteOffset</key>
+                        <string>{2,2}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{401,57}</string>
+                        <key>textureRect</key>
+                        <string>{{881,130},{398,54}}</string>
+                        <key>textureRotated</key>
+                        <false/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>Meteor1@3x.png</string>
+                        <key>spriteOffset</key>
+                        <string>{0,0}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{120,99}</string>
+                        <key>textureRect</key>
+                        <string>{{963,186},{120,99}}</string>
+                        <key>textureRotated</key>
+                        <false/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>Explosion4@3x.png</string>
+                        <key>spriteOffset</key>
+                        <string>{0,0}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{96,99}</string>
+                        <key>textureRect</key>
+                        <string>{{1085,186},{96,99}}</string>
+                        <key>textureRotated</key>
+                        <false/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>Explosion6@3x.png</string>
+                        <key>spriteOffset</key>
+                        <string>{1,0}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{96,98}</string>
+                        <key>textureRect</key>
+                        <string>{{1183,186},{95,98}}</string>
+                        <key>textureRotated</key>
+                        <false/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>GameOver@3x.png</string>
+                        <key>spriteOffset</key>
+                        <string>{4,0}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{752,99}</string>
+                        <key>textureRect</key>
+                        <string>{{1280,186},{748,96}}</string>
+                        <key>textureRotated</key>
+                        <false/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>Leaders@3x.png</string>
+                        <key>spriteOffset</key>
+                        <string>{1,1}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{306,54}</string>
+                        <key>textureRect</key>
+                        <string>{{1281,130},{304,52}}</string>
+                        <key>textureRotated</key>
+                        <false/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>Spark@3x.png</string>
+                        <key>spriteOffset</key>
+                        <string>{0,0}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{48,48}</string>
+                        <key>textureRect</key>
+                        <string>{{1587,130},{47,48}}</string>
+                        <key>textureRotated</key>
+                        <false/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>StarsCount@3x.png</string>
+                        <key>spriteOffset</key>
+                        <string>{0,0}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{112,27}</string>
+                        <key>textureRect</key>
+                        <string>{{1633,2},{27,112}}</string>
+                        <key>textureRotated</key>
+                        <true/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>Player@3x.png</string>
+                        <key>spriteOffset</key>
+                        <string>{0,0}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{96,65}</string>
+                        <key>textureRect</key>
+                        <string>{{1636,116},{96,65}}</string>
+                        <key>textureRotated</key>
+                        <false/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>Score@3x.png</string>
+                        <key>spriteOffset</key>
+                        <string>{0,0}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{111,27}</string>
+                        <key>textureRect</key>
+                        <string>{{1662,2},{27,111}}</string>
+                        <key>textureRotated</key>
+                        <true/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>Explosion3@3x.png</string>
+                        <key>spriteOffset</key>
+                        <string>{0,0}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{96,107}</string>
+                        <key>textureRect</key>
+                        <string>{{1691,2},{96,107}}</string>
+                        <key>textureRotated</key>
+                        <false/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>Meteor3@3x.png</string>
+                        <key>spriteOffset</key>
+                        <string>{0,0}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{72,71}</string>
+                        <key>textureRect</key>
+                        <string>{{1734,111},{71,72}}</string>
+                        <key>textureRotated</key>
+                        <true/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>Explosion8@3x.png</string>
+                        <key>spriteOffset</key>
+                        <string>{0,0}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{96,94}</string>
+                        <key>textureRect</key>
+                        <string>{{1789,2},{94,96}}</string>
+                        <key>textureRotated</key>
+                        <true/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>Star@3x.png</string>
+                        <key>spriteOffset</key>
+                        <string>{0,0}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{72,69}</string>
+                        <key>textureRect</key>
+                        <string>{{1807,100},{69,72}}</string>
+                        <key>textureRotated</key>
+                        <true/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>Meteor4@3x.png</string>
+                        <key>spriteOffset</key>
+                        <string>{0,0}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{48,47}</string>
+                        <key>textureRect</key>
+                        <string>{{1878,100},{47,48}}</string>
+                        <key>textureRotated</key>
+                        <true/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>PlayerLives@3x.png</string>
+                        <key>spriteOffset</key>
+                        <string>{0,0}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{36,26}</string>
+                        <key>textureRect</key>
+                        <string>{{1878,150},{36,26}}</string>
+                        <key>textureRotated</key>
+                        <false/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>Particle@3x.png</string>
+                        <key>spriteOffset</key>
+                        <string>{0,0}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{24,23}</string>
+                        <key>textureRect</key>
+                        <string>{{1916,150},{23,24}}</string>
+                        <key>textureRotated</key>
+                        <true/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>StarsCollected@3x.png</string>
+                        <key>spriteOffset</key>
+                        <string>{0,0}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{36,35}</string>
+                        <key>textureRect</key>
+                        <string>{{1885,2},{35,36}}</string>
+                        <key>textureRotated</key>
+                        <true/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>StarParticle@3x.png</string>
+                        <key>spriteOffset</key>
+                        <string>{0,0}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{24,23}</string>
+                        <key>textureRect</key>
+                        <string>{{1885,40},{23,24}}</string>
+                        <key>textureRotated</key>
+                        <true/>
                     </dict>
                 </array>
             </dict>
@@ -1219,7 +1187,7 @@
                 <key>path</key>
                 <string>GameArt.1@2x.png</string>
                 <key>size</key>
-                <string>{2008,130}</string>
+                <string>{1975,132}</string>
                 <key>subimages</key>
                 <array>
                     <dict>
@@ -1228,111 +1196,15 @@
                         <key>isFullyOpaque</key>
                         <false/>
                         <key>name</key>
-                        <string>Terranous@2x.png</string>
-                        <key>spriteOffset</key>
-                        <string>{2,2}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{576,86}</string>
-                        <key>textureRect</key>
-                        <string>{{2,2},{573,82}}</string>
-                        <key>textureRotated</key>
-                        <false/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>GameOver@2x.png</string>
-                        <key>spriteOffset</key>
-                        <string>{2,0}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{471,66}</string>
-                        <key>textureRect</key>
-                        <string>{{577,2},{468,65}}</string>
-                        <key>textureRotated</key>
-                        <false/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>YourScore@2x.png</string>
-                        <key>spriteOffset</key>
-                        <string>{0,1}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{317,42}</string>
-                        <key>textureRect</key>
-                        <string>{{2,86},{316,40}}</string>
-                        <key>textureRotated</key>
-                        <false/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>Leaders@2x.png</string>
-                        <key>spriteOffset</key>
-                        <string>{0,1}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{192,36}</string>
-                        <key>textureRect</key>
-                        <string>{{1047,2},{192,35}}</string>
-                        <key>textureRotated</key>
-                        <false/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>GetReady@2x.png</string>
-                        <key>spriteOffset</key>
-                        <string>{0,1}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{194,30}</string>
-                        <key>textureRect</key>
-                        <string>{{320,86},{194,29}}</string>
-                        <key>textureRotated</key>
-                        <false/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>Bonus@2x.png</string>
+                        <string>RetryButton@2x.png</string>
                         <key>spriteOffset</key>
                         <string>{0,0}</string>
                         <key>spriteSourceSize</key>
-                        <string>{135,30}</string>
+                        <string>{128,128}</string>
                         <key>textureRect</key>
-                        <string>{{1241,2},{135,30}}</string>
+                        <string>{{2,2},{128,128}}</string>
                         <key>textureRotated</key>
                         <false/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>RetryButton@2x.png</string>
-                        <key>spriteOffset</key>
-                        <string>{1,1}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{128,129}</string>
-                        <key>textureRect</key>
-                        <string>{{1378,2},{127,126}}</string>
-                        <key>textureRotated</key>
-                        <true/>
                     </dict>
                     <dict>
                         <key>aliases</key>
@@ -1342,13 +1214,13 @@
                         <key>name</key>
                         <string>StartButton@2x.png</string>
                         <key>spriteOffset</key>
-                        <string>{1,1}</string>
+                        <string>{0,0}</string>
                         <key>spriteSourceSize</key>
-                        <string>{128,129}</string>
+                        <string>{128,128}</string>
                         <key>textureRect</key>
-                        <string>{{1507,2},{127,126}}</string>
+                        <string>{{132,2},{128,128}}</string>
                         <key>textureRotated</key>
-                        <true/>
+                        <false/>
                     </dict>
                     <dict>
                         <key>aliases</key>
@@ -1358,13 +1230,13 @@
                         <key>name</key>
                         <string>TapButton@2x.png</string>
                         <key>spriteOffset</key>
-                        <string>{1,1}</string>
+                        <string>{0,0}</string>
                         <key>spriteSourceSize</key>
-                        <string>{128,129}</string>
+                        <string>{128,128}</string>
                         <key>textureRect</key>
-                        <string>{{1636,2},{127,126}}</string>
+                        <string>{{262,2},{128,128}}</string>
                         <key>textureRotated</key>
-                        <true/>
+                        <false/>
                     </dict>
                     <dict>
                         <key>aliases</key>
@@ -1378,39 +1250,7 @@
                         <key>spriteSourceSize</key>
                         <string>{96,79}</string>
                         <key>textureRect</key>
-                        <string>{{1765,2},{96,78}}</string>
-                        <key>textureRotated</key>
-                        <false/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>Meteor1@2x.png</string>
-                        <key>spriteOffset</key>
-                        <string>{0,0}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{80,66}</string>
-                        <key>textureRect</key>
-                        <string>{{1863,2},{80,66}}</string>
-                        <key>textureRotated</key>
-                        <false/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>Explosion5@2x.png</string>
-                        <key>spriteOffset</key>
-                        <string>{0,0}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{64,61}</string>
-                        <key>textureRect</key>
-                        <string>{{1945,2},{61,64}}</string>
+                        <string>{{392,2},{78,96}}</string>
                         <key>textureRotated</key>
                         <true/>
                     </dict>
@@ -1420,13 +1260,13 @@
                         <key>isFullyOpaque</key>
                         <false/>
                         <key>name</key>
-                        <string>Explosion0@2x.png</string>
+                        <string>GetReady@2x.png</string>
                         <key>spriteOffset</key>
                         <string>{0,0}</string>
                         <key>spriteSourceSize</key>
-                        <string>{64,59}</string>
+                        <string>{197,30}</string>
                         <key>textureRect</key>
-                        <string>{{577,69},{64,59}}</string>
+                        <string>{{392,100},{197,30}}</string>
                         <key>textureRotated</key>
                         <false/>
                     </dict>
@@ -1436,13 +1276,13 @@
                         <key>isFullyOpaque</key>
                         <false/>
                         <key>name</key>
-                        <string>Explosion1@2x.png</string>
+                        <string>Terranous@2x.png</string>
                         <key>spriteOffset</key>
-                        <string>{0,0}</string>
+                        <string>{3,0}</string>
                         <key>spriteSourceSize</key>
-                        <string>{64,59}</string>
+                        <string>{622,86}</string>
                         <key>textureRect</key>
-                        <string>{{643,69},{64,59}}</string>
+                        <string>{{472,2},{619,84}}</string>
                         <key>textureRotated</key>
                         <false/>
                     </dict>
@@ -1452,13 +1292,13 @@
                         <key>isFullyOpaque</key>
                         <false/>
                         <key>name</key>
-                        <string>Meteor2@2x.png</string>
+                        <string>YourScore@2x.png</string>
                         <key>spriteOffset</key>
-                        <string>{0,0}</string>
+                        <string>{1,1}</string>
                         <key>spriteSourceSize</key>
-                        <string>{64,59}</string>
+                        <string>{268,38}</string>
                         <key>textureRect</key>
-                        <string>{{709,69},{64,59}}</string>
+                        <string>{{591,88},{266,36}}</string>
                         <key>textureRotated</key>
                         <false/>
                     </dict>
@@ -1468,237 +1308,13 @@
                         <key>isFullyOpaque</key>
                         <false/>
                         <key>name</key>
-                        <string>Star@2x.png</string>
+                        <string>Leaders@2x.png</string>
                         <key>spriteOffset</key>
-                        <string>{0,0}</string>
+                        <string>{1,1}</string>
                         <key>spriteSourceSize</key>
-                        <string>{48,46}</string>
+                        <string>{204,36}</string>
                         <key>textureRect</key>
-                        <string>{{1765,82},{48,46}}</string>
-                        <key>textureRotated</key>
-                        <false/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>Explosion2@2x.png</string>
-                        <key>spriteOffset</key>
-                        <string>{0,0}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{64,55}</string>
-                        <key>textureRect</key>
-                        <string>{{775,69},{64,55}}</string>
-                        <key>textureRotated</key>
-                        <false/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>Explosion7@2x.png</string>
-                        <key>spriteOffset</key>
-                        <string>{0,0}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{64,53}</string>
-                        <key>textureRect</key>
-                        <string>{{841,69},{64,53}}</string>
-                        <key>textureRotated</key>
-                        <false/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>MusicOff@2x.png</string>
-                        <key>spriteOffset</key>
-                        <string>{4,4}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{64,64}</string>
-                        <key>textureRect</key>
-                        <string>{{907,69},{56,56}}</string>
-                        <key>textureRotated</key>
-                        <false/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>MusicOn@2x.png</string>
-                        <key>spriteOffset</key>
-                        <string>{4,4}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{64,64}</string>
-                        <key>textureRect</key>
-                        <string>{{965,69},{56,56}}</string>
-                        <key>textureRotated</key>
-                        <false/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>Best@2x.png</string>
-                        <key>spriteOffset</key>
-                        <string>{0,0}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{78,22}</string>
-                        <key>textureRect</key>
-                        <string>{{1047,39},{78,22}}</string>
-                        <key>textureRotated</key>
-                        <false/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>Explosion6@2x.png</string>
-                        <key>spriteOffset</key>
-                        <string>{0,0}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{64,65}</string>
-                        <key>textureRect</key>
-                        <string>{{1047,63},{64,65}}</string>
-                        <key>textureRotated</key>
-                        <false/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>Score@2x.png</string>
-                        <key>spriteOffset</key>
-                        <string>{0,0}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{78,18}</string>
-                        <key>textureRect</key>
-                        <string>{{1127,39},{78,18}}</string>
-                        <key>textureRotated</key>
-                        <false/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>Player@2x.png</string>
-                        <key>spriteOffset</key>
-                        <string>{0,0}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{64,44}</string>
-                        <key>textureRect</key>
-                        <string>{{1815,82},{64,44}}</string>
-                        <key>textureRotated</key>
-                        <false/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>PauseButton@2x.png</string>
-                        <key>spriteOffset</key>
-                        <string>{4,4}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{64,64}</string>
-                        <key>textureRect</key>
-                        <string>{{1881,70},{56,56}}</string>
-                        <key>textureRotated</key>
-                        <false/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>StarsCount@2x.png</string>
-                        <key>spriteOffset</key>
-                        <string>{0,0}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{78,18}</string>
-                        <key>textureRect</key>
-                        <string>{{1241,34},{77,18}}</string>
-                        <key>textureRotated</key>
-                        <false/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>ResumeButton@2x.png</string>
-                        <key>spriteOffset</key>
-                        <string>{4,4}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{64,64}</string>
-                        <key>textureRect</key>
-                        <string>{{1320,34},{56,56}}</string>
-                        <key>textureRotated</key>
-                        <false/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>Explosion3@2x.png</string>
-                        <key>spriteOffset</key>
-                        <string>{0,0}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{64,71}</string>
-                        <key>textureRect</key>
-                        <string>{{1113,63},{71,64}}</string>
-                        <key>textureRotated</key>
-                        <true/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>Explosion4@2x.png</string>
-                        <key>spriteOffset</key>
-                        <string>{0,0}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{64,66}</string>
-                        <key>textureRect</key>
-                        <string>{{1186,59},{64,66}}</string>
-                        <key>textureRotated</key>
-                        <false/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>Explosion8@2x.png</string>
-                        <key>spriteOffset</key>
-                        <string>{0,0}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{64,63}</string>
-                        <key>textureRect</key>
-                        <string>{{1252,54},{64,63}}</string>
+                        <string>{{859,88},{202,34}}</string>
                         <key>textureRotated</key>
                         <false/>
                     </dict>
@@ -1714,7 +1330,7 @@
                         <key>spriteSourceSize</key>
                         <string>{32,32}</string>
                         <key>textureRect</key>
-                        <string>{{516,86},{32,32}}</string>
+                        <string>{{1063,88},{32,32}}</string>
                         <key>textureRotated</key>
                         <false/>
                     </dict>
@@ -1724,13 +1340,13 @@
                         <key>isFullyOpaque</key>
                         <false/>
                         <key>name</key>
-                        <string>Spark@2x.png</string>
+                        <string>Meteor1@2x.png</string>
                         <key>spriteOffset</key>
                         <string>{0,0}</string>
                         <key>spriteSourceSize</key>
-                        <string>{32,32}</string>
+                        <string>{80,66}</string>
                         <key>textureRect</key>
-                        <string>{{1318,92},{32,31}}</string>
+                        <string>{{1093,2},{66,80}}</string>
                         <key>textureRotated</key>
                         <true/>
                     </dict>
@@ -1740,13 +1356,317 @@
                         <key>isFullyOpaque</key>
                         <false/>
                         <key>name</key>
-                        <string>StarsCollected@2x.png</string>
+                        <string>Star@2x.png</string>
                         <key>spriteOffset</key>
                         <string>{0,0}</string>
                         <key>spriteSourceSize</key>
-                        <string>{24,23}</string>
+                        <string>{48,46}</string>
                         <key>textureRect</key>
-                        <string>{{1352,92},{24,23}}</string>
+                        <string>{{1097,84},{48,46}}</string>
+                        <key>textureRotated</key>
+                        <false/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>Player@2x.png</string>
+                        <key>spriteOffset</key>
+                        <string>{0,0}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{64,44}</string>
+                        <key>textureRect</key>
+                        <string>{{1147,84},{64,44}}</string>
+                        <key>textureRotated</key>
+                        <false/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>StarsCount@2x.png</string>
+                        <key>spriteOffset</key>
+                        <string>{0,0}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{75,18}</string>
+                        <key>textureRect</key>
+                        <string>{{1161,2},{18,75}}</string>
+                        <key>textureRotated</key>
+                        <true/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>Score@2x.png</string>
+                        <key>spriteOffset</key>
+                        <string>{0,0}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{74,18}</string>
+                        <key>textureRect</key>
+                        <string>{{1181,2},{18,74}}</string>
+                        <key>textureRotated</key>
+                        <true/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>Explosion3@2x.png</string>
+                        <key>spriteOffset</key>
+                        <string>{0,0}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{64,71}</string>
+                        <key>textureRect</key>
+                        <string>{{1201,2},{64,71}}</string>
+                        <key>textureRotated</key>
+                        <false/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>Explosion2@2x.png</string>
+                        <key>spriteOffset</key>
+                        <string>{0,0}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{64,55}</string>
+                        <key>textureRect</key>
+                        <string>{{1213,75},{64,55}}</string>
+                        <key>textureRotated</key>
+                        <false/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>Explosion4@2x.png</string>
+                        <key>spriteOffset</key>
+                        <string>{0,0}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{64,66}</string>
+                        <key>textureRect</key>
+                        <string>{{1267,2},{64,66}}</string>
+                        <key>textureRotated</key>
+                        <false/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>Explosion0@2x.png</string>
+                        <key>spriteOffset</key>
+                        <string>{0,0}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{64,59}</string>
+                        <key>textureRect</key>
+                        <string>{{1279,70},{64,59}}</string>
+                        <key>textureRotated</key>
+                        <false/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>Explosion6@2x.png</string>
+                        <key>spriteOffset</key>
+                        <string>{0,0}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{64,65}</string>
+                        <key>textureRect</key>
+                        <string>{{1333,2},{64,65}}</string>
+                        <key>textureRotated</key>
+                        <false/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>Explosion5@2x.png</string>
+                        <key>spriteOffset</key>
+                        <string>{0,0}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{64,61}</string>
+                        <key>textureRect</key>
+                        <string>{{1345,69},{64,61}}</string>
+                        <key>textureRotated</key>
+                        <false/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>GameOver@2x.png</string>
+                        <key>spriteOffset</key>
+                        <string>{3,0}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{501,66}</string>
+                        <key>textureRect</key>
+                        <string>{{1399,2},{498,64}}</string>
+                        <key>textureRotated</key>
+                        <false/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>Explosion1@2x.png</string>
+                        <key>spriteOffset</key>
+                        <string>{0,0}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{64,59}</string>
+                        <key>textureRect</key>
+                        <string>{{1411,68},{64,59}}</string>
+                        <key>textureRotated</key>
+                        <false/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>Meteor2@2x.png</string>
+                        <key>spriteOffset</key>
+                        <string>{0,0}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{64,59}</string>
+                        <key>textureRect</key>
+                        <string>{{1477,68},{64,59}}</string>
+                        <key>textureRotated</key>
+                        <false/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>Best@2x.png</string>
+                        <key>spriteOffset</key>
+                        <string>{0,0}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{58,18}</string>
+                        <key>textureRect</key>
+                        <string>{{1543,68},{18,58}}</string>
+                        <key>textureRotated</key>
+                        <true/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>MusicOff@2x.png</string>
+                        <key>spriteOffset</key>
+                        <string>{4,4}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{64,64}</string>
+                        <key>textureRect</key>
+                        <string>{{1563,68},{56,56}}</string>
+                        <key>textureRotated</key>
+                        <false/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>MusicOn@2x.png</string>
+                        <key>spriteOffset</key>
+                        <string>{4,4}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{64,64}</string>
+                        <key>textureRect</key>
+                        <string>{{1621,68},{56,56}}</string>
+                        <key>textureRotated</key>
+                        <false/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>PauseButton@2x.png</string>
+                        <key>spriteOffset</key>
+                        <string>{4,4}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{64,64}</string>
+                        <key>textureRect</key>
+                        <string>{{1679,68},{56,56}}</string>
+                        <key>textureRotated</key>
+                        <false/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>ResumeButton@2x.png</string>
+                        <key>spriteOffset</key>
+                        <string>{4,4}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{64,64}</string>
+                        <key>textureRect</key>
+                        <string>{{1737,68},{56,56}}</string>
+                        <key>textureRotated</key>
+                        <false/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>Explosion7@2x.png</string>
+                        <key>spriteOffset</key>
+                        <string>{0,0}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{64,53}</string>
+                        <key>textureRect</key>
+                        <string>{{1795,68},{64,53}}</string>
+                        <key>textureRotated</key>
+                        <false/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>Explosion8@2x.png</string>
+                        <key>spriteOffset</key>
+                        <string>{0,0}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{64,63}</string>
+                        <key>textureRect</key>
+                        <string>{{1899,2},{64,63}}</string>
                         <key>textureRotated</key>
                         <false/>
                     </dict>
@@ -1762,7 +1682,39 @@
                         <key>spriteSourceSize</key>
                         <string>{48,47}</string>
                         <key>textureRect</key>
-                        <string>{{1939,70},{47,48}}</string>
+                        <string>{{1861,68},{47,48}}</string>
+                        <key>textureRotated</key>
+                        <true/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>Spark@2x.png</string>
+                        <key>spriteOffset</key>
+                        <string>{0,0}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{32,32}</string>
+                        <key>textureRect</key>
+                        <string>{{1910,67},{31,32}}</string>
+                        <key>textureRotated</key>
+                        <false/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>StarsCollected@2x.png</string>
+                        <key>spriteOffset</key>
+                        <string>{0,0}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{24,23}</string>
+                        <key>textureRect</key>
+                        <string>{{1910,101},{23,24}}</string>
                         <key>textureRotated</key>
                         <true/>
                     </dict>
@@ -1778,7 +1730,7 @@
                         <key>spriteSourceSize</key>
                         <string>{24,17}</string>
                         <key>textureRect</key>
-                        <string>{{1023,69},{17,24}}</string>
+                        <string>{{1935,101},{17,24}}</string>
                         <key>textureRotated</key>
                         <true/>
                     </dict>
@@ -1794,7 +1746,7 @@
                         <key>spriteSourceSize</key>
                         <string>{16,16}</string>
                         <key>textureRect</key>
-                        <string>{{1207,39},{16,16}}</string>
+                        <string>{{1954,67},{16,16}}</string>
                         <key>textureRotated</key>
                         <false/>
                     </dict>
@@ -1810,7 +1762,7 @@
                         <key>spriteSourceSize</key>
                         <string>{16,16}</string>
                         <key>textureRect</key>
-                        <string>{{550,86},{16,16}}</string>
+                        <string>{{1954,85},{16,16}}</string>
                         <key>textureRotated</key>
                         <false/>
                     </dict>
@@ -1820,7 +1772,7 @@
                 <key>path</key>
                 <string>GameArt.1.png</string>
                 <key>size</key>
-                <string>{2008,130}</string>
+                <string>{1975,132}</string>
                 <key>subimages</key>
                 <array>
                     <dict>
@@ -1829,111 +1781,15 @@
                         <key>isFullyOpaque</key>
                         <false/>
                         <key>name</key>
-                        <string>Terranous.png</string>
-                        <key>spriteOffset</key>
-                        <string>{2,2}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{576,86}</string>
-                        <key>textureRect</key>
-                        <string>{{2,2},{573,82}}</string>
-                        <key>textureRotated</key>
-                        <false/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>GameOver.png</string>
-                        <key>spriteOffset</key>
-                        <string>{2,0}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{471,66}</string>
-                        <key>textureRect</key>
-                        <string>{{577,2},{468,65}}</string>
-                        <key>textureRotated</key>
-                        <false/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>YourScore.png</string>
-                        <key>spriteOffset</key>
-                        <string>{0,1}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{317,42}</string>
-                        <key>textureRect</key>
-                        <string>{{2,86},{316,40}}</string>
-                        <key>textureRotated</key>
-                        <false/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>Leaders.png</string>
-                        <key>spriteOffset</key>
-                        <string>{0,1}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{192,36}</string>
-                        <key>textureRect</key>
-                        <string>{{1047,2},{192,35}}</string>
-                        <key>textureRotated</key>
-                        <false/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>GetReady.png</string>
-                        <key>spriteOffset</key>
-                        <string>{0,1}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{194,30}</string>
-                        <key>textureRect</key>
-                        <string>{{320,86},{194,29}}</string>
-                        <key>textureRotated</key>
-                        <false/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>Bonus.png</string>
+                        <string>RetryButton.png</string>
                         <key>spriteOffset</key>
                         <string>{0,0}</string>
                         <key>spriteSourceSize</key>
-                        <string>{135,30}</string>
+                        <string>{128,128}</string>
                         <key>textureRect</key>
-                        <string>{{1241,2},{135,30}}</string>
+                        <string>{{2,2},{128,128}}</string>
                         <key>textureRotated</key>
                         <false/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>RetryButton.png</string>
-                        <key>spriteOffset</key>
-                        <string>{1,1}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{128,129}</string>
-                        <key>textureRect</key>
-                        <string>{{1378,2},{127,126}}</string>
-                        <key>textureRotated</key>
-                        <true/>
                     </dict>
                     <dict>
                         <key>aliases</key>
@@ -1943,13 +1799,13 @@
                         <key>name</key>
                         <string>StartButton.png</string>
                         <key>spriteOffset</key>
-                        <string>{1,1}</string>
+                        <string>{0,0}</string>
                         <key>spriteSourceSize</key>
-                        <string>{128,129}</string>
+                        <string>{128,128}</string>
                         <key>textureRect</key>
-                        <string>{{1507,2},{127,126}}</string>
+                        <string>{{132,2},{128,128}}</string>
                         <key>textureRotated</key>
-                        <true/>
+                        <false/>
                     </dict>
                     <dict>
                         <key>aliases</key>
@@ -1959,13 +1815,13 @@
                         <key>name</key>
                         <string>TapButton.png</string>
                         <key>spriteOffset</key>
-                        <string>{1,1}</string>
+                        <string>{0,0}</string>
                         <key>spriteSourceSize</key>
-                        <string>{128,129}</string>
+                        <string>{128,128}</string>
                         <key>textureRect</key>
-                        <string>{{1636,2},{127,126}}</string>
+                        <string>{{262,2},{128,128}}</string>
                         <key>textureRotated</key>
-                        <true/>
+                        <false/>
                     </dict>
                     <dict>
                         <key>aliases</key>
@@ -1979,39 +1835,7 @@
                         <key>spriteSourceSize</key>
                         <string>{96,79}</string>
                         <key>textureRect</key>
-                        <string>{{1765,2},{96,78}}</string>
-                        <key>textureRotated</key>
-                        <false/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>Meteor1.png</string>
-                        <key>spriteOffset</key>
-                        <string>{0,0}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{80,66}</string>
-                        <key>textureRect</key>
-                        <string>{{1863,2},{80,66}}</string>
-                        <key>textureRotated</key>
-                        <false/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>Explosion5.png</string>
-                        <key>spriteOffset</key>
-                        <string>{0,0}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{64,61}</string>
-                        <key>textureRect</key>
-                        <string>{{1945,2},{61,64}}</string>
+                        <string>{{392,2},{78,96}}</string>
                         <key>textureRotated</key>
                         <true/>
                     </dict>
@@ -2021,13 +1845,13 @@
                         <key>isFullyOpaque</key>
                         <false/>
                         <key>name</key>
-                        <string>Explosion0.png</string>
+                        <string>GetReady.png</string>
                         <key>spriteOffset</key>
                         <string>{0,0}</string>
                         <key>spriteSourceSize</key>
-                        <string>{64,59}</string>
+                        <string>{197,30}</string>
                         <key>textureRect</key>
-                        <string>{{577,69},{64,59}}</string>
+                        <string>{{392,100},{197,30}}</string>
                         <key>textureRotated</key>
                         <false/>
                     </dict>
@@ -2037,13 +1861,13 @@
                         <key>isFullyOpaque</key>
                         <false/>
                         <key>name</key>
-                        <string>Explosion1.png</string>
+                        <string>Terranous.png</string>
                         <key>spriteOffset</key>
-                        <string>{0,0}</string>
+                        <string>{3,0}</string>
                         <key>spriteSourceSize</key>
-                        <string>{64,59}</string>
+                        <string>{622,86}</string>
                         <key>textureRect</key>
-                        <string>{{643,69},{64,59}}</string>
+                        <string>{{472,2},{619,84}}</string>
                         <key>textureRotated</key>
                         <false/>
                     </dict>
@@ -2053,13 +1877,13 @@
                         <key>isFullyOpaque</key>
                         <false/>
                         <key>name</key>
-                        <string>Meteor2.png</string>
+                        <string>YourScore.png</string>
                         <key>spriteOffset</key>
-                        <string>{0,0}</string>
+                        <string>{1,1}</string>
                         <key>spriteSourceSize</key>
-                        <string>{64,59}</string>
+                        <string>{268,38}</string>
                         <key>textureRect</key>
-                        <string>{{709,69},{64,59}}</string>
+                        <string>{{591,88},{266,36}}</string>
                         <key>textureRotated</key>
                         <false/>
                     </dict>
@@ -2069,237 +1893,13 @@
                         <key>isFullyOpaque</key>
                         <false/>
                         <key>name</key>
-                        <string>Star.png</string>
+                        <string>Leaders.png</string>
                         <key>spriteOffset</key>
-                        <string>{0,0}</string>
+                        <string>{1,1}</string>
                         <key>spriteSourceSize</key>
-                        <string>{48,46}</string>
+                        <string>{204,36}</string>
                         <key>textureRect</key>
-                        <string>{{1765,82},{48,46}}</string>
-                        <key>textureRotated</key>
-                        <false/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>Explosion2.png</string>
-                        <key>spriteOffset</key>
-                        <string>{0,0}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{64,55}</string>
-                        <key>textureRect</key>
-                        <string>{{775,69},{64,55}}</string>
-                        <key>textureRotated</key>
-                        <false/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>Explosion7.png</string>
-                        <key>spriteOffset</key>
-                        <string>{0,0}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{64,53}</string>
-                        <key>textureRect</key>
-                        <string>{{841,69},{64,53}}</string>
-                        <key>textureRotated</key>
-                        <false/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>MusicOff.png</string>
-                        <key>spriteOffset</key>
-                        <string>{4,4}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{64,64}</string>
-                        <key>textureRect</key>
-                        <string>{{907,69},{56,56}}</string>
-                        <key>textureRotated</key>
-                        <false/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>MusicOn.png</string>
-                        <key>spriteOffset</key>
-                        <string>{4,4}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{64,64}</string>
-                        <key>textureRect</key>
-                        <string>{{965,69},{56,56}}</string>
-                        <key>textureRotated</key>
-                        <false/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>Best.png</string>
-                        <key>spriteOffset</key>
-                        <string>{0,0}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{78,22}</string>
-                        <key>textureRect</key>
-                        <string>{{1047,39},{78,22}}</string>
-                        <key>textureRotated</key>
-                        <false/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>Explosion6.png</string>
-                        <key>spriteOffset</key>
-                        <string>{0,0}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{64,65}</string>
-                        <key>textureRect</key>
-                        <string>{{1047,63},{64,65}}</string>
-                        <key>textureRotated</key>
-                        <false/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>Score.png</string>
-                        <key>spriteOffset</key>
-                        <string>{0,0}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{78,18}</string>
-                        <key>textureRect</key>
-                        <string>{{1127,39},{78,18}}</string>
-                        <key>textureRotated</key>
-                        <false/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>Player.png</string>
-                        <key>spriteOffset</key>
-                        <string>{0,0}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{64,44}</string>
-                        <key>textureRect</key>
-                        <string>{{1815,82},{64,44}}</string>
-                        <key>textureRotated</key>
-                        <false/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>PauseButton.png</string>
-                        <key>spriteOffset</key>
-                        <string>{4,4}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{64,64}</string>
-                        <key>textureRect</key>
-                        <string>{{1881,70},{56,56}}</string>
-                        <key>textureRotated</key>
-                        <false/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>StarsCount.png</string>
-                        <key>spriteOffset</key>
-                        <string>{0,0}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{78,18}</string>
-                        <key>textureRect</key>
-                        <string>{{1241,34},{77,18}}</string>
-                        <key>textureRotated</key>
-                        <false/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>ResumeButton.png</string>
-                        <key>spriteOffset</key>
-                        <string>{4,4}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{64,64}</string>
-                        <key>textureRect</key>
-                        <string>{{1320,34},{56,56}}</string>
-                        <key>textureRotated</key>
-                        <false/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>Explosion3.png</string>
-                        <key>spriteOffset</key>
-                        <string>{0,0}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{64,71}</string>
-                        <key>textureRect</key>
-                        <string>{{1113,63},{71,64}}</string>
-                        <key>textureRotated</key>
-                        <true/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>Explosion4.png</string>
-                        <key>spriteOffset</key>
-                        <string>{0,0}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{64,66}</string>
-                        <key>textureRect</key>
-                        <string>{{1186,59},{64,66}}</string>
-                        <key>textureRotated</key>
-                        <false/>
-                    </dict>
-                    <dict>
-                        <key>aliases</key>
-                        <array/>
-                        <key>isFullyOpaque</key>
-                        <false/>
-                        <key>name</key>
-                        <string>Explosion8.png</string>
-                        <key>spriteOffset</key>
-                        <string>{0,0}</string>
-                        <key>spriteSourceSize</key>
-                        <string>{64,63}</string>
-                        <key>textureRect</key>
-                        <string>{{1252,54},{64,63}}</string>
+                        <string>{{859,88},{202,34}}</string>
                         <key>textureRotated</key>
                         <false/>
                     </dict>
@@ -2315,7 +1915,7 @@
                         <key>spriteSourceSize</key>
                         <string>{32,32}</string>
                         <key>textureRect</key>
-                        <string>{{516,86},{32,32}}</string>
+                        <string>{{1063,88},{32,32}}</string>
                         <key>textureRotated</key>
                         <false/>
                     </dict>
@@ -2325,13 +1925,13 @@
                         <key>isFullyOpaque</key>
                         <false/>
                         <key>name</key>
-                        <string>Spark.png</string>
+                        <string>Meteor1.png</string>
                         <key>spriteOffset</key>
                         <string>{0,0}</string>
                         <key>spriteSourceSize</key>
-                        <string>{32,32}</string>
+                        <string>{80,66}</string>
                         <key>textureRect</key>
-                        <string>{{1318,92},{32,31}}</string>
+                        <string>{{1093,2},{66,80}}</string>
                         <key>textureRotated</key>
                         <true/>
                     </dict>
@@ -2341,13 +1941,317 @@
                         <key>isFullyOpaque</key>
                         <false/>
                         <key>name</key>
-                        <string>StarsCollected.png</string>
+                        <string>Star.png</string>
                         <key>spriteOffset</key>
                         <string>{0,0}</string>
                         <key>spriteSourceSize</key>
-                        <string>{24,23}</string>
+                        <string>{48,46}</string>
                         <key>textureRect</key>
-                        <string>{{1352,92},{24,23}}</string>
+                        <string>{{1097,84},{48,46}}</string>
+                        <key>textureRotated</key>
+                        <false/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>Player.png</string>
+                        <key>spriteOffset</key>
+                        <string>{0,0}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{64,44}</string>
+                        <key>textureRect</key>
+                        <string>{{1147,84},{64,44}}</string>
+                        <key>textureRotated</key>
+                        <false/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>StarsCount.png</string>
+                        <key>spriteOffset</key>
+                        <string>{0,0}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{75,18}</string>
+                        <key>textureRect</key>
+                        <string>{{1161,2},{18,75}}</string>
+                        <key>textureRotated</key>
+                        <true/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>Score.png</string>
+                        <key>spriteOffset</key>
+                        <string>{0,0}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{74,18}</string>
+                        <key>textureRect</key>
+                        <string>{{1181,2},{18,74}}</string>
+                        <key>textureRotated</key>
+                        <true/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>Explosion3.png</string>
+                        <key>spriteOffset</key>
+                        <string>{0,0}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{64,71}</string>
+                        <key>textureRect</key>
+                        <string>{{1201,2},{64,71}}</string>
+                        <key>textureRotated</key>
+                        <false/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>Explosion2.png</string>
+                        <key>spriteOffset</key>
+                        <string>{0,0}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{64,55}</string>
+                        <key>textureRect</key>
+                        <string>{{1213,75},{64,55}}</string>
+                        <key>textureRotated</key>
+                        <false/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>Explosion4.png</string>
+                        <key>spriteOffset</key>
+                        <string>{0,0}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{64,66}</string>
+                        <key>textureRect</key>
+                        <string>{{1267,2},{64,66}}</string>
+                        <key>textureRotated</key>
+                        <false/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>Explosion0.png</string>
+                        <key>spriteOffset</key>
+                        <string>{0,0}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{64,59}</string>
+                        <key>textureRect</key>
+                        <string>{{1279,70},{64,59}}</string>
+                        <key>textureRotated</key>
+                        <false/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>Explosion6.png</string>
+                        <key>spriteOffset</key>
+                        <string>{0,0}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{64,65}</string>
+                        <key>textureRect</key>
+                        <string>{{1333,2},{64,65}}</string>
+                        <key>textureRotated</key>
+                        <false/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>Explosion5.png</string>
+                        <key>spriteOffset</key>
+                        <string>{0,0}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{64,61}</string>
+                        <key>textureRect</key>
+                        <string>{{1345,69},{64,61}}</string>
+                        <key>textureRotated</key>
+                        <false/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>GameOver.png</string>
+                        <key>spriteOffset</key>
+                        <string>{3,0}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{501,66}</string>
+                        <key>textureRect</key>
+                        <string>{{1399,2},{498,64}}</string>
+                        <key>textureRotated</key>
+                        <false/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>Explosion1.png</string>
+                        <key>spriteOffset</key>
+                        <string>{0,0}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{64,59}</string>
+                        <key>textureRect</key>
+                        <string>{{1411,68},{64,59}}</string>
+                        <key>textureRotated</key>
+                        <false/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>Meteor2.png</string>
+                        <key>spriteOffset</key>
+                        <string>{0,0}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{64,59}</string>
+                        <key>textureRect</key>
+                        <string>{{1477,68},{64,59}}</string>
+                        <key>textureRotated</key>
+                        <false/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>Best.png</string>
+                        <key>spriteOffset</key>
+                        <string>{0,0}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{58,18}</string>
+                        <key>textureRect</key>
+                        <string>{{1543,68},{18,58}}</string>
+                        <key>textureRotated</key>
+                        <true/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>MusicOff.png</string>
+                        <key>spriteOffset</key>
+                        <string>{4,4}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{64,64}</string>
+                        <key>textureRect</key>
+                        <string>{{1563,68},{56,56}}</string>
+                        <key>textureRotated</key>
+                        <false/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>MusicOn.png</string>
+                        <key>spriteOffset</key>
+                        <string>{4,4}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{64,64}</string>
+                        <key>textureRect</key>
+                        <string>{{1621,68},{56,56}}</string>
+                        <key>textureRotated</key>
+                        <false/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>PauseButton.png</string>
+                        <key>spriteOffset</key>
+                        <string>{4,4}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{64,64}</string>
+                        <key>textureRect</key>
+                        <string>{{1679,68},{56,56}}</string>
+                        <key>textureRotated</key>
+                        <false/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>ResumeButton.png</string>
+                        <key>spriteOffset</key>
+                        <string>{4,4}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{64,64}</string>
+                        <key>textureRect</key>
+                        <string>{{1737,68},{56,56}}</string>
+                        <key>textureRotated</key>
+                        <false/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>Explosion7.png</string>
+                        <key>spriteOffset</key>
+                        <string>{0,0}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{64,53}</string>
+                        <key>textureRect</key>
+                        <string>{{1795,68},{64,53}}</string>
+                        <key>textureRotated</key>
+                        <false/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>Explosion8.png</string>
+                        <key>spriteOffset</key>
+                        <string>{0,0}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{64,63}</string>
+                        <key>textureRect</key>
+                        <string>{{1899,2},{64,63}}</string>
                         <key>textureRotated</key>
                         <false/>
                     </dict>
@@ -2363,7 +2267,39 @@
                         <key>spriteSourceSize</key>
                         <string>{48,47}</string>
                         <key>textureRect</key>
-                        <string>{{1939,70},{47,48}}</string>
+                        <string>{{1861,68},{47,48}}</string>
+                        <key>textureRotated</key>
+                        <true/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>Spark.png</string>
+                        <key>spriteOffset</key>
+                        <string>{0,0}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{32,32}</string>
+                        <key>textureRect</key>
+                        <string>{{1910,67},{31,32}}</string>
+                        <key>textureRotated</key>
+                        <false/>
+                    </dict>
+                    <dict>
+                        <key>aliases</key>
+                        <array/>
+                        <key>isFullyOpaque</key>
+                        <false/>
+                        <key>name</key>
+                        <string>StarsCollected.png</string>
+                        <key>spriteOffset</key>
+                        <string>{0,0}</string>
+                        <key>spriteSourceSize</key>
+                        <string>{24,23}</string>
+                        <key>textureRect</key>
+                        <string>{{1910,101},{23,24}}</string>
                         <key>textureRotated</key>
                         <true/>
                     </dict>
@@ -2379,7 +2315,7 @@
                         <key>spriteSourceSize</key>
                         <string>{24,17}</string>
                         <key>textureRect</key>
-                        <string>{{1023,69},{17,24}}</string>
+                        <string>{{1935,101},{17,24}}</string>
                         <key>textureRotated</key>
                         <true/>
                     </dict>
@@ -2395,7 +2331,7 @@
                         <key>spriteSourceSize</key>
                         <string>{16,16}</string>
                         <key>textureRect</key>
-                        <string>{{1207,39},{16,16}}</string>
+                        <string>{{1954,67},{16,16}}</string>
                         <key>textureRotated</key>
                         <false/>
                     </dict>
@@ -2411,7 +2347,7 @@
                         <key>spriteSourceSize</key>
                         <string>{16,16}</string>
                         <key>textureRect</key>
-                        <string>{{550,86},{16,16}}</string>
+                        <string>{{1954,85},{16,16}}</string>
                         <key>textureRotated</key>
                         <false/>
                     </dict>

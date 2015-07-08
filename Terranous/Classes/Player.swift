@@ -175,8 +175,8 @@ class Player: SKSpriteNode {
         
         self.runAction(GameAudio.sharedInstance.soundScore)
         
-        if self.stars < 50 {
-            if self.stars % 5 == 0 {
+        if self.streakCount < 50 {
+            if self.streakCount % 5 == 0 {
                 var bonus = GameFonts.sharedInstance.createBonusLabel()
                 bonus.position = kScreenCenter
                 bonus.text = "Bonus!"
@@ -187,7 +187,7 @@ class Player: SKSpriteNode {
                 self.runAction(GameAudio.sharedInstance.soundBonus)
             }
         } else {
-            if self.stars % 50 == 0 {
+            if self.streakCount % 50 == 0 {
                 var bonus = GameFonts.sharedInstance.createBonusLabel()
                 bonus.position = kScreenCenter
                 bonus.text = "Max Bonus!"
@@ -278,29 +278,31 @@ class Player: SKSpriteNode {
     func checkPlayerBestScore() {
         if self.score > GameSettings.sharedInstance.getBestScore() || GameSettings.sharedInstance.getBestScore() == 0 {
             GameSettings.sharedInstance.saveBestScore(self.score)
+            
+            if GameKitHelper.sharedInstance.enableGameCenter {
+                if GKLocalPlayer.localPlayer().authenticated {
+                    GKLocalPlayer.localPlayer().loadDefaultLeaderboardIdentifierWithCompletionHandler({ (leaderboardIdentifier : String!, error : NSError!) -> Void in
+                        let score = GKScore(leaderboardIdentifier: leaderboardIdentifier)
+                        score.value = Int64(GameSettings.sharedInstance.getBestScore())
+                        
+                        GKScore.reportScores([score], withCompletionHandler: { (error : NSError!) -> Void in
+                            if kDebug {
+                                if error != nil {
+                                    println("Error: " + error.localizedDescription)
+                                } else {
+                                    println("Score sent to Game Center: \(score.value)")
+                                }
+                                
+                            }
+                        })
+                    })
+                }
+            }
+
         }
         
         if self.stars > GameSettings.sharedInstance.getBestStars() || GameSettings.sharedInstance.getBestStars() == 0 {
             GameSettings.sharedInstance.saveStarsCollected(self.stars)
-        }
-        
-        if GameKitHelper.sharedInstance.enableGameCenter {
-            if GKLocalPlayer.localPlayer().authenticated {
-                let gkScore = GKScore(leaderboardIdentifier: kLeaderBoardID)
-                gkScore.value = Int64(GameSettings.sharedInstance.getBestScore())
-                
-                GKScore.reportScores([gkScore], withCompletionHandler: ({ (error: NSError!) -> Void in
-                    if (error != nil) {
-                        if kDebug {
-                            println("Error: " + error.localizedDescription)
-                        }
-                    } else {
-                        if kDebug {
-                            println("Score reported: \(gkScore.value)")
-                        }
-                    }
-                }))
-            }
         }
     }
 }

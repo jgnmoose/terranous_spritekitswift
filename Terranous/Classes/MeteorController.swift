@@ -43,7 +43,13 @@ class MeteorController: SKNode {
     func sendMeteors() {
         if self.sendingMeteors {
             
-            let randomMeteorCount = RandomIntegerBetween(6, 10)
+            var randomMeteorCount = 0
+            
+            if kDeviceTablet {
+                randomMeteorCount = RandomIntegerBetween(10, 16)
+            } else {
+                randomMeteorCount = RandomIntegerBetween(8, 12)
+            }
             
             for var i = 0; i <= randomMeteorCount; i++ {
                 let randomMeteorIndex = RandomIntegerBetween(0, 4)

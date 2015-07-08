@@ -36,7 +36,6 @@ class GameAudio {
     
     // MARK: - Private class properties
     private var musicPlayer = AVAudioPlayer()
-    private var playing = false
     
     // MARK: - Public class properties
     internal let soundEngineStart = SKAction.playSoundFileNamed(SoundEffects.EngineStart, waitForCompletion: false)
@@ -62,28 +61,24 @@ class GameAudio {
         self.musicPlayer.volume = 0.25
         self.musicPlayer.prepareToPlay()
         self.musicPlayer.play()
-        self.playing = true
     }
     
     
     func stopBackgroundMusic () {
-        if self.playing {
+        if GameSettings.sharedInstance.getMusicEnabled() {
             self.musicPlayer.stop()
-            self.playing = false
         }
     }
     
     func pauseBackgroundMusic () {
-        if self.playing {
+        if GameSettings.sharedInstance.getMusicEnabled() {
             self.musicPlayer.pause()
-            self.playing = false
         }
     }
     
     func resumeBackgroundMusic () {
-        if !self.playing {
+        if GameSettings.sharedInstance.getMusicEnabled() {
             self.musicPlayer.play()
-            self.playing = true
         }
     }
 }

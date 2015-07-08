@@ -46,9 +46,9 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
             GameAudio.sharedInstance.playBackgroundMusic(Music.Intro)
         }
         
-#if FREE
+        //#if FREE
         NSNotificationCenter.defaultCenter().postNotificationName("AdBannerHide", object: nil)
-#endif
+        //#endif
         
         self.setupGameScene()
     }

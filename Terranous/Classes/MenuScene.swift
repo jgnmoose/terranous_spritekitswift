@@ -30,9 +30,9 @@ class MenuScene: SKScene {
             GameAudio.sharedInstance.playBackgroundMusic(Music.Menu)
         }
         
-#if FREE
+//#if FREE
         NSNotificationCenter.defaultCenter().postNotificationName("AdBannerShow", object: nil)
-#endif
+//#endif
         
         self.setupMenuScene()
     }
@@ -73,6 +73,10 @@ class MenuScene: SKScene {
             let gameTransition = SKTransition.fadeWithColor(SKColor.blackColor(), duration: 0.25)
             
             self.view?.presentScene(gameScene, transition: gameTransition)
+            
+            #if FREE
+            NSNotificationCenter.defaultCenter().postNotificationName("AdBannerHide", object: nil)
+            #endif
         })
     }
 }

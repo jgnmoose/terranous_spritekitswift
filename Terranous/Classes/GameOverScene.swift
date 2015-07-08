@@ -36,9 +36,9 @@ class GameOverScene: SKScene, GKGameCenterControllerDelegate {
             GameAudio.sharedInstance.playBackgroundMusic(Music.Menu)
         }
         
-#if FREE
+        //#if FREE
         NSNotificationCenter.defaultCenter().postNotificationName("AdBannerShow", object: nil)
-#endif
+        //#endif
     }
     
     // MARK: - Setup Functions
