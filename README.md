@@ -45,3 +45,7 @@ This demo is recorded to gif at a very low FPS to keep the image size down.
 Ship, Stars and Meteors - **Kenny** - http://opengameart.org/users/kenney
 
 Player Sound Effects - **Michel Baradari** - http://opengameart.org/content/15-monster-gruntpaindeath-sounds
+
+Sound Effects and Jingles - **Little Robot Sound Factory** - http://opengameart.org/content/8-bit-sound-effects-library
+
+SKTUtils Library - **The Awesome Ray Wenderlich Tutorial Team** - https://github.com/raywenderlich/SKTUtils
