@@ -19,10 +19,10 @@ class GameViewController: UIViewController, ADBannerViewDelegate {
     private let settings = GameSettings.sharedInstance
     
     // MARK: - iAd
-#if FREE
+    #if FREE
     let bannerView = ADBannerView(adType: ADAdType.Banner)
     var bannerLoaded = false
-#endif
+    #endif
     
     override func viewWillLayoutSubviews() {
         super.viewWillLayoutSubviews()
@@ -57,7 +57,7 @@ class GameViewController: UIViewController, ADBannerViewDelegate {
     }
     
     override func viewWillAppear(animated: Bool) {
-#if FREE
+        #if FREE
         bannerView.frame = CGRectMake(0, self.view.frame.size.height - bannerView.frame.size.height, self.view.frame.size.width, bannerView.frame.size.height)
         bannerView.autoresizingMask = UIViewAutoresizing.FlexibleTopMargin | UIViewAutoresizing.FlexibleWidth
         bannerView.hidden = true
@@ -66,7 +66,7 @@ class GameViewController: UIViewController, ADBannerViewDelegate {
         
         NSNotificationCenter.defaultCenter().addObserver(self, selector: "showAds", name: "AdBannerShow", object: nil)
         NSNotificationCenter.defaultCenter().addObserver(self, selector: "hideAds", name: "AdBannerHide", object: nil)
-#endif
+        #endif
     }
     
     override func shouldAutorotate() -> Bool {

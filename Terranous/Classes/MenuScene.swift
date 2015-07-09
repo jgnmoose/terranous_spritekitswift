@@ -30,9 +30,9 @@ class MenuScene: SKScene {
             GameAudio.sharedInstance.playBackgroundMusic(Music.Menu)
         }
         
-//#if FREE
+        #if FREE
         NSNotificationCenter.defaultCenter().postNotificationName("AdBannerShow", object: nil)
-//#endif
+        #endif
         
         self.setupMenuScene()
     }
