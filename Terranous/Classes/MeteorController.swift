@@ -46,9 +46,9 @@ class MeteorController: SKNode {
             var randomMeteorCount = 0
             
             if kDeviceTablet {
-                randomMeteorCount = RandomIntegerBetween(8, 12)
+                randomMeteorCount = RandomIntegerBetween(6, 10)
             } else {
-                randomMeteorCount = RandomIntegerBetween(10, 16)
+                randomMeteorCount = RandomIntegerBetween(10, 14)
             }
             
             for var i = 0; i <= randomMeteorCount; i++ {

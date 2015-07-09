@@ -68,9 +68,9 @@ class Star: SKSpriteNode {
     func update(delta: NSTimeInterval) {
         
         if kDeviceTablet {
-            self.position.y = self.position.y - CGFloat(delta * 60 * 3)
+            self.position.y = self.position.y - CGFloat(delta * 60 * 4)
         } else {
-            self.position.y = self.position.y - CGFloat(delta * 60 * 1.5)
+            self.position.y = self.position.y - CGFloat(delta * 60 * 2)
         }
         
         self.position.x = self.position.x + self.drift
