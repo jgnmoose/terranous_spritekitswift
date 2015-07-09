@@ -12,7 +12,7 @@
 - Player can enable/disable music with a simple button tap in the Menu and GameOver scenes. 
 
 ## Source Code
-This project was built using Xcode 6.4 and Swift 1.2, and known to compile clean on the iPhone 5/iPad 2 and newer devices running a minimum versionof iOS 8. 
+This project was built using Xcode 6.4 and Swift 1.2, and known to compile clean on the iPhone 5/iPad 2 and newer devices running a minimum version of iOS 8.
 
 How this project will perform using Swift 2.0, Xcode 7 and devices running iOS 9 is unknown at this time.
 
