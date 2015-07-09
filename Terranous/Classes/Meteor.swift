@@ -39,27 +39,27 @@ class Meteor: SKSpriteNode {
         
         switch type {
         case MeteorType.Zero:
-            texture = SKTexture(imageNamed: SpriteName.Meteor0)
+            texture = GameTextures.sharedInstance.textureWithName(SpriteName.Meteor0)
             break
             
         case MeteorType.One:
-            texture = SKTexture(imageNamed: SpriteName.Meteor1)
+            texture = GameTextures.sharedInstance.textureWithName(SpriteName.Meteor1)
             break
             
         case MeteorType.Two:
-            texture = SKTexture(imageNamed: SpriteName.Meteor2)
+            texture = GameTextures.sharedInstance.textureWithName(SpriteName.Meteor2)
             break
             
         case MeteorType.Three:
-            texture = SKTexture(imageNamed: SpriteName.Meteor3)
+            texture = GameTextures.sharedInstance.textureWithName(SpriteName.Meteor3)
             break
             
         case MeteorType.Four:
-            texture = SKTexture(imageNamed: SpriteName.Meteor4)
+            texture = GameTextures.sharedInstance.textureWithName(SpriteName.Meteor4)
             break
             
         default:
-            texture = SKTexture(imageNamed: SpriteName.Meteor0)
+            texture = GameTextures.sharedInstance.textureWithName(SpriteName.Meteor0)
             break
             
         }
@@ -101,7 +101,7 @@ class Meteor: SKSpriteNode {
     func update(delta: NSTimeInterval) {
         
         if kDeviceTablet {
-            self.position.y = self.position.y - CGFloat(delta * 60 * 3)
+            self.position.y = self.position.y - CGFloat(delta * 60 * 4)
         } else {
             self.position.y = self.position.y - CGFloat(delta * 60 * 2)
         }

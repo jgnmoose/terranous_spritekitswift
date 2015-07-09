@@ -32,9 +32,7 @@ class GameOverScene: SKScene, GKGameCenterControllerDelegate {
     }
     
     override func didMoveToView(view: SKView) {
-        if GameSettings.sharedInstance.getMusicEnabled() {
-            GameAudio.sharedInstance.playBackgroundMusic(Music.Menu)
-        }
+        GameAudio.sharedInstance.playBackgroundMusic(Music.Menu)
         
         #if FREE
         NSNotificationCenter.defaultCenter().postNotificationName("AdBannerShow", object: nil)
@@ -62,10 +60,6 @@ class GameOverScene: SKScene, GKGameCenterControllerDelegate {
         if self.scoreBoard.retryButton.containsPoint(touchLocation) {
             self.scoreBoard.retryButton.tappedRetry()
             self.retryGame()
-        }
-        
-        if self.scoreBoard.musicButton.containsPoint(touchLocation) {
-            self.scoreBoard.musicButton.tappedMusicButton()
         }
         
         if self.scoreBoard.leadersButton.containsPoint(touchLocation) {

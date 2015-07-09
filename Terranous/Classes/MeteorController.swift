@@ -113,7 +113,7 @@ class MeteorController: SKNode {
         for node in self.children {
             if let meteor = node as? Meteor {
                 self.sendingMeteors = false
-                meteor.runAction(SKAction.moveToY(meteor.position.y + meteor.size.height * 2, duration: 1.5), completion: {
+                meteor.runAction(SKAction.moveToY(meteor.position.y + meteor.size.height * 2, duration: 1.0), completion: {
                     self.sendingMeteors = true
                 })
             }

@@ -65,19 +65,19 @@ class GameAudio {
     
     
     func stopBackgroundMusic () {
-        if GameSettings.sharedInstance.getMusicEnabled() {
+        if self.musicPlayer.playing {
             self.musicPlayer.stop()
         }
     }
     
     func pauseBackgroundMusic () {
-        if GameSettings.sharedInstance.getMusicEnabled() {
+        if self.musicPlayer.playing {
             self.musicPlayer.pause()
         }
     }
     
     func resumeBackgroundMusic () {
-        if GameSettings.sharedInstance.getMusicEnabled() {
+        if !self.musicPlayer.playing {
             self.musicPlayer.play()
         }
     }

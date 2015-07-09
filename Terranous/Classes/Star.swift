@@ -25,7 +25,7 @@ class Star: SKSpriteNode {
     }
     
     convenience init() {
-        let texture = SKTexture(imageNamed: SpriteName.Star)
+        let texture = GameTextures.sharedInstance.textureWithName(SpriteName.Star)
         self.init(texture: texture, color: SKColor.whiteColor(), size: texture.size())
         
         self.zPosition = GameLayer.Game
@@ -70,7 +70,7 @@ class Star: SKSpriteNode {
         if kDeviceTablet {
             self.position.y = self.position.y - CGFloat(delta * 60 * 3)
         } else {
-            self.position.y = self.position.y - CGFloat(delta * 60 * 2)
+            self.position.y = self.position.y - CGFloat(delta * 60 * 1.5)
         }
         
         self.position.x = self.position.x + self.drift

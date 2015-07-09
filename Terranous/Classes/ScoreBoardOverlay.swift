@@ -13,13 +13,13 @@ class ScoreBoard: SKNode {
     // MARK: - Private class properties
     private let sharedFonts = GameFonts.sharedInstance
     private let sharedSettings = GameSettings.sharedInstance
+    private let sharedTextures = GameTextures.sharedInstance
     private var background = SKShapeNode()
     private let gameOver = GameOver()
     
     // MARK: - Public class properties
     internal let retryButton = RetryButton()
     internal let leadersButton = LeadersButton()
-    internal let musicButton = MusicButton()
     
     // MARK: - Init
     required init?(coder aDecoder: NSCoder) {
@@ -47,9 +47,6 @@ class ScoreBoard: SKNode {
         
         // Leaders Button animation
         NSTimer.scheduledTimerWithTimeInterval(1.0, target: self, selector: Selector("animateLeadersButtonIn"), userInfo: nil, repeats: false)
-        
-        // Settings Button animation timer
-        NSTimer.scheduledTimerWithTimeInterval(2.0, target: self, selector: Selector("animateMusicButtonIn"), userInfo: nil, repeats: false)
     }
     
     // MARK: - Setup
@@ -74,27 +71,27 @@ class ScoreBoard: SKNode {
     
     private func setupScoreBoard() {
         // Scoreboard Label
-        let scoreBoardLabel = SKSpriteNode(imageNamed: SpriteName.ScoreBoard)
+        let scoreBoardLabel = self.sharedTextures.spriteWithName(SpriteName.ScoreBoard)
         scoreBoardLabel.position = CGPoint(x: kScreenCenterHorizontal, y: kViewSize.height * 0.6)
         self.addChild(scoreBoardLabel)
         
         // Stars collected Label
-        let starsLabel = SKSpriteNode(imageNamed: SpriteName.StarsCount)
+        let starsLabel = self.sharedTextures.spriteWithName(SpriteName.StarsCount)
         starsLabel.position = CGPoint(x: kViewSize.width * 0.2, y: kViewSize.height * 0.525)
         self.addChild(starsLabel)
         
         // Best Stars collected label
-        let bestStarsLabel = SKSpriteNode(imageNamed: SpriteName.Best)
+        let bestStarsLabel = self.sharedTextures.spriteWithName(SpriteName.Best)
         bestStarsLabel.position = CGPoint(x: kViewSize.width * 0.6, y: kViewSize.height * 0.525)
         self.addChild(bestStarsLabel)
         
         // Score Label
-        let scoreLabel = SKSpriteNode(imageNamed: SpriteName.Score)
+        let scoreLabel = self.sharedTextures.spriteWithName(SpriteName.Score)
         scoreLabel.position = CGPoint(x: kViewSize.width * 0.2, y: kViewSize.height * 0.475)
         self.addChild(scoreLabel)
         
         // Best Score Label
-        let bestScoreLabel = SKSpriteNode(imageNamed: SpriteName.Best)
+        let bestScoreLabel = self.sharedTextures.spriteWithName(SpriteName.Best)
         bestScoreLabel.position = CGPoint(x: kViewSize.width * 0.6, y: kViewSize.height * 0.475)
         self.addChild(bestScoreLabel)
     }
@@ -102,22 +99,22 @@ class ScoreBoard: SKNode {
     
     private func displayScore(stars: Int, score: Int) {
         // Stars collected
-        let currentStars = GameFonts.sharedInstance.createScoreLabel(stars)
+        let currentStars = self.sharedFonts.createScoreLabel(stars)
         currentStars.position = CGPoint(x: kViewSize.width * 0.3, y: kViewSize.height * 0.525)
         self.addChild(currentStars)
         
         // Best Stars collected
-        let bestStars = GameFonts.sharedInstance.createScoreLabel(GameSettings.sharedInstance.getBestStars())
+        let bestStars = self.sharedFonts.createScoreLabel(GameSettings.sharedInstance.getBestStars())
         bestStars.position = CGPoint(x: kViewSize.width * 0.7, y: kViewSize.height * 0.525)
         self.addChild(bestStars)
         
         // Current Score
-        let currentScore = GameFonts.sharedInstance.createScoreLabel(score)
+        let currentScore = self.sharedFonts.createScoreLabel(score)
         currentScore.position = CGPoint(x: kViewSize.width * 0.3, y: kViewSize.height * 0.475)
         self.addChild(currentScore)
         
         // Best Score
-        let bestScore = GameFonts.sharedInstance.createScoreLabel(GameSettings.sharedInstance.getBestScore())
+        let bestScore = self.sharedFonts.createScoreLabel(GameSettings.sharedInstance.getBestScore())
         bestScore.position = CGPoint(x: kViewSize.width * 0.7, y: kViewSize.height * 0.475)
         self.addChild(bestScore)
     }
@@ -136,11 +133,6 @@ class ScoreBoard: SKNode {
     func animateLeadersButtonIn() {
         self.addChild(self.leadersButton)
         self.leadersButton.animateLeadersButton()
-    }
-    
-    func animateMusicButtonIn() {
-        self.addChild(self.musicButton)
-        self.musicButton.animateMusicButton()
     }
 }
 

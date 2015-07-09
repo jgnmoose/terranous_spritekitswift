@@ -22,6 +22,8 @@ class SpriteName {
     class var Meteor2:String        { return "Meteor2" }
     class var Meteor3:String        { return "Meteor3" }
     class var Meteor4:String        { return "Meteor4" }
+    // Explosion
+    class var Explosion0:String     { return "Explosion0" }
     // Interface
     class var Title:String          { return "Terranous" }
     class var GameOver:String       { return "GameOver" }
@@ -36,8 +38,6 @@ class SpriteName {
     class var ButtonLeaders:String  { return "Leaders" }
     class var ButtonPause:String    { return "PauseButton" }
     class var ButtonResume:String   { return "ResumeButton" }
-    class var ButtonMusicOn:String  { return "MusicOn" }
-    class var ButtonMusicOff:String { return "MusicOff" }
 }
 
 let GameTexturesSharedInstance = GameTextures()

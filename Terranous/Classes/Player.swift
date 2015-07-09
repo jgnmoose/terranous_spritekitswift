@@ -19,6 +19,9 @@ class Player: SKSpriteNode {
     private var touchOffsetY = CGFloat()
     private var streakCount = 0
     
+    // Start Position
+    private let startPosition = CGPoint(x: kScreenCenterHorizontal, y: kViewSize.height * 0.25)
+    
     // MARK: - Public class properties
     internal var lives = 3
     internal var score = 0
@@ -36,11 +39,10 @@ class Player: SKSpriteNode {
     
     
     convenience init() {
-        //let playerTexture = GameTextures.sharedInstance.textureWithName(SpriteName.Player)
-        let texture = SKTexture(imageNamed: SpriteName.Player)
+        let texture = GameTextures.sharedInstance.textureWithName(SpriteName.Player)
         self.init(texture: texture, color: SKColor.whiteColor(), size: texture.size())
         
-        self.position = CGPoint(x: kScreenCenterHorizontal, y: kViewSize.height * 0.25)
+        self.position = self.startPosition
         
         self.zPosition = GameLayer.Game
         
@@ -82,7 +84,7 @@ class Player: SKSpriteNode {
     
     func disableMovement() {
         self.canMove = false
-        self.targetLocation = CGPointZero
+        self.targetLocation = self.startPosition
     }
     
     // MARK: - Movement
@@ -218,7 +220,7 @@ class Player: SKSpriteNode {
             self.hidden = true
             self.streakCount = 0
             self.disableMovement()
-            self.targetLocation = CGPoint(x: kScreenCenterHorizontal, y: kViewSize.height * 0.25)
+            self.targetLocation = self.startPosition
             self.runAction(SKAction.moveTo(self.targetLocation, duration: 0), completion: {
                 self.hidden = false
                 self.runAction(SKAction.waitForDuration(0.25), completion: {
@@ -249,7 +251,7 @@ class Player: SKSpriteNode {
     }
     
     private func animateExplosion() {
-        let explodeTexture = SKSpriteNode(imageNamed: "Explosion0")
+        let explodeTexture = GameTextures.sharedInstance.spriteWithName(SpriteName.Explosion0)
         explodeTexture.position = self.position
         self.parent?.addChild(explodeTexture)
         

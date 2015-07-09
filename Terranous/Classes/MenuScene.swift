@@ -26,9 +26,7 @@ class MenuScene: SKScene {
     }
     
     override func didMoveToView(view: SKView) {
-        if GameSettings.sharedInstance.getMusicEnabled() {
-            GameAudio.sharedInstance.playBackgroundMusic(Music.Menu)
-        }
+        GameAudio.sharedInstance.playBackgroundMusic(Music.Menu)
         
         #if FREE
         NSNotificationCenter.defaultCenter().postNotificationName("AdBannerShow", object: nil)
@@ -59,10 +57,6 @@ class MenuScene: SKScene {
         
         if self.title.startButton.containsPoint(touchLocation) {
             self.loadGameScene()
-        }
-        
-        if self.title.musicButton.containsPoint(touchLocation) {
-            self.title.musicButton.tappedMusicButton()
         }
     }
     

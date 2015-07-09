@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		3F13A7571B49BB1E00DDB33B /* MenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F13A7561B49BB1E00DDB33B /* MenuScene.swift */; };
 		3F13A7591B49BB2D00DDB33B /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F13A7581B49BB2D00DDB33B /* GameOverScene.swift */; };
-		3F13A75F1B49BB6300DDB33B /* MusicButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F13A75E1B49BB6300DDB33B /* MusicButton.swift */; };
 		3F13A7611B49BB6D00DDB33B /* RetryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F13A7601B49BB6D00DDB33B /* RetryButton.swift */; };
 		3F13A7631B49BB7D00DDB33B /* LeadersButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F13A7621B49BB7D00DDB33B /* LeadersButton.swift */; };
 		3F13A7651B49BB8E00DDB33B /* StartButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F13A7641B49BB8E00DDB33B /* StartButton.swift */; };
@@ -96,7 +95,6 @@
 /* Begin PBXFileReference section */
 		3F13A7561B49BB1E00DDB33B /* MenuScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuScene.swift; sourceTree = "<group>"; };
 		3F13A7581B49BB2D00DDB33B /* GameOverScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
-		3F13A75E1B49BB6300DDB33B /* MusicButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicButton.swift; sourceTree = "<group>"; };
 		3F13A7601B49BB6D00DDB33B /* RetryButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RetryButton.swift; sourceTree = "<group>"; };
 		3F13A7621B49BB7D00DDB33B /* LeadersButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeadersButton.swift; sourceTree = "<group>"; };
 		3F13A7641B49BB8E00DDB33B /* StartButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartButton.swift; sourceTree = "<group>"; };
@@ -210,7 +208,6 @@
 				3F13A7621B49BB7D00DDB33B /* LeadersButton.swift */,
 				3F13A78E1B49C18500DDB33B /* PauseButton.swift */,
 				3F13A7601B49BB6D00DDB33B /* RetryButton.swift */,
-				3F13A75E1B49BB6300DDB33B /* MusicButton.swift */,
 				3F13A7641B49BB8E00DDB33B /* StartButton.swift */,
 				3F13A7661B49BB9900DDB33B /* TapButton.swift */,
 			);
@@ -674,7 +671,6 @@
 				3F13A7701B49BC5800DDB33B /* Background.swift in Sources */,
 				3F821B101B49BA6D0025A1B4 /* SKColor+Extensions.swift in Sources */,
 				3F821AB31B49BA650025A1B4 /* GameViewController.swift in Sources */,
-				3F13A75F1B49BB6300DDB33B /* MusicButton.swift in Sources */,
 				3F821B0D1B49BA6D0025A1B4 /* Int+Extensions.swift in Sources */,
 				3F13A7841B49BCF600DDB33B /* GameAudio.swift in Sources */,
 				3F13A7931B49C2F400DDB33B /* GameFonts.swift in Sources */,

@@ -21,11 +21,10 @@ class GameSettings {
     private let keyFirstRun = "FirstRun"
     private let keyBestStars = "BestStars"
     private let keyBestScore = "BestScore"
-    private let keyMusicEnabled = "MusicEnabled"
     private let keyLaunchedSessions = "LaunchedSessions"
     private let keyNeverRate = "NeverRate"
     
-    private let promptSessions = 4
+    private let promptSessions = 5
     private var launchedSessions = 0
     
     // MARK: - Public class properties
@@ -41,7 +40,6 @@ class GameSettings {
     private func firstLaunch() {
         self.localDefaults.setInteger(0, forKey: keyBestScore)
         self.localDefaults.setInteger(0, forKey: keyBestStars)
-        self.localDefaults.setBool(true, forKey: keyMusicEnabled)
         self.localDefaults.setInteger(0, forKey: keyLaunchedSessions)
         self.localDefaults.setBool(false, forKey: keyFirstRun)
         self.localDefaults.setBool(false, forKey: keyNeverRate)
@@ -59,11 +57,6 @@ class GameSettings {
         self.localDefaults.synchronize()
     }
     
-    func saveMusicEnabled(enabled: Bool) {
-        self.localDefaults.setBool(enabled, forKey: keyMusicEnabled)
-        self.localDefaults.synchronize()
-    }
-    
     func saveNeverRate() {
         self.localDefaults.setBool(true, forKey: keyNeverRate)
         self.localDefaults.synchronize()
@@ -76,10 +69,6 @@ class GameSettings {
     
     func getBestScore() -> Int {
         return self.localDefaults.integerForKey(keyBestScore)
-    }
-    
-    func getMusicEnabled() -> Bool {
-        return self.localDefaults.boolForKey(keyMusicEnabled)
     }
     
     // MARK: - Launch count

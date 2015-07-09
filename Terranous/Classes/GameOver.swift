@@ -11,6 +11,7 @@ import SpriteKit
 class GameOver:SKSpriteNode {
     
     // MARK: - Private class properties
+    private let sharedTextures = GameTextures.sharedInstance
     
     // MARK: - Public class properties
     
@@ -24,7 +25,7 @@ class GameOver:SKSpriteNode {
     }
     
     convenience init() {
-        let texture = SKTexture(imageNamed: SpriteName.GameOver)
+        let texture = GameTextures.sharedInstance.textureWithName(SpriteName.GameOver)
         self.init(texture: texture, color: SKColor.whiteColor(), size: texture.size())
         
         self.setupGameOver()
@@ -42,9 +43,6 @@ class GameOver:SKSpriteNode {
         let animateMovePop = SKAction.runBlock({
             self.runAction(SKAction.moveTo(CGPoint(x: kScreenCenterHorizontal, y: kViewSize.height * 0.75), duration: 0.25), completion: {
                 self.runAction(SKAction.screenShakeWithNode(self, amount: CGPoint(x: 12, y: 12), oscillations: 8, duration: 0.5))
-//                self.runAction(SKAction.scaleTo(1.15, duration: 0.2), completion: {
-//                    self.runAction(SKAction.scaleTo(1.0, duration: 0.2))
-//                })
             })
         })
         

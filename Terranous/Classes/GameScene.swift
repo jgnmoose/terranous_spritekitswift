@@ -42,9 +42,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
     }
     
     override func didMoveToView(view: SKView) {
-        if GameSettings.sharedInstance.getMusicEnabled() {
-            GameAudio.sharedInstance.playBackgroundMusic(Music.Intro)
-        }
+        GameAudio.sharedInstance.playBackgroundMusic(Music.Intro)
         
         #if FREE
         NSNotificationCenter.defaultCenter().postNotificationName("AdBannerHide", object: nil)
@@ -200,9 +198,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
     private func switchToRunning() {
         self.state = GameState.Running
         
-        if GameSettings.sharedInstance.getMusicEnabled() {
-            GameAudio.sharedInstance.playBackgroundMusic(Music.Game)
-        }
+        GameAudio.sharedInstance.playBackgroundMusic(Music.Game)
         
         self.player.enableMovement()
         
