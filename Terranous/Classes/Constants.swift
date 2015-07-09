@@ -13,13 +13,6 @@ import SpriteKit
 let kDebug = false
 
 // MARK: - App Details
-//#if FREE
-//    let kAppName = "Terranous - SpriteKit Swift Free"
-//    let kAppID = "1017112584"
-//#else
-//let kAppName = "Terranous - SpriteKit Swift"
-//let kAppID = "1017101933"
-//#endif
 let kAppName = "Terranous - SpriteKit Swift"
 let kAppID = "1017101933"
 let kLeaderBoardID = "55416474"
