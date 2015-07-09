@@ -44,6 +44,8 @@ This demo is recorded to gif at a very low FPS to keep the image size down.
 ## Credits
 Ship, Stars, Meteors, Explosions, Music/Pause Buttons - **Kenny** - http://opengameart.org/users/kenney
 
+Music - **SketchyLogic** - http://opengameart.org/users/sketchylogic
+
 Player Sound Effects - **Michel Baradari** - http://opengameart.org/content/15-monster-gruntpaindeath-sounds
 
 Sound Effects and Jingles - **Little Robot Sound Factory** - http://opengameart.org/content/8-bit-sound-effects-library
