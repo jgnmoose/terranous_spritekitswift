@@ -9,7 +9,6 @@
 - Shader effects applied to sprites. When the player loses the game, all sprites in the gameNode layer are pixelated with a shader.
 - "Pixel Perfect" collision using CGMutablePathRefs. 
 - Player can pause the game. 
-- Player can enable/disable music with a simple button tap in the Menu and GameOver scenes. 
 
 ## Source Code
 This project was built using Xcode 6.4 and Swift 1.2, and known to compile clean on the iPhone 5/iPad 2 and newer devices running a minimum version of iOS 8.
