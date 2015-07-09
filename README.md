@@ -1,7 +1,7 @@
 # Terranous - SpriteKit Swift
 ![Terranous Icon](http://imgur.com/kJ4mYbb.gif "Terranous Icon")
 
-**Terranous - SpriteKit Swift** is a complete space themed endless runner game using SpriteKit written in Swift created as a prototype for my upcoming book on making games for iOS devices.
+**Terranous - SpriteKit Swift** is a complete space themed endless runner game using SpriteKit written in Swift created as a *prototype* for my upcoming book on making games for iOS devices. 
 
 ## Features
 - Game Center login and Leader Boards
