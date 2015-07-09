@@ -16,6 +16,7 @@ class Player: SKSpriteNode {
     private var targetLocation = CGPoint()
     private var originLocation = CGPoint()
     private var filterFactor = CGFloat()
+    private var touchOffsetY = CGFloat()
     private var streakCount = 0
     
     // MARK: - Public class properties
@@ -52,6 +53,8 @@ class Player: SKSpriteNode {
     private func setupPlayer() {
         self.targetLocation = self.position
         
+        self.touchOffsetY = 16.0
+        
         self.filterFactor = 0.05
     }
     
@@ -84,7 +87,7 @@ class Player: SKSpriteNode {
     
     // MARK: - Movement
     func updateTargetLocation(newLocation: CGPoint) {
-        self.targetLocation = newLocation
+        self.targetLocation = CGPoint(x: newLocation.x, y: newLocation.y + self.touchOffsetY)
     }
     
     private func move() {
