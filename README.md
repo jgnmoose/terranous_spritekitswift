@@ -22,7 +22,7 @@ GameCenter logins on the Simulator can be painfully slow. If you must use the Si
 login sections of code in GameViewController.swift.
 
 ## Game Description
-*Pilot your intrepid ship, the Terranous through an endless field of meteors and collect stars to increase your score.*
+*Pilot your intrepid ship, Terranous through an endless field of meteors and collect stars to increase your score.*
 
 *Every 5 stars you pick up without getting hit increases your bonus by 250 points up to a maximum of 5000 points per star.*
 
