@@ -53,7 +53,7 @@ class Player: SKSpriteNode {
     private func setupPlayer() {
         self.targetLocation = self.position
         
-        self.touchOffsetY = 16.0
+        self.touchOffsetY = 32.0
         
         self.filterFactor = 0.05
     }

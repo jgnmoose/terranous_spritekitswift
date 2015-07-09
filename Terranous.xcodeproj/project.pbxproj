@@ -15,7 +15,6 @@
 		3F13A7651B49BB8E00DDB33B /* StartButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F13A7641B49BB8E00DDB33B /* StartButton.swift */; };
 		3F13A7671B49BB9900DDB33B /* TapButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F13A7661B49BB9900DDB33B /* TapButton.swift */; };
 		3F13A76B1B49BBE400DDB33B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F13A76A1B49BBE400DDB33B /* Constants.swift */; };
-		3F13A76D1B49BBEC00DDB33B /* NetworkCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F13A76C1B49BBEC00DDB33B /* NetworkCheck.swift */; };
 		3F13A7701B49BC5800DDB33B /* Background.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F13A76F1B49BC5800DDB33B /* Background.swift */; };
 		3F13A7761B49BC8E00DDB33B /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F13A7751B49BC8E00DDB33B /* Player.swift */; };
 		3F13A7781B49BC9A00DDB33B /* StatusBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F13A7771B49BC9A00DDB33B /* StatusBar.swift */; };
@@ -103,7 +102,6 @@
 		3F13A7641B49BB8E00DDB33B /* StartButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartButton.swift; sourceTree = "<group>"; };
 		3F13A7661B49BB9900DDB33B /* TapButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TapButton.swift; sourceTree = "<group>"; };
 		3F13A76A1B49BBE400DDB33B /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		3F13A76C1B49BBEC00DDB33B /* NetworkCheck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkCheck.swift; sourceTree = "<group>"; };
 		3F13A76F1B49BC5800DDB33B /* Background.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Background.swift; sourceTree = "<group>"; };
 		3F13A7751B49BC8E00DDB33B /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		3F13A7771B49BC9A00DDB33B /* StatusBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusBar.swift; sourceTree = "<group>"; };
@@ -223,7 +221,6 @@
 			isa = PBXGroup;
 			children = (
 				3F13A76A1B49BBE400DDB33B /* Constants.swift */,
-				3F13A76C1B49BBEC00DDB33B /* NetworkCheck.swift */,
 				3F7DB0CB1B4B426100D95D8B /* GameKitHelper.swift */,
 			);
 			name = Utilities;
@@ -694,7 +691,6 @@
 				3F13A78D1B49C05D00DDB33B /* TitleOverlay.swift in Sources */,
 				3F13A7861B49BD0100DDB33B /* GameSettings.swift in Sources */,
 				3F13A7571B49BB1E00DDB33B /* MenuScene.swift in Sources */,
-				3F13A76D1B49BBEC00DDB33B /* NetworkCheck.swift in Sources */,
 				3F821B151B49BA6D0025A1B4 /* Vector3.swift in Sources */,
 				3F821AB11B49BA650025A1B4 /* AppDelegate.swift in Sources */,
 				3F13A7761B49BC8E00DDB33B /* Player.swift in Sources */,

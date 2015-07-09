@@ -116,10 +116,12 @@ class GameViewController: UIViewController, ADBannerViewDelegate {
 #if FREE
     func showAds() {
         self.bannerView.hidden = false
+        self.bannerView.delegate = self
     }
     
     func hideAds() {
         self.bannerView.hidden = true
+        self.bannerView.delegate = nil
     }
     
     func bannerViewWillLoadAd(banner: ADBannerView!) {
