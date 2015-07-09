@@ -8,6 +8,7 @@ games for iOS devices.
 - Game Center login and Leader Boards
 - iAd Integration, hide iAd banner when player is in game.
 - Shader effects applied to sprites. When the player loses the game, all sprites in the gameNode layer are pixelated with a shader.
+- "Pixel Perfect" collision using CGMutablePathRefs. 
 - Player can pause the game. 
 - Player can enable/disable music with a simple button tap in the Menu and GameOver scenes. 
 
