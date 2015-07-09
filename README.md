@@ -42,7 +42,7 @@ This demo is recorded to gif at a very low FPS to keep the image size down.
 **Terranous - SpriteKit Swift** uses 100% Open Source game art, sounds and fonts from http://opengameart.org and http://dafont.com
 
 ## Credits
-Ship, Stars, Meteors, Explosions, Music/Pause Buttons - **Kenny** - http://opengameart.org/users/kenney
+Ship, Stars, Meteors, Explosions - **Kenny** - http://opengameart.org/users/kenney
 
 Music - **SketchyLogic** - http://opengameart.org/users/sketchylogic
 
